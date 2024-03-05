@@ -1,0 +1,119 @@
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="WaveGen" CircId="WaveGen-803" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-236" rotation="0" hflip="1" vflip="1" label="WaveGen-803" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="50 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="Line" CircId="Line-823" mainComp="false" Show_id="false" Show_Val="false" Pos="-20,-316" rotation="0" hflip="1" vflip="1" label="Line-823" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="50 _Pixels" V_size="30 _Pixels" Border="2 _Pixels" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Ground" CircId="Ground-783" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-192" rotation="0" hflip="1" vflip="1" label="Ground-783" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Line" CircId="Line-813" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-180" rotation="0" hflip="1" vflip="1" label="Line-813" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="50 _Pixels" V_size="30 _Pixels" Border="2 _Pixels" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-815" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-148" rotation="0" hflip="1" vflip="1" label="Line-815" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="50 _Pixels" V_size="30 _Pixels" Border="2 _Pixels" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Resistor" CircId="Resistor-761" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-144,-288" rotation="90" hflip="1" vflip="1" label="Resistor-761" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="TextComponent" CircId="TextComponent-812" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,-128" rotation="0" hflip="1" vflip="1" label="TextComponent-812" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="CNA" />
+
+<item itemtype="WaveGen" CircId="WaveGen-805" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-212" rotation="0" hflip="1" vflip="1" label="WaveGen-805" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="25 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-780" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,-320" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-780" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Capacitor" CircId="Capacitor-782" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-184,-260" rotation="0" hflip="1" vflip="1" label="Capacitor-782" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1e-06 Ω" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="WaveGen" CircId="WaveGen-759" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-260" rotation="0" hflip="1" vflip="1" label="WaveGen-759" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="100 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="Line" CircId="Line-821" mainComp="false" Show_id="false" Show_Val="false" Pos="-76,-248" rotation="0" hflip="1" vflip="1" label="Line-821" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="50 _Pixels" V_size="30 _Pixels" Border="2 _Pixels" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="WaveGen" CircId="WaveGen-809" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-56" rotation="0" hflip="1" vflip="1" label="WaveGen-809" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="25 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="Ground" CircId="Ground-792" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-36" rotation="0" hflip="1" vflip="1" label="Ground-792" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Line" CircId="Line-811" mainComp="false" Show_id="false" Show_Val="false" Pos="-64,-148" rotation="0" hflip="1" vflip="1" label="Line-811" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="50 _Pixels" V_size="30 _Pixels" Border="2 _Pixels" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-824" mainComp="false" Show_id="false" Show_Val="false" Pos="-44,-296" rotation="0" hflip="1" vflip="1" label="TextComponent-824" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="true" Text="microphone" />
+
+<item itemtype="Resistor" CircId="Resistor-790" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-144,-80" rotation="90" hflip="1" vflip="1" label="Resistor-790" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Capacitor" CircId="Capacitor-787" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-184,-104" rotation="0" hflip="1" vflip="1" label="Capacitor-787" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1e-06 Ω" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="Oscope" CircId="Oscope-758" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-212" rotation="0" hflip="1" vflip="1" label="Oscope-758" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="21023082620" TimPos="134000000,134000000,134000000,134000000," VolDiv="0.928437,0.928437,0.928437,0.928437," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="TextComponent" CircId="TextComponent-822" mainComp="false" Show_id="false" Show_Val="false" Pos="-100,-228" rotation="0" hflip="1" vflip="1" label="TextComponent-822" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="CAN" />
+
+<item itemtype="Resistor" CircId="Resistor-762" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-144,-236" rotation="90" hflip="1" vflip="1" label="Resistor-762" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="WaveGen" CircId="WaveGen-807" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-80" rotation="0" hflip="1" vflip="1" label="WaveGen-807" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="50 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="WaveGen" CircId="WaveGen-768" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-104" rotation="0" hflip="1" vflip="1" label="WaveGen-768" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="100 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-816" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,-128" rotation="0" hflip="1" vflip="1" label="TextComponent-816" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="haut parleur" />
+
+<item itemtype="Node" CircId="Node-808" mainComp="false" Pos="-224,-104" />
+
+<item itemtype="Node" CircId="Node-784" mainComp="false" Pos="-144,-260" />
+
+<item itemtype="Node" CircId="Node-785" mainComp="false" Pos="-144,-264" />
+
+<item itemtype="Node" CircId="Node-801" mainComp="false" Pos="-212,-104" />
+
+<item itemtype="Node" CircId="Node-810" mainComp="false" Pos="-224,-80" />
+
+<item itemtype="Node" CircId="Node-806" mainComp="false" Pos="-228,-236" />
+
+<item itemtype="Node" CircId="Node-789" mainComp="false" Pos="-144,-104" />
+
+<item itemtype="Node" CircId="Node-786" mainComp="false" Pos="-212,-260" />
+
+<item itemtype="Node" CircId="Node-804" mainComp="false" Pos="-228,-260" />
+
+<item itemtype="Connector" uid="Connector-1679" startpinid="Node-784-2" endpinid="Resistor-762-lPin" pointList="-144,-260,-144,-252" />
+
+<item itemtype="Connector" uid="Connector-1686" startpinid="Capacitor-782-lPin" endpinid="Node-786-0" pointList="-200,-260,-212,-260" />
+
+<item itemtype="Connector" uid="Connector-1759" startpinid="Oscope-758-Pin2" endpinid="Node-789-0" pointList="92,-196,-116,-196,-116,-112,-144,-112,-144,-104" />
+
+<item itemtype="Connector" uid="Connector-1695" startpinid="Node-789-2" endpinid="Resistor-790-lPin" pointList="-144,-104,-144,-96" />
+
+<item itemtype="Connector" uid="Connector-1731" startpinid="Node-804-2" endpinid="WaveGen-759-outnod" pointList="-228,-260,-240,-260" />
+
+<item itemtype="Connector" uid="Connector-1738" startpinid="WaveGen-809-outnod" endpinid="Node-810-1" pointList="-240,-56,-224,-56,-224,-80" />
+
+<item itemtype="Connector" uid="Connector-1758" startpinid="Node-786-1" endpinid="Oscope-758-Pin0" pointList="-212,-260,-212,-332,36,-332,36,-260,92,-260" />
+
+<item itemtype="Connector" uid="Connector-1733" startpinid="WaveGen-803-outnod" endpinid="Node-806-0" pointList="-240,-236,-228,-236" />
+
+<item itemtype="Connector" uid="Connector-1676" startpinid="Resistor-762-rPin" endpinid="Ground-783-Gnd" pointList="-144,-220,-144,-208" />
+
+<item itemtype="Connector" uid="Connector-1751" startpinid="Node-785-1" endpinid="Oscope-758-Pin1" pointList="-144,-264,-48,-264,-48,-228,92,-228" />
+
+<item itemtype="Connector" uid="Connector-1734" startpinid="Node-806-2" endpinid="Node-804-1" pointList="-228,-236,-228,-260" />
+
+<item itemtype="Connector" uid="Connector-1740" startpinid="Node-810-2" endpinid="Node-808-1" pointList="-224,-80,-224,-104" />
+
+<item itemtype="Connector" uid="Connector-1737" startpinid="Node-808-2" endpinid="WaveGen-768-outnod" pointList="-224,-104,-240,-104" />
+
+<item itemtype="Connector" uid="Connector-1681" startpinid="Fixed Voltage-780-outnod" endpinid="Resistor-761-lPin" pointList="-228,-320,-144,-320,-144,-304" />
+
+<item itemtype="Connector" uid="Connector-1677" startpinid="Capacitor-782-rPin" endpinid="Node-784-1" pointList="-168,-260,-144,-260" />
+
+<item itemtype="Connector" uid="Connector-1736" startpinid="Node-801-2" endpinid="Node-808-0" pointList="-212,-104,-224,-104" />
+
+<item itemtype="Connector" uid="Connector-1683" startpinid="Resistor-761-rPin" endpinid="Node-785-0" pointList="-144,-272,-144,-264" />
+
+<item itemtype="Connector" uid="Connector-1760" startpinid="Resistor-790-rPin" endpinid="Ground-792-Gnd" pointList="-144,-64,-144,-52" />
+
+<item itemtype="Connector" uid="Connector-1723" startpinid="Oscope-758-Pin3" endpinid="Node-801-1" pointList="92,-164,-212,-164,-212,-104" />
+
+<item itemtype="Connector" uid="Connector-1739" startpinid="WaveGen-807-outnod" endpinid="Node-810-0" pointList="-240,-80,-224,-80" />
+
+<item itemtype="Connector" uid="Connector-1693" startpinid="Capacitor-787-rPin" endpinid="Node-789-1" pointList="-168,-104,-144,-104" />
+
+<item itemtype="Connector" uid="Connector-1730" startpinid="Node-786-2" endpinid="Node-804-0" pointList="-212,-260,-228,-260" />
+
+<item itemtype="Connector" uid="Connector-1724" startpinid="Capacitor-787-lPin" endpinid="Node-801-0" pointList="-200,-104,-212,-104" />
+
+<item itemtype="Connector" uid="Connector-1732" startpinid="WaveGen-805-outnod" endpinid="Node-806-1" pointList="-240,-212,-228,-212,-228,-236" />
+
+<item itemtype="Connector" uid="Connector-1684" startpinid="Node-785-2" endpinid="Node-784-0" pointList="-144,-264,-144,-260" />
+
+</circuit>

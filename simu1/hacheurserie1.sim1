@@ -1,0 +1,99 @@
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Mosfet" CircId="Mosfet-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-180" rotation="-90" hflip="1" vflip="1" label="Mosfet-4" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="BJT" CircId="BJT-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-40,-188" rotation="0" hflip="1" vflip="1" label="BJT-32" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="DAC" CircId="DAC-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-240,-80" rotation="0" hflip="1" vflip="1" label="DAC-39" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Oscope" CircId="Oscope-9" mainComp="false" Show_id="false" Show_Val="false" Pos="116,-244" rotation="0" hflip="1" vflip="1" label="Oscope-9" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="181850263" TimPos="-28901133223,-28901133223,-28901133223,-28901133223," VolDiv="0.544537,0.544537,0.544537,0.544537," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="-2.32888,-2.32888,-2.32888,-2.32888," />
+
+<item itemtype="Inductor" CircId="Inductor-2" mainComp="false" ShowProp="Inductance" Show_id="false" Show_Val="true" Pos="-112,-188" rotation="0" hflip="1" vflip="1" label="Inductor-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Inductance="2 kH" Resistance="15 Ω" InitVolt="0 A" ReaStep="0 ns" />
+
+<item itemtype="Resistor" CircId="Resistor-35" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-92,-316" rotation="0" hflip="1" vflip="1" label="Resistor-35" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Diode" CircId="Diode-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-152" rotation="-90" hflip="1" vflip="1" label="Diode-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Clock" CircId="Clock-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-136" rotation="0" hflip="1" vflip="1" label="Clock-5" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="0.5 kHz" Always_On="false" />
+
+<item itemtype="ADC" CircId="ADC-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-296,-80" rotation="0" hflip="1" vflip="1" label="ADC-38" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="WaveGen" CircId="WaveGen-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-344,-88" rotation="0" hflip="1" vflip="1" label="WaveGen-40" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="1000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-308,-188" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-13" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,-88" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-1" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-76,-164" rotation="90" hflip="1" vflip="1" label="Resistor-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 MΩ" />
+
+<item itemtype="Node" CircId="Node-6" mainComp="false" Pos="-148,-188" />
+
+<item itemtype="Node" CircId="Node-36" mainComp="false" Pos="-268,-188" />
+
+<item itemtype="Node" CircId="Node-31" mainComp="false" Pos="-116,-116" />
+
+<item itemtype="Node" CircId="Node-37" mainComp="false" Pos="-32,-260" />
+
+<item itemtype="Node" CircId="Node-41" mainComp="false" Pos="-216,-144" />
+
+<item itemtype="Node" CircId="Node-33" mainComp="false" Pos="-76,-116" />
+
+<item itemtype="Node" CircId="Node-16" mainComp="false" Pos="-76,-188" />
+
+<item itemtype="Node" CircId="Node-43" mainComp="false" Pos="-176,-188" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="ADC-38-out0" endpinid="DAC-39-in0" pointList="-272,-88,-264,-88" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Resistor-35-lPin" endpinid="Node-36-1" pointList="-108,-316,-268,-316,-268,-188" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="Node-31-2" endpinid="Ground-7-Gnd" pointList="-116,-116,-116,-104" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Oscope-9-Pin1" endpinid="Node-37-1" pointList="28,-260,-32,-260" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="BJT-32-collector" endpinid="Node-37-0" pointList="-32,-204,-32,-260" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Node-33-2" endpinid="Node-31-1" pointList="-76,-116,-116,-116" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="Node-41-2" endpinid="Mosfet-4-Gate" pointList="-216,-144,-216,-164" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="ADC-38-out3" endpinid="DAC-39-in3" pointList="-272,-64,-264,-64" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="BJT-32-emiter" endpinid="Node-33-1" pointList="-32,-172,-32,-116,-76,-116" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="Node-43-2" endpinid="Mosfet-4-Sour" pointList="-176,-188,-200,-188" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="Diode-3-lPin" endpinid="Node-31-0" pointList="-148,-136,-148,-116,-116,-116" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="Resistor-1-rPin" endpinid="Node-33-0" pointList="-76,-148,-76,-116" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Inductor-2-lPin" endpinid="Node-6-0" pointList="-128,-188,-148,-188" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Fixed Voltage-13-outnod" endpinid="Node-36-0" pointList="-292,-188,-268,-188" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="Node-6-2" endpinid="Node-43-0" pointList="-148,-188,-176,-188" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="DAC-39-out0" endpinid="Node-41-0" pointList="-216,-88,-216,-144" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="Node-37-2" endpinid="Resistor-35-rPin" pointList="-32,-260,-32,-316,-76,-316" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Diode-3-rPin" endpinid="Node-6-1" pointList="-148,-168,-148,-188" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="ADC-38-out1" endpinid="DAC-39-in1" pointList="-272,-80,-264,-80" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="Node-16-2" endpinid="Resistor-1-lPin" pointList="-76,-188,-76,-180" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="Oscope-9-Pin3" endpinid="Node-43-1" pointList="28,-196,-4,-196,-4,-232,-176,-232,-176,-188" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Oscope-9-Pin2" endpinid="Node-16-1" pointList="28,-228,-64,-228,-64,-192,-76,-192,-76,-188" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Node-41-1" endpinid="Oscope-9-Pin0" pointList="-216,-144,-168,-144,-168,-292,28,-292" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Inductor-2-rPin" endpinid="Node-16-0" pointList="-96,-188,-76,-188" />
+
+<item itemtype="Connector" uid="Connector-68" startpinid="Node-36-2" endpinid="Mosfet-4-Dren" pointList="-268,-188,-232,-188" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="ADC-38-out2" endpinid="DAC-39-in2" pointList="-272,-72,-264,-72" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="WaveGen-40-outnod" endpinid="ADC-38-in0" pointList="-328,-88,-320,-88" />
+
+</circuit>

@@ -1,0 +1,69 @@
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Capacitor" CircId="Capacitor-782" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-184,-260" rotation="0" hflip="1" vflip="1" label="Capacitor-782" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1e-06 Ω" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="WaveGen" CircId="WaveGen-768" mainComp="false" Show_id="false" Show_Val="false" Pos="-240,-104" rotation="0" hflip="1" vflip="1" label="WaveGen-768" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="1000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-761" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-144,-288" rotation="90" hflip="1" vflip="1" label="Resistor-761" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Capacitor" CircId="Capacitor-787" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-184,-104" rotation="0" hflip="1" vflip="1" label="Capacitor-787" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1e-06 Ω" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="Ground" CircId="Ground-783" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-192" rotation="0" hflip="1" vflip="1" label="Ground-783" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Oscope" CircId="Oscope-758" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-212" rotation="0" hflip="1" vflip="1" label="Oscope-758" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="WaveGen" CircId="WaveGen-759" mainComp="false" Show_id="false" Show_Val="false" Pos="-240,-260" rotation="0" hflip="1" vflip="1" label="WaveGen-759" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="1000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="Ground" CircId="Ground-792" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-36" rotation="0" hflip="1" vflip="1" label="Ground-792" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-762" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-144,-236" rotation="90" hflip="1" vflip="1" label="Resistor-762" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Resistor" CircId="Resistor-790" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-144,-80" rotation="90" hflip="1" vflip="1" label="Resistor-790" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-780" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,-320" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-780" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Node" CircId="Node-784" mainComp="false" Pos="-144,-260" />
+
+<item itemtype="Node" CircId="Node-785" mainComp="false" Pos="-144,-264" />
+
+<item itemtype="Node" CircId="Node-786" mainComp="false" Pos="-212,-260" />
+
+<item itemtype="Node" CircId="Node-789" mainComp="false" Pos="-144,-104" />
+
+<item itemtype="Node" CircId="Node-801" mainComp="false" Pos="-212,-104" />
+
+<item itemtype="Connector" uid="Connector-1676" startpinid="Resistor-762-rPin" endpinid="Ground-783-Gnd" pointList="-144,-220,-144,-208" />
+
+<item itemtype="Connector" uid="Connector-1687" startpinid="Node-786-2" endpinid="WaveGen-759-outnod" pointList="-212,-260,-224,-260" />
+
+<item itemtype="Connector" uid="Connector-1681" startpinid="Fixed Voltage-780-outnod" endpinid="Resistor-761-lPin" pointList="-228,-320,-144,-320,-144,-304" />
+
+<item itemtype="Connector" uid="Connector-1686" startpinid="Capacitor-782-lPin" endpinid="Node-786-0" pointList="-200,-260,-212,-260" />
+
+<item itemtype="Connector" uid="Connector-1725" startpinid="Node-801-2" endpinid="WaveGen-768-outnod" pointList="-212,-104,-224,-104" />
+
+<item itemtype="Connector" uid="Connector-1695" startpinid="Node-789-2" endpinid="Resistor-790-lPin" pointList="-144,-104,-144,-96" />
+
+<item itemtype="Connector" uid="Connector-1684" startpinid="Node-785-2" endpinid="Node-784-0" pointList="-144,-264,-144,-260" />
+
+<item itemtype="Connector" uid="Connector-1682" startpinid="Node-785-1" endpinid="Oscope-758-Pin1" pointList="-144,-264,-92,-264,-92,-228,92,-228" />
+
+<item itemtype="Connector" uid="Connector-1723" startpinid="Oscope-758-Pin3" endpinid="Node-801-1" pointList="92,-164,-212,-164,-212,-104" />
+
+<item itemtype="Connector" uid="Connector-1730" startpinid="Resistor-790-rPin" endpinid="Ground-792-Gnd" pointList="-144,-64,-144,-52" />
+
+<item itemtype="Connector" uid="Connector-1679" startpinid="Node-784-2" endpinid="Resistor-762-lPin" pointList="-144,-260,-144,-252" />
+
+<item itemtype="Connector" uid="Connector-1685" startpinid="Node-786-1" endpinid="Oscope-758-Pin0" pointList="-212,-260,-212,-332,-40,-332,-40,-260,92,-260" />
+
+<item itemtype="Connector" uid="Connector-1693" startpinid="Capacitor-787-rPin" endpinid="Node-789-1" pointList="-168,-104,-144,-104" />
+
+<item itemtype="Connector" uid="Connector-1683" startpinid="Resistor-761-rPin" endpinid="Node-785-0" pointList="-144,-272,-144,-264" />
+
+<item itemtype="Connector" uid="Connector-1677" startpinid="Capacitor-782-rPin" endpinid="Node-784-1" pointList="-168,-260,-144,-260" />
+
+<item itemtype="Connector" uid="Connector-1729" startpinid="Oscope-758-Pin2" endpinid="Node-789-0" pointList="92,-196,-116,-196,-116,-112,-144,-112,-144,-104" />
+
+<item itemtype="Connector" uid="Connector-1724" startpinid="Capacitor-787-lPin" endpinid="Node-801-0" pointList="-200,-104,-212,-104" />
+
+</circuit>

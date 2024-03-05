@@ -1,0 +1,373 @@
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Voltimeter" CircId="Voltimeter-355" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-248" rotation="0" hflip="1" vflip="1" label="Voltimeter-355" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-352" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-184" rotation="0" hflip="1" vflip="1" label="Voltimeter-352" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-271" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-184" rotation="0" hflip="1" vflip="1" label="Voltimeter-271" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-359" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-124" rotation="-90" hflip="1" vflip="1" label="Resistor-359" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-265" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-572" rotation="0" hflip="1" vflip="1" label="Voltimeter-265" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-59" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-512" rotation="-90" hflip="1" vflip="1" label="Resistor-59" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Switch" CircId="Switch-373" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-680" rotation="0" hflip="1" vflip="1" label="Switch-373" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Resistor" CircId="Resistor-6" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-384" rotation="-90" hflip="1" vflip="1" label="Resistor-6" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-334" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-440" rotation="0" hflip="1" vflip="1" label="Voltimeter-334" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-270" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-248" rotation="0" hflip="1" vflip="1" label="Voltimeter-270" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-267" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-440" rotation="0" hflip="1" vflip="1" label="Voltimeter-267" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-264" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-632" rotation="0" hflip="1" vflip="1" label="Voltimeter-264" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-5" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-576" rotation="-90" hflip="1" vflip="1" label="Resistor-5" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-350" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-512" rotation="-90" hflip="1" vflip="1" label="Resistor-350" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Switch" CircId="Switch-375" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-740" rotation="0" hflip="1" vflip="1" label="Switch-375" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-356" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-632" rotation="0" hflip="1" vflip="1" label="Voltimeter-356" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Switch" CircId="Switch-374" mainComp="false" Show_id="false" Show_Val="false" Pos="-628,-740" rotation="0" hflip="1" vflip="1" label="Switch-374" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Resistor" CircId="Resistor-9" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-124" rotation="-90" hflip="1" vflip="1" label="Resistor-9" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-272" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-152" rotation="0" hflip="1" vflip="1" label="Voltimeter-272" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-27" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-192" rotation="-90" hflip="1" vflip="1" label="Resistor-27" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-357" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-576" rotation="-90" hflip="1" vflip="1" label="Resistor-357" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-44" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-640" rotation="-90" hflip="1" vflip="1" label="Resistor-44" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="120 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-346" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-256" rotation="-90" hflip="1" vflip="1" label="Resistor-346" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-371" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-320" rotation="-90" hflip="1" vflip="1" label="Resistor-371" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-351" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-572" rotation="0" hflip="1" vflip="1" label="Voltimeter-351" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-376" mainComp="false" Show_id="false" Show_Val="false" Pos="-672,-740" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-376" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="-2.5 V" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-4" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-320" rotation="-90" hflip="1" vflip="1" label="Resistor-4" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-345" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-312" rotation="0" hflip="1" vflip="1" label="Voltimeter-345" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-341" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-376" rotation="0" hflip="1" vflip="1" label="Voltimeter-341" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-340" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-460,-696" rotation="0" hflip="1" vflip="1" label="Voltage Source-340" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="-2.5 V" MaxValue="2.5 V" MinValue="-2.5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-64" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-448" rotation="-90" hflip="1" vflip="1" label="Resistor-64" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Ground" CircId="Ground-330" mainComp="false" Show_id="false" Show_Val="false" Pos="-568,-64" rotation="0" hflip="1" vflip="1" label="Ground-330" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Switch" CircId="Switch-372" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,-680" rotation="0" hflip="1" vflip="1" label="Switch-372" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-343" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-504" rotation="0" hflip="1" vflip="1" label="Voltimeter-343" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-332" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-684,-696" rotation="0" hflip="1" vflip="1" label="Voltage Source-332" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="2.5 V" MaxValue="2.5 V" MinValue="-2.5 V" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-268" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-376" rotation="0" hflip="1" vflip="1" label="Voltimeter-268" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-363" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-192" rotation="-90" hflip="1" vflip="1" label="Resistor-363" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-364" mainComp="false" Show_id="false" Show_Val="false" Pos="-488,-152" rotation="0" hflip="1" vflip="1" label="Voltimeter-364" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-266" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-504" rotation="0" hflip="1" vflip="1" label="Voltimeter-266" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-377" mainComp="false" Show_id="false" Show_Val="false" Pos="-448,-740" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-377" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="2.5 V" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-368" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-640" rotation="-90" hflip="1" vflip="1" label="Resistor-368" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="120 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-353" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-384" rotation="-90" hflip="1" vflip="1" label="Resistor-353" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-269" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-312" rotation="0" hflip="1" vflip="1" label="Voltimeter-269" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-335" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-344,-448" rotation="-90" hflip="1" vflip="1" label="Resistor-335" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-38" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-256" rotation="-90" hflip="1" vflip="1" label="Resistor-38" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Node" CircId="Node-360" mainComp="false" Pos="-344,-344" />
+
+<item itemtype="Node" CircId="Node-287" mainComp="false" Pos="-568,-280" />
+
+<item itemtype="Node" CircId="Node-361" mainComp="false" Pos="-344,-472" />
+
+<item itemtype="Node" CircId="Node-305" mainComp="false" Pos="-584,-292" />
+
+<item itemtype="Node" CircId="Node-354" mainComp="false" Pos="-360,-168" />
+
+<item itemtype="Node" CircId="Node-304" mainComp="false" Pos="-584,-356" />
+
+<item itemtype="Node" CircId="Node-365" mainComp="false" Pos="-344,-152" />
+
+<item itemtype="Node" CircId="Node-381" mainComp="false" Pos="-584,-684" />
+
+<item itemtype="Node" CircId="Node-307" mainComp="false" Pos="-584,-168" />
+
+<item itemtype="Node" CircId="Node-362" mainComp="false" Pos="-344,-216" />
+
+<item itemtype="Node" CircId="Node-358" mainComp="false" Pos="-344,-536" />
+
+<item itemtype="Node" CircId="Node-283" mainComp="false" Pos="-568,-536" />
+
+<item itemtype="Node" CircId="Node-344" mainComp="false" Pos="-360,-232" />
+
+<item itemtype="Node" CircId="Node-286" mainComp="false" Pos="-568,-344" />
+
+<item itemtype="Node" CircId="Node-288" mainComp="false" Pos="-568,-216" />
+
+<item itemtype="Node" CircId="Node-289" mainComp="false" Pos="-568,-152" />
+
+<item itemtype="Node" CircId="Node-284" mainComp="false" Pos="-568,-472" />
+
+<item itemtype="Node" CircId="Node-347" mainComp="false" Pos="-344,-280" />
+
+<item itemtype="Node" CircId="Node-285" mainComp="false" Pos="-568,-408" />
+
+<item itemtype="Node" CircId="Node-331" mainComp="false" Pos="-568,-100" />
+
+<item itemtype="Node" CircId="Node-382" mainComp="false" Pos="-568,-684" />
+
+<item itemtype="Node" CircId="Node-383" mainComp="false" Pos="-568,-88" />
+
+<item itemtype="Node" CircId="Node-301" mainComp="false" Pos="-584,-552" />
+
+<item itemtype="Node" CircId="Node-349" mainComp="false" Pos="-360,-356" />
+
+<item itemtype="Node" CircId="Node-337" mainComp="false" Pos="-360,-488" />
+
+<item itemtype="Node" CircId="Node-338" mainComp="false" Pos="-344,-600" />
+
+<item itemtype="Node" CircId="Node-339" mainComp="false" Pos="-360,-424" />
+
+<item itemtype="Node" CircId="Node-342" mainComp="false" Pos="-360,-612" />
+
+<item itemtype="Node" CircId="Node-366" mainComp="false" Pos="-344,-408" />
+
+<item itemtype="Node" CircId="Node-282" mainComp="false" Pos="-568,-600" />
+
+<item itemtype="Node" CircId="Node-380" mainComp="false" Pos="-344,-684" />
+
+<item itemtype="Node" CircId="Node-303" mainComp="false" Pos="-584,-424" />
+
+<item itemtype="Node" CircId="Node-302" mainComp="false" Pos="-584,-488" />
+
+<item itemtype="Node" CircId="Node-384" mainComp="false" Pos="-344,-100" />
+
+<item itemtype="Node" CircId="Node-348" mainComp="false" Pos="-360,-292" />
+
+<item itemtype="Node" CircId="Node-369" mainComp="false" Pos="-360,-552" />
+
+<item itemtype="Node" CircId="Node-300" mainComp="false" Pos="-584,-612" />
+
+<item itemtype="Node" CircId="Node-379" mainComp="false" Pos="-360,-684" />
+
+<item itemtype="Node" CircId="Node-306" mainComp="false" Pos="-584,-232" />
+
+<item itemtype="Connector" uid="Connector-592" startpinid="Node-288-2" endpinid="Resistor-27-rPin" pointList="-568,-216,-568,-208" />
+
+<item itemtype="Connector" uid="Connector-801" startpinid="Voltimeter-272-rPin" endpinid="Node-307-0" pointList="-704,-136,-704,-128,-584,-128,-584,-168" />
+
+<item itemtype="Connector" uid="Connector-770" startpinid="Resistor-5-lPin" endpinid="Node-283-0" pointList="-568,-560,-568,-536" />
+
+<item itemtype="Connector" uid="Connector-863" startpinid="Resistor-353-lPin" endpinid="Node-360-0" pointList="-344,-368,-344,-344" />
+
+<item itemtype="Connector" uid="Connector-830" startpinid="Node-344-2" endpinid="Node-348-0" pointList="-360,-232,-360,-292" />
+
+<item itemtype="Connector" uid="Connector-575" startpinid="Voltimeter-265-lPin" endpinid="Node-283-1" pointList="-640,-556,-640,-536,-568,-536" />
+
+<item itemtype="Connector" uid="Connector-893" startpinid="Node-384-2" endpinid="Voltimeter-364-lPin" pointList="-344,-100,-496,-100,-496,-136" />
+
+<item itemtype="Connector" uid="Connector-724" startpinid="Resistor-6-lPin" endpinid="Node-286-0" pointList="-568,-368,-568,-344" />
+
+<item itemtype="Connector" uid="Connector-885" startpinid="Node-382-2" endpinid="Resistor-44-rPin" pointList="-568,-684,-568,-656" />
+
+<item itemtype="Connector" uid="Connector-648" startpinid="Voltimeter-271-rPin" endpinid="Node-307-1" pointList="-624,-168,-584,-168" />
+
+<item itemtype="Connector" uid="Connector-826" startpinid="Node-354-2" endpinid="Node-344-0" pointList="-360,-168,-360,-232" />
+
+<item itemtype="Connector" uid="Connector-865" startpinid="Node-339-2" endpinid="Node-337-0" pointList="-360,-424,-360,-488" />
+
+<item itemtype="Connector" uid="Connector-883" startpinid="Switch-374-switch0pinN" endpinid="Node-382-1" pointList="-612,-740,-568,-740,-568,-684" />
+
+<item itemtype="Connector" uid="Connector-857" startpinid="Resistor-357-lPin" endpinid="Node-358-0" pointList="-344,-560,-344,-536" />
+
+<item itemtype="Connector" uid="Connector-833" startpinid="Node-337-2" endpinid="Node-369-0" pointList="-360,-488,-360,-552" />
+
+<item itemtype="Connector" uid="Connector-864" startpinid="Voltimeter-352-rPin" endpinid="Node-354-1" pointList="-400,-168,-360,-168" />
+
+<item itemtype="Connector" uid="Connector-629" startpinid="Voltimeter-265-rPin" endpinid="Node-301-1" pointList="-624,-556,-624,-552,-584,-552" />
+
+<item itemtype="Connector" uid="Connector-822" startpinid="Voltimeter-364-rPin" endpinid="Node-354-0" pointList="-480,-136,-480,-128,-360,-128,-360,-168" />
+
+<item itemtype="Connector" uid="Connector-853" startpinid="Node-362-2" endpinid="Resistor-363-rPin" pointList="-344,-216,-344,-208" />
+
+<item itemtype="Connector" uid="Connector-595" startpinid="Node-289-2" endpinid="Resistor-9-rPin" pointList="-568,-152,-568,-140" />
+
+<item itemtype="Connector" uid="Connector-641" startpinid="Node-304-2" endpinid="Node-303-0" pointList="-584,-356,-584,-424" />
+
+<item itemtype="Connector" uid="Connector-855" startpinid="Voltimeter-334-rPin" endpinid="Node-339-1" pointList="-400,-424,-360,-424" />
+
+<item itemtype="Connector" uid="Connector-578" startpinid="Voltimeter-266-lPin" endpinid="Node-284-1" pointList="-640,-488,-640,-472,-568,-472" />
+
+<item itemtype="Connector" uid="Connector-814" startpinid="Resistor-9-lPin" endpinid="Node-331-0" pointList="-568,-108,-568,-100" />
+
+<item itemtype="Connector" uid="Connector-574" startpinid="Node-282-2" endpinid="Resistor-5-rPin" pointList="-568,-600,-568,-592" />
+
+<item itemtype="Connector" uid="Connector-841" startpinid="Voltimeter-341-rPin" endpinid="Node-349-1" pointList="-400,-360,-400,-356,-360,-356" />
+
+<item itemtype="Connector" uid="Connector-836" startpinid="Voltimeter-334-lPin" endpinid="Node-366-1" pointList="-416,-424,-416,-408,-344,-408" />
+
+<item itemtype="Connector" uid="Connector-843" startpinid="Voltimeter-352-lPin" endpinid="Node-365-1" pointList="-416,-168,-416,-152,-344,-152" />
+
+<item itemtype="Connector" uid="Connector-838" startpinid="Voltimeter-341-lPin" endpinid="Node-360-1" pointList="-416,-360,-416,-344,-344,-344" />
+
+<item itemtype="Connector" uid="Connector-581" startpinid="Voltimeter-267-lPin" endpinid="Node-285-1" pointList="-640,-424,-640,-408,-568,-408" />
+
+<item itemtype="Connector" uid="Connector-869" startpinid="Voltage Source-340-outPin" endpinid="Switch-373-pinP0" pointList="-432,-680,-416,-680" />
+
+<item itemtype="Connector" uid="Connector-642" startpinid="Voltimeter-269-rPin" endpinid="Node-305-1" pointList="-624,-296,-584,-296,-584,-292" />
+
+<item itemtype="Connector" uid="Connector-593" startpinid="Voltimeter-271-lPin" endpinid="Node-289-1" pointList="-640,-168,-640,-152,-568,-152" />
+
+<item itemtype="Connector" uid="Connector-572" startpinid="Voltimeter-264-lPin" endpinid="Node-282-1" pointList="-640,-616,-640,-600,-568,-600" />
+
+<item itemtype="Connector" uid="Connector-850" startpinid="Node-369-2" endpinid="Node-342-0" pointList="-360,-552,-360,-612" />
+
+<item itemtype="Connector" uid="Connector-828" startpinid="Node-365-2" endpinid="Resistor-359-rPin" pointList="-344,-152,-344,-140" />
+
+<item itemtype="Connector" uid="Connector-650" startpinid="Node-307-2" endpinid="Node-306-0" pointList="-584,-168,-584,-232" />
+
+<item itemtype="Connector" uid="Connector-647" startpinid="Node-306-2" endpinid="Node-305-0" pointList="-584,-232,-584,-292" />
+
+<item itemtype="Connector" uid="Connector-861" startpinid="Node-360-2" endpinid="Resistor-371-rPin" pointList="-344,-344,-344,-336" />
+
+<item itemtype="Connector" uid="Connector-892" startpinid="Resistor-359-lPin" endpinid="Node-384-0" pointList="-344,-108,-344,-100" />
+
+<item itemtype="Connector" uid="Connector-815" startpinid="Node-331-2" endpinid="Voltimeter-272-lPin" pointList="-568,-100,-720,-100,-720,-136" />
+
+<item itemtype="Connector" uid="Connector-839" startpinid="Resistor-335-lPin" endpinid="Node-366-0" pointList="-344,-432,-344,-408" />
+
+<item itemtype="Connector" uid="Connector-590" startpinid="Voltimeter-270-lPin" endpinid="Node-288-1" pointList="-640,-232,-640,-216,-568,-216" />
+
+<item itemtype="Connector" uid="Connector-626" startpinid="Voltimeter-264-rPin" endpinid="Node-300-1" pointList="-624,-616,-584,-616,-584,-612" />
+
+<item itemtype="Connector" uid="Connector-884" startpinid="Node-381-2" endpinid="Node-382-0" pointList="-584,-684,-568,-684" />
+
+<item itemtype="Connector" uid="Connector-635" startpinid="Node-302-2" endpinid="Node-301-0" pointList="-584,-488,-584,-552" />
+
+<item itemtype="Connector" uid="Connector-889" startpinid="Node-383-1" endpinid="Node-384-1" pointList="-568,-88,-344,-88,-344,-100" />
+
+<item itemtype="Connector" uid="Connector-644" startpinid="Node-305-2" endpinid="Node-304-0" pointList="-584,-292,-584,-356" />
+
+<item itemtype="Connector" uid="Connector-823" startpinid="Voltimeter-356-rPin" endpinid="Node-342-1" pointList="-400,-616,-360,-616,-360,-612" />
+
+<item itemtype="Connector" uid="Connector-851" startpinid="Node-358-2" endpinid="Resistor-350-rPin" pointList="-344,-536,-344,-528" />
+
+<item itemtype="Connector" uid="Connector-881" startpinid="Node-300-2" endpinid="Node-381-0" pointList="-584,-612,-584,-684" />
+
+<item itemtype="Connector" uid="Connector-788" startpinid="Resistor-64-lPin" endpinid="Node-285-0" pointList="-568,-432,-568,-408" />
+
+<item itemtype="Connector" uid="Connector-580" startpinid="Node-284-2" endpinid="Resistor-64-rPin" pointList="-568,-472,-568,-464" />
+
+<item itemtype="Connector" uid="Connector-645" startpinid="Voltimeter-270-rPin" endpinid="Node-306-1" pointList="-624,-232,-584,-232" />
+
+<item itemtype="Connector" uid="Connector-827" startpinid="Voltimeter-351-rPin" endpinid="Node-369-1" pointList="-400,-556,-400,-552,-360,-552" />
+
+<item itemtype="Connector" uid="Connector-638" startpinid="Node-303-2" endpinid="Node-302-0" pointList="-584,-424,-584,-488" />
+
+<item itemtype="Connector" uid="Connector-734" startpinid="Resistor-44-lPin" endpinid="Node-282-0" pointList="-568,-624,-568,-600" />
+
+<item itemtype="Connector" uid="Connector-848" startpinid="Voltimeter-345-rPin" endpinid="Node-348-1" pointList="-400,-296,-360,-296,-360,-292" />
+
+<item itemtype="Connector" uid="Connector-847" startpinid="Resistor-371-lPin" endpinid="Node-347-0" pointList="-344,-304,-344,-280" />
+
+<item itemtype="Connector" uid="Connector-840" startpinid="Voltimeter-355-rPin" endpinid="Node-344-1" pointList="-400,-232,-360,-232" />
+
+<item itemtype="Connector" uid="Connector-849" startpinid="Node-349-2" endpinid="Node-339-0" pointList="-360,-356,-360,-424" />
+
+<item itemtype="Connector" uid="Connector-859" startpinid="Voltimeter-343-rPin" endpinid="Node-337-1" pointList="-400,-488,-360,-488" />
+
+<item itemtype="Connector" uid="Connector-875" startpinid="Node-342-2" endpinid="Node-379-0" pointList="-360,-612,-360,-684" />
+
+<item itemtype="Connector" uid="Connector-852" startpinid="Voltimeter-356-lPin" endpinid="Node-338-1" pointList="-416,-616,-416,-600,-344,-600" />
+
+<item itemtype="Connector" uid="Connector-844" startpinid="Node-366-2" endpinid="Resistor-353-rPin" pointList="-344,-408,-344,-400" />
+
+<item itemtype="Connector" uid="Connector-835" startpinid="Node-348-2" endpinid="Node-349-0" pointList="-360,-292,-360,-356" />
+
+<item itemtype="Connector" uid="Connector-845" startpinid="Resistor-346-lPin" endpinid="Node-362-0" pointList="-344,-240,-344,-216" />
+
+<item itemtype="Connector" uid="Connector-587" startpinid="Voltimeter-269-lPin" endpinid="Node-287-1" pointList="-640,-296,-640,-280,-568,-280" />
+
+<item itemtype="Connector" uid="Connector-846" startpinid="Node-361-2" endpinid="Resistor-335-rPin" pointList="-344,-472,-344,-464" />
+
+<item itemtype="Connector" uid="Connector-886" startpinid="Fixed Voltage-376-outnod" endpinid="Switch-374-pinP0" pointList="-656,-740,-644,-740" />
+
+<item itemtype="Connector" uid="Connector-583" startpinid="Node-285-2" endpinid="Resistor-6-rPin" pointList="-568,-408,-568,-400" />
+
+<item itemtype="Connector" uid="Connector-879" startpinid="Node-380-2" endpinid="Resistor-368-rPin" pointList="-344,-684,-344,-656" />
+
+<item itemtype="Connector" uid="Connector-758" startpinid="Resistor-38-lPin" endpinid="Node-288-0" pointList="-568,-240,-568,-216" />
+
+<item itemtype="Connector" uid="Connector-773" startpinid="Resistor-4-lPin" endpinid="Node-287-0" pointList="-568,-304,-568,-280" />
+
+<item itemtype="Connector" uid="Connector-633" startpinid="Voltimeter-266-rPin" endpinid="Node-302-1" pointList="-624,-488,-584,-488" />
+
+<item itemtype="Connector" uid="Connector-820" startpinid="Resistor-363-lPin" endpinid="Node-365-0" pointList="-344,-176,-344,-152" />
+
+<item itemtype="Connector" uid="Connector-887" startpinid="Voltage Source-332-outPin" endpinid="Switch-372-pinP0" pointList="-656,-680,-640,-680" />
+
+<item itemtype="Connector" uid="Connector-891" startpinid="Node-383-2" endpinid="Ground-330-Gnd" pointList="-568,-88,-568,-80" />
+
+<item itemtype="Connector" uid="Connector-639" startpinid="Voltimeter-268-rPin" endpinid="Node-304-1" pointList="-624,-360,-624,-356,-584,-356" />
+
+<item itemtype="Connector" uid="Connector-821" startpinid="Node-338-2" endpinid="Resistor-357-rPin" pointList="-344,-600,-344,-592" />
+
+<item itemtype="Connector" uid="Connector-874" startpinid="Switch-373-switch0pinN" endpinid="Node-379-1" pointList="-384,-680,-360,-680,-360,-684" />
+
+<item itemtype="Connector" uid="Connector-631" startpinid="Node-301-2" endpinid="Node-300-0" pointList="-584,-552,-584,-612" />
+
+<item itemtype="Connector" uid="Connector-584" startpinid="Voltimeter-268-lPin" endpinid="Node-286-1" pointList="-640,-360,-640,-344,-568,-344" />
+
+<item itemtype="Connector" uid="Connector-774" startpinid="Resistor-59-lPin" endpinid="Node-284-0" pointList="-568,-496,-568,-472" />
+
+<item itemtype="Connector" uid="Connector-577" startpinid="Node-283-2" endpinid="Resistor-59-rPin" pointList="-568,-536,-568,-528" />
+
+<item itemtype="Connector" uid="Connector-868" startpinid="Fixed Voltage-377-outnod" endpinid="Switch-375-pinP0" pointList="-432,-740,-416,-740" />
+
+<item itemtype="Connector" uid="Connector-890" startpinid="Node-331-1" endpinid="Node-383-0" pointList="-568,-100,-568,-88" />
+
+<item itemtype="Connector" uid="Connector-825" startpinid="Voltimeter-345-lPin" endpinid="Node-347-1" pointList="-416,-296,-416,-280,-344,-280" />
+
+<item itemtype="Connector" uid="Connector-824" startpinid="Voltimeter-355-lPin" endpinid="Node-362-1" pointList="-416,-232,-416,-216,-344,-216" />
+
+<item itemtype="Connector" uid="Connector-880" startpinid="Switch-372-switch0pinN" endpinid="Node-381-1" pointList="-608,-680,-584,-680,-584,-684" />
+
+<item itemtype="Connector" uid="Connector-829" startpinid="Resistor-350-lPin" endpinid="Node-361-0" pointList="-344,-496,-344,-472" />
+
+<item itemtype="Connector" uid="Connector-878" startpinid="Node-379-2" endpinid="Node-380-0" pointList="-360,-684,-344,-684" />
+
+<item itemtype="Connector" uid="Connector-586" startpinid="Node-286-2" endpinid="Resistor-4-rPin" pointList="-568,-344,-568,-336" />
+
+<item itemtype="Connector" uid="Connector-858" startpinid="Voltimeter-343-lPin" endpinid="Node-361-1" pointList="-416,-488,-416,-472,-344,-472" />
+
+<item itemtype="Connector" uid="Connector-877" startpinid="Node-380-1" endpinid="Switch-375-switch0pinN" pointList="-344,-684,-344,-740,-384,-740" />
+
+<item itemtype="Connector" uid="Connector-856" startpinid="Resistor-368-lPin" endpinid="Node-338-0" pointList="-344,-624,-344,-600" />
+
+<item itemtype="Connector" uid="Connector-854" startpinid="Node-347-2" endpinid="Resistor-346-rPin" pointList="-344,-280,-344,-272" />
+
+<item itemtype="Connector" uid="Connector-834" startpinid="Voltimeter-351-lPin" endpinid="Node-358-1" pointList="-416,-556,-416,-536,-344,-536" />
+
+<item itemtype="Connector" uid="Connector-589" startpinid="Node-287-2" endpinid="Resistor-38-rPin" pointList="-568,-280,-568,-272" />
+
+<item itemtype="Connector" uid="Connector-728" startpinid="Resistor-27-lPin" endpinid="Node-289-0" pointList="-568,-176,-568,-152" />
+
+<item itemtype="Connector" uid="Connector-636" startpinid="Voltimeter-267-rPin" endpinid="Node-303-1" pointList="-624,-424,-584,-424" />
+
+</circuit>
