@@ -1,0 +1,499 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Resistor" CircId="Resistor-1211" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,-332" rotation="-90" hflip="1" vflip="1" label="Resistor-1211" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 Ω" />
+
+<item itemtype="Switch" CircId="Switch-838" mainComp="false" Show_id="false" Show_Val="false" Pos="-104,144" rotation="0" hflip="1" vflip="1" label="Switch-838" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="DAC" CircId="DAC-791" mainComp="false" Show_id="false" Show_Val="false" Pos="292,568" rotation="0" hflip="1" vflip="1" label="DAC-791" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1235" mainComp="false" Show_id="false" Show_Val="false" Pos="472,24" rotation="0" hflip="1" vflip="-1" label="Mosfet-1235" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Oscope" CircId="Oscope-834" mainComp="false" Show_id="false" Show_Val="false" Pos="1180,424" rotation="0" hflip="1" vflip="1" label="Oscope-834" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="7903658306529" TimPos="-3020418370267,-3020418370267,-3020418370267,-3020418370267," VolDiv="0.508028,0.508028,0.508028,0.508028," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="2" HideCh="false,false,false,false," VolPos="-2.50524,-2.50524,-2.50524,-2.50524," />
+
+<item itemtype="Mosfet" CircId="Mosfet-1239" mainComp="false" Show_id="false" Show_Val="false" Pos="472,232" rotation="0" hflip="1" vflip="-1" label="Mosfet-1239" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-1150" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,84" rotation="-90" hflip="1" vflip="1" label="Resistor-1150" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1196" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,-20" rotation="-90" hflip="1" vflip="1" label="Resistor-1196" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Led" CircId="Led-800" mainComp="false" Show_id="false" Show_Val="false" Pos="76,272" rotation="90" hflip="1" vflip="1" label="Led-800" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1161" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,-72" rotation="-90" hflip="1" vflip="1" label="Resistor-1161" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Ground" CircId="Ground-804" mainComp="false" Show_id="false" Show_Val="false" Pos="64,368" rotation="0" hflip="1" vflip="1" label="Ground-804" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-1200" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,344" rotation="-90" hflip="1" vflip="1" label="Resistor-1200" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1169" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,-176" rotation="-90" hflip="1" vflip="1" label="Resistor-1169" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Led" CircId="Led-797" mainComp="false" Show_id="false" Show_Val="false" Pos="100,272" rotation="90" hflip="1" vflip="1" label="Led-797" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1232" mainComp="false" Show_id="false" Show_Val="false" Pos="472,-132" rotation="0" hflip="1" vflip="-1" label="Mosfet-1232" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1226" mainComp="false" Show_id="false" Show_Val="false" Pos="472,-232" rotation="0" hflip="1" vflip="-1" label="Mosfet-1226" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1143" mainComp="false" Show_id="false" Show_Val="false" Pos="472,-288" rotation="0" hflip="1" vflip="-1" label="Mosfet-1143" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-1154" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,500" rotation="-90" hflip="1" vflip="1" label="Resistor-1154" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1243" mainComp="false" Show_id="false" Show_Val="false" Pos="472,440" rotation="0" hflip="1" vflip="-1" label="Mosfet-1243" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1244" mainComp="false" Show_id="false" Show_Val="false" Pos="472,488" rotation="0" hflip="1" vflip="-1" label="Mosfet-1244" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-1148" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,-280" rotation="-90" hflip="1" vflip="1" label="Resistor-1148" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1210" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,-224" rotation="-90" hflip="1" vflip="1" label="Resistor-1210" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1176" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,188" rotation="-90" hflip="1" vflip="1" label="Resistor-1176" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1236" mainComp="false" Show_id="false" Show_Val="false" Pos="472,76" rotation="0" hflip="1" vflip="-1" label="Mosfet-1236" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-1207" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,292" rotation="-90" hflip="1" vflip="1" label="Resistor-1207" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="WaveGen" CircId="WaveGen-832" mainComp="false" ShowProp="Freq" Show_id="false" Show_Val="true" Pos="-148,208" rotation="0" hflip="1" vflip="1" label="WaveGen-832" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="20 mHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1242" mainComp="false" Show_id="false" Show_Val="false" Pos="472,388" rotation="0" hflip="1" vflip="-1" label="Mosfet-1242" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1190" mainComp="false" Show_id="false" Show_Val="false" Pos="404,516" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1190" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-1208" mainComp="false" Show_id="false" Show_Val="false" Pos="460,-332" rotation="0" hflip="1" vflip="1" label="Ground-1208" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-809" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="28,316" rotation="90" hflip="1" vflip="1" label="Resistor-809" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1202" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,240" rotation="-90" hflip="1" vflip="1" label="Resistor-1202" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1182" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,396" rotation="-90" hflip="1" vflip="1" label="Resistor-1182" idLabPos="-12,-24" labelrot="0" valLabPos="-10.1746,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="ADC" CircId="ADC-795" mainComp="false" Show_id="false" Show_Val="false" Pos="-40,216" rotation="0" hflip="1" vflip="1" label="ADC-795" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-812" mainComp="false" Show_id="false" Show_Val="false" Pos="28,272" rotation="90" hflip="1" vflip="1" label="Led-812" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1238" mainComp="false" Show_id="false" Show_Val="false" Pos="472,180" rotation="0" hflip="1" vflip="-1" label="Mosfet-1238" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Switch" CircId="Switch-833" mainComp="false" Show_id="false" Show_Val="false" Pos="-104,208" rotation="0" hflip="1" vflip="1" label="Switch-833" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-796" mainComp="false" Show_id="false" Show_Val="false" Pos="24,172" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-796" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1241" mainComp="false" Show_id="false" Show_Val="false" Pos="472,336" rotation="0" hflip="1" vflip="-1" label="Mosfet-1241" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1240" mainComp="false" Show_id="false" Show_Val="false" Pos="472,284" rotation="0" hflip="1" vflip="-1" label="Mosfet-1240" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1234" mainComp="false" Show_id="false" Show_Val="false" Pos="472,-28" rotation="0" hflip="1" vflip="-1" label="Mosfet-1234" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-1157" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,32" rotation="-90" hflip="1" vflip="1" label="Resistor-1157" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-837" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-160,128" rotation="0" hflip="1" vflip="1" label="Voltage Source-837" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="0 V" MaxValue="5 V" MinValue="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-1159" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,448" rotation="-90" hflip="1" vflip="1" label="Resistor-1159" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-1225" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,-124" rotation="-90" hflip="1" vflip="1" label="Resistor-1225" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1233" mainComp="false" Show_id="false" Show_Val="false" Pos="472,-80" rotation="0" hflip="1" vflip="-1" label="Mosfet-1233" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1237" mainComp="false" Show_id="false" Show_Val="false" Pos="472,128" rotation="0" hflip="1" vflip="-1" label="Mosfet-1237" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-1164" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="504,136" rotation="-90" hflip="1" vflip="1" label="Resistor-1164" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="BcdToDec" CircId="BcdToDec-1067" mainComp="false" Show_id="false" Show_Val="false" Pos="180,64" rotation="0" hflip="1" vflip="1" label="BcdToDec-1067" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" _16_Bits="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-807" mainComp="false" Show_id="false" Show_Val="false" Pos="52,272" rotation="90" hflip="1" vflip="1" label="Led-807" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-799" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="76,316" rotation="90" hflip="1" vflip="1" label="Resistor-799" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-815" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="52,316" rotation="90" hflip="1" vflip="1" label="Resistor-815" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-805" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="100,316" rotation="90" hflip="1" vflip="1" label="Resistor-805" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-1227" mainComp="false" Show_id="false" Show_Val="false" Pos="472,-180" rotation="0" hflip="1" vflip="-1" label="Mosfet-1227" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="5 V" />
+
+<item itemtype="Node" CircId="Node-798" mainComp="false" Pos="48,344" />
+
+<item itemtype="Node" CircId="Node-816" mainComp="false" Pos="76,344" />
+
+<item itemtype="Node" CircId="Node-1248" mainComp="false" Pos="444,-112" />
+
+<item itemtype="Node" CircId="Node-1251" mainComp="false" Pos="504,-44" />
+
+<item itemtype="Node" CircId="Node-1137" mainComp="false" Pos="56,216" />
+
+<item itemtype="Node" CircId="Node-1250" mainComp="false" Pos="444,-60" />
+
+<item itemtype="Node" CircId="Node-1269" mainComp="false" Pos="504,368" />
+
+<item itemtype="Node" CircId="Node-1263" mainComp="false" Pos="444,248" />
+
+<item itemtype="Node" CircId="Node-826" mainComp="false" Pos="100,208" />
+
+<item itemtype="Node" CircId="Node-828" mainComp="false" Pos="36,208" />
+
+<item itemtype="Node" CircId="Node-1136" mainComp="false" Pos="48,208" />
+
+<item itemtype="Node" CircId="Node-1249" mainComp="false" Pos="504,-96" />
+
+<item itemtype="Node" CircId="Node-1255" mainComp="false" Pos="504,60" />
+
+<item itemtype="Node" CircId="Node-1021" mainComp="false" Pos="-80,208" />
+
+<item itemtype="Node" CircId="Node-1266" mainComp="false" Pos="504,320" />
+
+<item itemtype="Node" CircId="Node-1260" mainComp="false" Pos="444,196" />
+
+<item itemtype="Node" CircId="Node-1246" mainComp="false" Pos="444,-164" />
+
+<item itemtype="Node" CircId="Node-818" mainComp="false" Pos="28,232" />
+
+<item itemtype="Node" CircId="Node-1257" mainComp="false" Pos="504,112" />
+
+<item itemtype="Node" CircId="Node-1271" mainComp="false" Pos="504,424" />
+
+<item itemtype="Node" CircId="Node-1270" mainComp="false" Pos="444,404" />
+
+<item itemtype="Node" CircId="Node-831" mainComp="false" Pos="12,232" />
+
+<item itemtype="Node" CircId="Node-810" mainComp="false" Pos="64,344" />
+
+<item itemtype="Node" CircId="Node-830" mainComp="false" Pos="20,224" />
+
+<item itemtype="Node" CircId="Node-824" mainComp="false" Pos="76,216" />
+
+<item itemtype="Node" CircId="Node-1229" mainComp="false" Pos="504,-200" />
+
+<item itemtype="Node" CircId="Node-1259" mainComp="false" Pos="504,164" />
+
+<item itemtype="Node" CircId="Node-1261" mainComp="false" Pos="504,216" />
+
+<item itemtype="Node" CircId="Node-840" mainComp="false" Pos="1064,440" />
+
+<item itemtype="Node" CircId="Node-1231" mainComp="false" Pos="504,-304" />
+
+<item itemtype="Node" CircId="Node-1140" mainComp="false" Pos="88,232" />
+
+<item itemtype="Node" CircId="Node-1254" mainComp="false" Pos="444,40" />
+
+<item itemtype="Node" CircId="Node-1268" mainComp="false" Pos="444,356" />
+
+<item itemtype="Node" CircId="Node-1273" mainComp="false" Pos="504,472" />
+
+<item itemtype="Node" CircId="Node-1138" mainComp="false" Pos="64,224" />
+
+<item itemtype="Node" CircId="Node-1247" mainComp="false" Pos="504,-152" />
+
+<item itemtype="Node" CircId="Node-829" mainComp="false" Pos="28,216" />
+
+<item itemtype="Node" CircId="Node-1230" mainComp="false" Pos="504,-252" />
+
+<item itemtype="Node" CircId="Node-1264" mainComp="false" Pos="504,268" />
+
+<item itemtype="Node" CircId="Node-1272" mainComp="false" Pos="444,456" />
+
+<item itemtype="Node" CircId="Node-839" mainComp="false" Pos="-76,208" />
+
+<item itemtype="Node" CircId="Node-1252" mainComp="false" Pos="444,-8" />
+
+<item itemtype="Node" CircId="Node-1258" mainComp="false" Pos="444,144" />
+
+<item itemtype="Node" CircId="Node-1274" mainComp="false" Pos="444,504" />
+
+<item itemtype="Node" CircId="Node-1245" mainComp="false" Pos="444,-216" />
+
+<item itemtype="Node" CircId="Node-1256" mainComp="false" Pos="444,92" />
+
+<item itemtype="Node" CircId="Node-820" mainComp="false" Pos="52,224" />
+
+<item itemtype="Node" CircId="Node-1265" mainComp="false" Pos="444,300" />
+
+<item itemtype="Node" CircId="Node-1253" mainComp="false" Pos="504,4" />
+
+<item itemtype="Connector" uid="Connector-2829" startpinid="Mosfet-1143-Sour" endpinid="Node-1231-1" pointList="480,-304,504,-304" />
+
+<item itemtype="Connector" uid="Connector-2835" startpinid="Node-1245-2" endpinid="Mosfet-1143-Dren" pointList="444,-216,444,-272,480,-272" />
+
+<item itemtype="Connector" uid="Connector-2872" startpinid="Mosfet-1237-Dren" endpinid="Node-1258-1" pointList="480,144,444,144" />
+
+<item itemtype="Connector" uid="Connector-1698" startpinid="Node-816-1" endpinid="Resistor-799-rPin" pointList="76,344,76,332" />
+
+<item itemtype="Connector" uid="Connector-1740" startpinid="Led-797-lPin" endpinid="Node-826-0" pointList="100,256,100,208" />
+
+<item itemtype="Connector" uid="Connector-2907" startpinid="Mosfet-1242-Sour" endpinid="Node-1269-1" pointList="480,372,480,368,504,368" />
+
+<item itemtype="Connector" uid="Connector-2915" startpinid="Node-1271-2" endpinid="Resistor-1159-rPin" pointList="504,424,504,432" />
+
+<item itemtype="Connector" uid="Connector-1744" startpinid="ADC-795-out0" endpinid="Node-828-1" pointList="-16,208,36,208" />
+
+<item itemtype="Connector" uid="Connector-2880" startpinid="Node-1260-2" endpinid="Node-1258-0" pointList="444,196,444,144" />
+
+<item itemtype="Connector" uid="Connector-2890" startpinid="Node-1263-2" endpinid="Node-1260-0" pointList="444,248,444,196" />
+
+<item itemtype="Connector" uid="Connector-2870" startpinid="Resistor-1150-lPin" endpinid="Node-1257-0" pointList="504,100,504,112" />
+
+<item itemtype="Connector" uid="Connector-2986" startpinid="Mosfet-1244-Dren" endpinid="Node-1274-0" pointList="480,504,444,504" />
+
+<item itemtype="Connector" uid="Connector-2896" startpinid="Node-1265-2" endpinid="Node-1263-0" pointList="444,300,444,248" />
+
+<item itemtype="Connector" uid="Connector-1686" startpinid="Resistor-809-rPin" endpinid="Node-798-0" pointList="28,332,28,344,48,344" />
+
+<item itemtype="Connector" uid="Connector-2628" startpinid="Node-1138-2" endpinid="Node-820-1" pointList="64,224,52,224" />
+
+<item itemtype="Connector" uid="Connector-2898" startpinid="Resistor-1207-lPin" endpinid="Node-1266-0" pointList="504,308,504,320" />
+
+<item itemtype="Connector" uid="Connector-2854" startpinid="Mosfet-1234-Dren" endpinid="Node-1252-1" pointList="480,-12,480,-8,444,-8" />
+
+<item itemtype="Connector" uid="Connector-2750" startpinid="Fixed Voltage-1190-outnod" endpinid="Resistor-1154-lPin" pointList="420,516,504,516" />
+
+<item itemtype="Connector" uid="Connector-2980" startpinid="BcdToDec-1067-out5" endpinid="Mosfet-1234-Gate" pointList="204,48,244,48,244,-28,456,-28" />
+
+<item itemtype="Connector" uid="Connector-2859" startpinid="Node-1253-2" endpinid="Resistor-1157-rPin" pointList="504,4,504,16" />
+
+<item itemtype="Connector" uid="Connector-2357" startpinid="Switch-833-switch0pinN" endpinid="Node-1021-0" pointList="-88,208,-80,208" />
+
+<item itemtype="Connector" uid="Connector-2620" startpinid="BcdToDec-1067-in0" endpinid="Node-1136-1" pointList="156,56,48,56,48,208" />
+
+<item itemtype="Connector" uid="Connector-1718" startpinid="Led-812-lPin" endpinid="Node-818-0" pointList="28,256,28,232" />
+
+<item itemtype="Connector" uid="Connector-2622" startpinid="Node-1136-2" endpinid="Node-828-0" pointList="48,208,36,208" />
+
+<item itemtype="Connector" uid="Connector-2974" startpinid="BcdToDec-1067-out2" endpinid="Mosfet-1227-Gate" pointList="204,24,220,24,220,-180,456,-180" />
+
+<item itemtype="Connector" uid="Connector-2840" startpinid="Resistor-1169-lPin" endpinid="Node-1247-0" pointList="504,-160,504,-152" />
+
+<item itemtype="Connector" uid="Connector-2894" startpinid="Mosfet-1240-Dren" endpinid="Node-1265-1" pointList="480,300,444,300" />
+
+<item itemtype="Connector" uid="Connector-2627" startpinid="DAC-791-in2" endpinid="Node-1138-0" pointList="268,576,156,576,156,224,64,224" />
+
+<item itemtype="Connector" uid="Connector-2634" startpinid="DAC-791-in3" endpinid="Node-1140-0" pointList="268,584,148,584,148,232,88,232" />
+
+<item itemtype="Connector" uid="Connector-2971" startpinid="BcdToDec-1067-out14" endpinid="Mosfet-1243-Gate" pointList="204,120,212,120,212,440,456,440" />
+
+<item itemtype="Connector" uid="Connector-2844" startpinid="Node-1248-2" endpinid="Node-1246-0" pointList="444,-112,444,-164" />
+
+<item itemtype="Connector" uid="Connector-2486" startpinid="DAC-791-in0" endpinid="Node-826-1" pointList="268,560,172,560,172,208,100,208" />
+
+<item itemtype="Connector" uid="Connector-2891" startpinid="Mosfet-1240-Sour" endpinid="Node-1264-1" pointList="480,268,504,268" />
+
+<item itemtype="Connector" uid="Connector-2987" startpinid="Node-1274-2" endpinid="Node-1272-0" pointList="444,504,444,456" />
+
+<item itemtype="Connector" uid="Connector-2824" startpinid="Resistor-1210-lPin" endpinid="Node-1229-0" pointList="504,-208,504,-200" />
+
+<item itemtype="Connector" uid="Connector-2355" startpinid="Node-839-2" endpinid="ADC-795-in0" pointList="-76,208,-64,208" />
+
+<item itemtype="Connector" uid="Connector-2970" startpinid="BcdToDec-1067-out15" endpinid="Mosfet-1244-Gate" pointList="204,128,204,488,456,488" />
+
+<item itemtype="Connector" uid="Connector-1690" startpinid="Resistor-805-lPin" endpinid="Led-797-rPin" pointList="100,300,100,288" />
+
+<item itemtype="Connector" uid="Connector-2623" startpinid="BcdToDec-1067-in1" endpinid="Node-1137-1" pointList="156,64,56,64,56,216" />
+
+<item itemtype="Connector" uid="Connector-2969" startpinid="BcdToDec-1067-out0" endpinid="Mosfet-1143-Gate" pointList="204,8,204,-288,456,-288" />
+
+<item itemtype="Connector" uid="Connector-2356" startpinid="Oscope-834-Pin0" endpinid="Node-1021-1" pointList="1092,376,1052,376,1052,540,-80,540,-80,208" />
+
+<item itemtype="Connector" uid="Connector-2841" startpinid="Node-1247-2" endpinid="Resistor-1225-rPin" pointList="504,-152,504,-140" />
+
+<item itemtype="Connector" uid="Connector-2913" startpinid="Mosfet-1243-Sour" endpinid="Node-1271-1" pointList="480,424,504,424" />
+
+<item itemtype="Connector" uid="Connector-2857" startpinid="Mosfet-1235-Sour" endpinid="Node-1253-1" pointList="480,8,480,4,504,4" />
+
+<item itemtype="Connector" uid="Connector-2865" startpinid="Node-1255-2" endpinid="Resistor-1150-rPin" pointList="504,60,504,68" />
+
+<item itemtype="Connector" uid="Connector-2979" startpinid="BcdToDec-1067-out10" endpinid="Mosfet-1239-Gate" pointList="204,88,244,88,244,232,456,232" />
+
+<item itemtype="Connector" uid="Connector-2864" startpinid="Resistor-1157-lPin" endpinid="Node-1255-0" pointList="504,48,504,60" />
+
+<item itemtype="Connector" uid="Connector-1770" startpinid="Node-840-1" endpinid="Oscope-834-Pin1" pointList="1064,440,1064,408,1092,408" />
+
+<item itemtype="Connector" uid="Connector-2827" startpinid="Resistor-1148-lPin" endpinid="Node-1230-0" pointList="504,-264,504,-252" />
+
+<item itemtype="Connector" uid="Connector-2918" startpinid="Node-1272-2" endpinid="Node-1270-0" pointList="444,456,444,404" />
+
+<item itemtype="Connector" uid="Connector-2972" startpinid="BcdToDec-1067-out1" endpinid="Mosfet-1226-Gate" pointList="204,16,212,16,212,-232,456,-232" />
+
+<item itemtype="Connector" uid="Connector-2882" startpinid="Resistor-1176-lPin" endpinid="Node-1261-0" pointList="504,204,504,216" />
+
+<item itemtype="Connector" uid="Connector-1747" startpinid="ADC-795-out1" endpinid="Node-829-1" pointList="-16,216,28,216" />
+
+<item itemtype="Connector" uid="Connector-2848" startpinid="Mosfet-1233-Dren" endpinid="Node-1250-1" pointList="480,-64,480,-60,444,-60" />
+
+<item itemtype="Connector" uid="Connector-2633" startpinid="BcdToDec-1067-in3" endpinid="Node-1140-1" pointList="156,80,88,80,88,232" />
+
+<item itemtype="Connector" uid="Connector-2847" startpinid="Node-1249-2" endpinid="Resistor-1161-rPin" pointList="504,-96,504,-88" />
+
+<item itemtype="Connector" uid="Connector-2875" startpinid="Mosfet-1238-Sour" endpinid="Node-1259-1" pointList="480,164,504,164" />
+
+<item itemtype="Connector" uid="Connector-1766" startpinid="Switch-838-pinP0" endpinid="Voltage Source-837-outPin" pointList="-120,144,-132,144" />
+
+<item itemtype="Connector" uid="Connector-2487" startpinid="DAC-791-in1" endpinid="Node-824-1" pointList="268,568,164,568,164,216,76,216" />
+
+<item itemtype="Connector" uid="Connector-1752" startpinid="Node-830-2" endpinid="7-Seg BCD-796-in2" pointList="20,224,20,204" />
+
+<item itemtype="Connector" uid="Connector-2909" startpinid="Node-1269-2" endpinid="Resistor-1182-rPin" pointList="504,368,504,380" />
+
+<item itemtype="Connector" uid="Connector-2842" startpinid="Mosfet-1232-Dren" endpinid="Node-1248-1" pointList="480,-116,480,-112,444,-112" />
+
+<item itemtype="Connector" uid="Connector-2868" startpinid="Node-1256-2" endpinid="Node-1254-0" pointList="444,92,444,40" />
+
+<item itemtype="Connector" uid="Connector-2888" startpinid="Mosfet-1239-Dren" endpinid="Node-1263-1" pointList="480,248,444,248" />
+
+<item itemtype="Connector" uid="Connector-2892" startpinid="Resistor-1202-lPin" endpinid="Node-1264-0" pointList="504,256,504,268" />
+
+<item itemtype="Connector" uid="Connector-1723" startpinid="Led-807-lPin" endpinid="Node-820-0" pointList="52,256,52,224" />
+
+<item itemtype="Connector" uid="Connector-2920" startpinid="Resistor-1154-rPin" endpinid="Node-1273-0" pointList="504,484,504,472" />
+
+<item itemtype="Connector" uid="Connector-2899" startpinid="Node-1266-2" endpinid="Resistor-1200-rPin" pointList="504,320,504,328" />
+
+<item itemtype="Connector" uid="Connector-2852" startpinid="Resistor-1161-lPin" endpinid="Node-1251-0" pointList="504,-56,504,-44" />
+
+<item itemtype="Connector" uid="Connector-1757" startpinid="WaveGen-832-outnod" endpinid="Switch-833-pinP0" pointList="-132,208,-120,208" />
+
+<item itemtype="Connector" uid="Connector-1749" startpinid="Node-829-2" endpinid="7-Seg BCD-796-in1" pointList="28,216,28,204" />
+
+<item itemtype="Connector" uid="Connector-2856" startpinid="Node-1252-2" endpinid="Node-1250-0" pointList="444,-8,444,-60" />
+
+<item itemtype="Connector" uid="Connector-2977" startpinid="BcdToDec-1067-out11" endpinid="Mosfet-1240-Gate" pointList="204,96,236,96,236,284,456,284" />
+
+<item itemtype="Connector" uid="Connector-1693" startpinid="Led-800-rPin" endpinid="Resistor-799-lPin" pointList="76,288,76,300" />
+
+<item itemtype="Connector" uid="Connector-2621" startpinid="Node-826-2" endpinid="Node-1136-0" pointList="100,208,48,208" />
+
+<item itemtype="Connector" uid="Connector-2838" startpinid="Node-1246-2" endpinid="Node-1245-0" pointList="444,-164,444,-216" />
+
+<item itemtype="Connector" uid="Connector-2982" startpinid="BcdToDec-1067-out6" endpinid="Mosfet-1235-Gate" pointList="204,56,252,56,252,24,456,24" />
+
+<item itemtype="Connector" uid="Connector-2876" startpinid="Resistor-1176-rPin" endpinid="Node-1259-0" pointList="504,172,504,164" />
+
+<item itemtype="Connector" uid="Connector-2817" startpinid="Ground-1208-Gnd" endpinid="Resistor-1211-rPin" pointList="460,-348,460,-356,504,-356,504,-348" />
+
+<item itemtype="Connector" uid="Connector-2897" startpinid="Mosfet-1241-Sour" endpinid="Node-1266-1" pointList="480,320,504,320" />
+
+<item itemtype="Connector" uid="Connector-1689" startpinid="Node-810-2" endpinid="Node-816-0" pointList="64,344,76,344" />
+
+<item itemtype="Connector" uid="Connector-2910" startpinid="Mosfet-1242-Dren" endpinid="Node-1270-1" pointList="480,404,444,404" />
+
+<item itemtype="Connector" uid="Connector-1751" startpinid="Node-820-2" endpinid="Node-830-0" pointList="52,224,20,224" />
+
+<item itemtype="Connector" uid="Connector-1771" startpinid="DAC-791-out0" endpinid="Node-840-0" pointList="316,560,1064,560,1064,440" />
+
+<item itemtype="Connector" uid="Connector-1691" startpinid="Led-807-rPin" endpinid="Resistor-815-lPin" pointList="52,288,52,300" />
+
+<item itemtype="Connector" uid="Connector-2908" startpinid="Resistor-1200-lPin" endpinid="Node-1269-0" pointList="504,360,504,368" />
+
+<item itemtype="Connector" uid="Connector-2904" startpinid="Mosfet-1241-Dren" endpinid="Node-1268-1" pointList="480,352,480,356,444,356" />
+
+<item itemtype="Connector" uid="Connector-2984" startpinid="BcdToDec-1067-out7" endpinid="Mosfet-1236-Gate" pointList="204,64,268,64,268,76,456,76" />
+
+<item itemtype="Connector" uid="Connector-2866" startpinid="Mosfet-1236-Dren" endpinid="Node-1256-1" pointList="480,92,444,92" />
+
+<item itemtype="Connector" uid="Connector-2975" startpinid="BcdToDec-1067-out12" endpinid="Mosfet-1241-Gate" pointList="204,104,228,104,228,336,456,336" />
+
+<item itemtype="Connector" uid="Connector-2358" startpinid="Node-1021-2" endpinid="Node-839-0" pointList="-80,208,-76,208" />
+
+<item itemtype="Connector" uid="Connector-2976" startpinid="BcdToDec-1067-out3" endpinid="Mosfet-1232-Gate" pointList="204,32,228,32,228,-132,456,-132" />
+
+<item itemtype="Connector" uid="Connector-2853" startpinid="Node-1251-2" endpinid="Resistor-1196-rPin" pointList="504,-44,504,-36" />
+
+<item itemtype="Connector" uid="Connector-2825" startpinid="Node-1229-2" endpinid="Resistor-1169-rPin" pointList="504,-200,504,-192" />
+
+<item itemtype="Connector" uid="Connector-2826" startpinid="Mosfet-1226-Sour" endpinid="Node-1230-1" pointList="480,-248,480,-252,504,-252" />
+
+<item itemtype="Connector" uid="Connector-2916" startpinid="Mosfet-1243-Dren" endpinid="Node-1272-1" pointList="480,456,444,456" />
+
+<item itemtype="Connector" uid="Connector-2881" startpinid="Mosfet-1239-Sour" endpinid="Node-1261-1" pointList="480,216,504,216" />
+
+<item itemtype="Connector" uid="Connector-2874" startpinid="Node-1258-2" endpinid="Node-1256-0" pointList="444,144,444,92" />
+
+<item itemtype="Connector" uid="Connector-1697" startpinid="Node-798-1" endpinid="Resistor-815-rPin" pointList="48,344,48,332,52,332" />
+
+<item itemtype="Connector" uid="Connector-2858" startpinid="Resistor-1196-lPin" endpinid="Node-1253-0" pointList="504,-4,504,4" />
+
+<item itemtype="Connector" uid="Connector-2860" startpinid="Mosfet-1235-Dren" endpinid="Node-1254-1" pointList="480,40,444,40" />
+
+<item itemtype="Connector" uid="Connector-2862" startpinid="Node-1254-2" endpinid="Node-1252-0" pointList="444,40,444,-8" />
+
+<item itemtype="Connector" uid="Connector-1750" startpinid="ADC-795-out2" endpinid="Node-830-1" pointList="-16,224,20,224" />
+
+<item itemtype="Connector" uid="Connector-2877" startpinid="Node-1259-2" endpinid="Resistor-1164-lPin" pointList="504,164,504,152" />
+
+<item itemtype="Connector" uid="Connector-2839" startpinid="Mosfet-1232-Sour" endpinid="Node-1247-1" pointList="480,-148,480,-152,504,-152" />
+
+<item itemtype="Connector" uid="Connector-2823" startpinid="Mosfet-1227-Sour" endpinid="Node-1229-1" pointList="480,-196,480,-200,504,-200" />
+
+<item itemtype="Connector" uid="Connector-2893" startpinid="Node-1264-2" endpinid="Resistor-1207-rPin" pointList="504,268,504,276" />
+
+<item itemtype="Connector" uid="Connector-1746" startpinid="Node-828-2" endpinid="7-Seg BCD-796-in0" pointList="36,208,36,204" />
+
+<item itemtype="Connector" uid="Connector-2878" startpinid="Mosfet-1238-Dren" endpinid="Node-1260-1" pointList="480,196,444,196" />
+
+<item itemtype="Connector" uid="Connector-2973" startpinid="BcdToDec-1067-out13" endpinid="Mosfet-1242-Gate" pointList="204,112,220,112,220,388,456,388" />
+
+<item itemtype="Connector" uid="Connector-1694" startpinid="Node-816-2" endpinid="Resistor-805-rPin" pointList="76,344,100,344,100,332" />
+
+<item itemtype="Connector" uid="Connector-1754" startpinid="Node-818-2" endpinid="Node-831-0" pointList="28,232,12,232" />
+
+<item itemtype="Connector" uid="Connector-1755" startpinid="Node-831-2" endpinid="7-Seg BCD-796-in3" pointList="12,232,12,204" />
+
+<item itemtype="Connector" uid="Connector-2850" startpinid="Node-1250-2" endpinid="Node-1248-0" pointList="444,-60,444,-112" />
+
+<item itemtype="Connector" uid="Connector-2625" startpinid="Node-1137-2" endpinid="Node-829-0" pointList="56,216,28,216" />
+
+<item itemtype="Connector" uid="Connector-2845" startpinid="Mosfet-1233-Sour" endpinid="Node-1249-1" pointList="480,-96,504,-96" />
+
+<item itemtype="Connector" uid="Connector-2921" startpinid="Node-1273-2" endpinid="Resistor-1159-lPin" pointList="504,472,504,464" />
+
+<item itemtype="Connector" uid="Connector-2985" startpinid="Node-1274-1" endpinid="Oscope-834-Pin3" pointList="444,504,444,532,1076,532,1076,472,1092,472" />
+
+<item itemtype="Connector" uid="Connector-2869" startpinid="Mosfet-1237-Sour" endpinid="Node-1257-1" pointList="480,112,504,112" />
+
+<item itemtype="Connector" uid="Connector-2906" startpinid="Node-1268-2" endpinid="Node-1265-0" pointList="444,356,444,300" />
+
+<item itemtype="Connector" uid="Connector-2981" startpinid="BcdToDec-1067-out9" endpinid="Mosfet-1238-Gate" pointList="204,80,252,80,252,180,456,180" />
+
+<item itemtype="Connector" uid="Connector-2635" startpinid="Node-1140-2" endpinid="Node-818-1" pointList="88,232,28,232" />
+
+<item itemtype="Connector" uid="Connector-2828" startpinid="Node-1230-2" endpinid="Resistor-1210-rPin" pointList="504,-252,504,-240" />
+
+<item itemtype="Connector" uid="Connector-1702" startpinid="Led-812-rPin" endpinid="Resistor-809-lPin" pointList="28,288,28,300" />
+
+<item itemtype="Connector" uid="Connector-2624" startpinid="Node-824-2" endpinid="Node-1137-0" pointList="76,216,56,216" />
+
+<item itemtype="Connector" uid="Connector-2914" startpinid="Resistor-1182-lPin" endpinid="Node-1271-0" pointList="504,412,504,424" />
+
+<item itemtype="Connector" uid="Connector-1692" startpinid="Node-798-2" endpinid="Node-810-0" pointList="48,344,64,344" />
+
+<item itemtype="Connector" uid="Connector-2626" startpinid="BcdToDec-1067-in2" endpinid="Node-1138-1" pointList="156,72,64,72,64,224" />
+
+<item itemtype="Connector" uid="Connector-2919" startpinid="Mosfet-1244-Sour" endpinid="Node-1273-1" pointList="480,472,504,472" />
+
+<item itemtype="Connector" uid="Connector-2830" startpinid="Resistor-1211-lPin" endpinid="Node-1231-0" pointList="504,-316,504,-304" />
+
+<item itemtype="Connector" uid="Connector-2836" startpinid="Mosfet-1227-Dren" endpinid="Node-1246-1" pointList="480,-164,444,-164" />
+
+<item itemtype="Connector" uid="Connector-2983" startpinid="BcdToDec-1067-out8" endpinid="Mosfet-1237-Gate" pointList="204,72,260,72,260,128,456,128" />
+
+<item itemtype="Connector" uid="Connector-1735" startpinid="Led-800-lPin" endpinid="Node-824-0" pointList="76,256,76,216" />
+
+<item itemtype="Connector" uid="Connector-2851" startpinid="Mosfet-1234-Sour" endpinid="Node-1251-1" pointList="480,-44,504,-44" />
+
+<item itemtype="Connector" uid="Connector-2871" startpinid="Node-1257-2" endpinid="Resistor-1164-rPin" pointList="504,112,504,120" />
+
+<item itemtype="Connector" uid="Connector-1767" startpinid="Switch-838-switch0pinN" endpinid="Node-839-1" pointList="-88,144,-76,144,-76,208" />
+
+<item itemtype="Connector" uid="Connector-1772" startpinid="Node-840-2" endpinid="Oscope-834-Pin2" pointList="1064,440,1092,440" />
+
+<item itemtype="Connector" uid="Connector-2863" startpinid="Mosfet-1236-Sour" endpinid="Node-1255-1" pointList="480,60,504,60" />
+
+<item itemtype="Connector" uid="Connector-2846" startpinid="Resistor-1225-lPin" endpinid="Node-1249-0" pointList="504,-108,504,-96" />
+
+<item itemtype="Connector" uid="Connector-2912" startpinid="Node-1270-2" endpinid="Node-1268-0" pointList="444,404,444,356" />
+
+<item itemtype="Connector" uid="Connector-2833" startpinid="Mosfet-1226-Dren" endpinid="Node-1245-1" pointList="480,-216,444,-216" />
+
+<item itemtype="Connector" uid="Connector-1753" startpinid="ADC-795-out3" endpinid="Node-831-1" pointList="-16,232,12,232" />
+
+<item itemtype="Connector" uid="Connector-2883" startpinid="Node-1261-2" endpinid="Resistor-1202-rPin" pointList="504,216,504,224" />
+
+<item itemtype="Connector" uid="Connector-2978" startpinid="BcdToDec-1067-out4" endpinid="Mosfet-1233-Gate" pointList="204,40,236,40,236,-80,456,-80" />
+
+<item itemtype="Connector" uid="Connector-2831" startpinid="Node-1231-2" endpinid="Resistor-1148-rPin" pointList="504,-304,504,-296" />
+
+<item itemtype="Connector" uid="Connector-1707" startpinid="Ground-804-Gnd" endpinid="Node-810-1" pointList="64,352,64,344" />
+
+</circuit>
