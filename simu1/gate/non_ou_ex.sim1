@@ -1,295 +1,383 @@
 <circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="Switch" CircId="Switch-154" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-364" rotation="0" hflip="1" vflip="1" label="Switch-154" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Subcircuit" CircId="74HC04-289" mainComp="false" Show_id="true" Show_Val="false" Pos="-172,-304" rotation="0" hflip="1" vflip="1" label="74HC04-289" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-108" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="52,-408" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-108" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Tunnel" CircId="Tunnel-213" mainComp="false" Show_id="false" Show_Val="false" Pos="-64,-308" rotation="0" hflip="1" vflip="1" label="Tunnel-213" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
 
-<item itemtype="Ground" CircId="Ground-105" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-248" rotation="0" hflip="1" vflip="1" label="Ground-105" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-189" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,-372" rotation="0" hflip="1" vflip="1" label="Tunnel-189" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Ground" CircId="Ground-97" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-172" rotation="0" hflip="1" vflip="1" label="Ground-97" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="RelaySPST" CircId="RelaySPST-92" mainComp="false" Show_id="false" Show_Val="false" Pos="32,-440" rotation="90" hflip="1" vflip="1" label="RelaySPST-92" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-151" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-312,-412" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-151" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Tunnel" CircId="Tunnel-287" mainComp="false" Show_id="false" Show_Val="false" Pos="16,-456" rotation="-90" hflip="1" vflip="1" label="Tunnel-287" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Resistor" CircId="Resistor-148" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-24,-340" rotation="0" hflip="1" vflip="1" label="Resistor-148" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+<item itemtype="RelaySPST" CircId="RelaySPST-102" mainComp="false" Show_id="false" Show_Val="false" Pos="104,-488" rotation="90" hflip="-1" vflip="1" label="RelaySPST-102" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Switch" CircId="Switch-122" mainComp="false" Show_id="false" Show_Val="false" Pos="108,-360" rotation="0" hflip="1" vflip="1" label="Switch-122" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Mosfet" CircId="Mosfet-132" mainComp="false" Show_id="false" Show_Val="false" Pos="-196,-444" rotation="0" hflip="1" vflip="-1" label="Mosfet-132" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="Switch" CircId="Switch-153" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-420" rotation="0" hflip="1" vflip="1" label="Switch-153" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Ground" CircId="Ground-294" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-228" rotation="0" hflip="1" vflip="1" label="Ground-294" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Ground" CircId="Ground-94" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-396" rotation="0" hflip="1" vflip="1" label="Ground-94" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-246" mainComp="false" Show_id="false" Show_Val="false" Pos="64,-320" rotation="90" hflip="1" vflip="1" label="Tunnel-246" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="false" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-102" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-368" rotation="90" hflip="-1" vflip="1" label="RelaySPST-102" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="Tunnel" CircId="Tunnel-220" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-516" rotation="0" hflip="1" vflip="1" label="Tunnel-220" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A" IsBus="false" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-103" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-288" rotation="90" hflip="-1" vflip="1" label="RelaySPST-103" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="Tunnel" CircId="Tunnel-195" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,-464" rotation="0" hflip="-1" vflip="1" label="Tunnel-195" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S3" IsBus="false" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-101" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-436" rotation="90" hflip="-1" vflip="1" label="RelaySPST-101" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="Subcircuit" CircId="74HC86-162" mainComp="false" Show_id="true" Show_Val="false" Pos="-224,-312" rotation="0" hflip="1" vflip="1" label="74HC86-162" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-92" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-288" rotation="90" hflip="1" vflip="1" label="RelaySPST-92" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="RelaySPST" CircId="RelaySPST-90" mainComp="false" Show_id="false" Show_Val="false" Pos="32,-536" rotation="90" hflip="1" vflip="1" label="RelaySPST-90" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Mosfet" CircId="Mosfet-137" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,-364" rotation="0" hflip="1" vflip="-1" label="Mosfet-137" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="Ground" CircId="Ground-149" mainComp="false" Show_id="false" Show_Val="false" Pos="64,-228" rotation="0" hflip="1" vflip="1" label="Ground-149" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Ground" CircId="Ground-99" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-328" rotation="0" hflip="1" vflip="1" label="Ground-99" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="RelaySPST" CircId="RelaySPST-91" mainComp="false" Show_id="false" Show_Val="false" Pos="32,-488" rotation="90" hflip="1" vflip="1" label="RelaySPST-91" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Mosfet" CircId="Mosfet-135" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,-256" rotation="0" hflip="-1" vflip="-1" label="Mosfet-135" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="Tunnel" CircId="Tunnel-252" mainComp="false" Show_id="false" Show_Val="false" Pos="-224,-352" rotation="0" hflip="1" vflip="1" label="Tunnel-252" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A" IsBus="false" />
 
-<item itemtype="Ground" CircId="Ground-149" mainComp="false" Show_id="false" Show_Val="false" Pos="0,-312" rotation="0" hflip="1" vflip="1" label="Ground-149" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-181" mainComp="false" Show_id="false" Show_Val="false" Pos="16,-552" rotation="-90" hflip="1" vflip="1" label="Tunnel-181" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Ground" CircId="Ground-111" mainComp="false" Show_id="false" Show_Val="false" Pos="224,-172" rotation="0" hflip="1" vflip="1" label="Ground-111" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-259" mainComp="false" Show_id="false" Show_Val="false" Pos="88,-320" rotation="90" hflip="1" vflip="1" label="Tunnel-259" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S3" IsBus="false" />
 
-<item itemtype="Mosfet" CircId="Mosfet-138" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,-256" rotation="0" hflip="1" vflip="-1" label="Mosfet-138" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="Ground" CircId="Ground-160" mainComp="false" Show_id="false" Show_Val="false" Pos="-56,-236" rotation="0" hflip="1" vflip="1" label="Ground-160" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Ground" CircId="Ground-160" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-188" rotation="0" hflip="1" vflip="1" label="Ground-160" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Mosfet" CircId="Mosfet-135" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-392" rotation="0" hflip="-1" vflip="-1" label="Mosfet-135" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-98" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-220" rotation="90" hflip="-1" vflip="1" label="RelaySPST-98" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="Tunnel" CircId="Tunnel-270" mainComp="false" Show_id="false" Show_Val="false" Pos="120,-376" rotation="90" hflip="1" vflip="1" label="Tunnel-270" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Ground" CircId="Ground-100" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-396" rotation="0" hflip="1" vflip="1" label="Ground-100" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-286" mainComp="false" Show_id="false" Show_Val="false" Pos="120,-552" rotation="-90" hflip="1" vflip="1" label="Tunnel-286" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Ground" CircId="Ground-104" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-172" rotation="0" hflip="1" vflip="1" label="Ground-104" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="RelaySPST" CircId="RelaySPST-101" mainComp="false" Show_id="false" Show_Val="false" Pos="104,-536" rotation="90" hflip="-1" vflip="1" label="RelaySPST-101" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Led" CircId="Led-147" mainComp="false" Show_id="false" Show_Val="false" Pos="-64,-340" rotation="0" hflip="1" vflip="1" label="Led-147" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-236" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-304" rotation="0" hflip="1" vflip="1" label="Tunnel-236" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A" IsBus="false" />
 
-<item itemtype="Ground" CircId="Ground-96" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-248" rotation="0" hflip="1" vflip="1" label="Ground-96" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Ground" CircId="Ground-296" mainComp="false" Show_id="false" Show_Val="false" Pos="40,-228" rotation="0" hflip="1" vflip="1" label="Ground-296" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Mosfet" CircId="Mosfet-133" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,-420" rotation="0" hflip="-1" vflip="-1" label="Mosfet-133" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="RelaySPST" CircId="RelaySPST-98" mainComp="false" Show_id="false" Show_Val="false" Pos="104,-392" rotation="90" hflip="-1" vflip="1" label="RelaySPST-98" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Switch" CircId="Switch-121" mainComp="false" Show_id="false" Show_Val="false" Pos="108,-416" rotation="0" hflip="1" vflip="1" label="Switch-121" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Mosfet" CircId="Mosfet-139" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-444" rotation="0" hflip="-1" vflip="-1" label="Mosfet-139" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="Ground" CircId="Ground-95" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-328" rotation="0" hflip="1" vflip="1" label="Ground-95" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-204" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-288" rotation="0" hflip="-1" vflip="1" label="Tunnel-204" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A" IsBus="false" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-93" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-220" rotation="90" hflip="1" vflip="1" label="RelaySPST-93" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="Switch" CircId="Switch-153" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,-288" rotation="0" hflip="1" vflip="1" label="Switch-153" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
 
-<item itemtype="Resistor" CircId="Resistor-129" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="360,-320" rotation="0" hflip="1" vflip="1" label="Resistor-129" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-219" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-508" rotation="0" hflip="1" vflip="1" label="Tunnel-219" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B" IsBus="false" />
 
-<item itemtype="Mosfet" CircId="Mosfet-139" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,-308" rotation="0" hflip="-1" vflip="-1" label="Mosfet-139" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="Resistor" CircId="Resistor-129" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="88,-264" rotation="90" hflip="1" vflip="1" label="Resistor-129" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
 
-<item itemtype="Mosfet" CircId="Mosfet-134" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,-364" rotation="0" hflip="-1" vflip="-1" label="Mosfet-134" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="Mosfet" CircId="Mosfet-134" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-488" rotation="0" hflip="-1" vflip="-1" label="Mosfet-134" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="Led" CircId="Led-127" mainComp="false" Show_id="false" Show_Val="false" Pos="320,-320" rotation="0" hflip="1" vflip="1" label="Led-127" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-276" mainComp="false" Show_id="false" Show_Val="false" Pos="120,-472" rotation="90" hflip="1" vflip="1" label="Tunnel-276" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Mosfet" CircId="Mosfet-132" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,-308" rotation="0" hflip="1" vflip="-1" label="Mosfet-132" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="Mosfet" CircId="Mosfet-133" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-536" rotation="0" hflip="-1" vflip="-1" label="Mosfet-133" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="true" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="Ground" CircId="Ground-130" mainComp="false" Show_id="false" Show_Val="false" Pos="384,-292" rotation="0" hflip="1" vflip="1" label="Ground-130" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-197" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-560" rotation="0" hflip="1" vflip="1" label="Tunnel-197" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-90" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-436" rotation="90" hflip="1" vflip="1" label="RelaySPST-90" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="Mosfet" CircId="Mosfet-136" mainComp="false" Show_id="false" Show_Val="false" Pos="-196,-536" rotation="0" hflip="1" vflip="-1" label="Mosfet-136" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="RelaySPST" CircId="RelaySPST-91" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-368" rotation="90" hflip="1" vflip="1" label="RelaySPST-91" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
+<item itemtype="Led" CircId="Led-297" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-300" rotation="90" hflip="1" vflip="1" label="Led-297" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
-<item itemtype="Mosfet" CircId="Mosfet-136" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,-420" rotation="0" hflip="1" vflip="-1" label="Mosfet-136" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="1 V" />
+<item itemtype="Switch" CircId="Switch-154" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,-252" rotation="0" hflip="1" vflip="1" label="Switch-154" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
 
-<item itemtype="Node" CircId="Node-128" mainComp="false" Pos="248,-312" />
+<item itemtype="Tunnel" CircId="Tunnel-203" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-252" rotation="0" hflip="-1" vflip="1" label="Tunnel-203" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-145" mainComp="false" Pos="-200,-276" />
+<item itemtype="Tunnel" CircId="Tunnel-247" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-368" rotation="0" hflip="1" vflip="1" label="Tunnel-247" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-150" mainComp="false" Pos="-136,-336" />
+<item itemtype="Tunnel" CircId="Tunnel-288" mainComp="false" Show_id="false" Show_Val="false" Pos="120,-456" rotation="-90" hflip="1" vflip="1" label="Tunnel-288" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-155" mainComp="false" Pos="-280,-412" />
+<item itemtype="Resistor" CircId="Resistor-293" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="40,-264" rotation="90" hflip="1" vflip="1" label="Resistor-293" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="30 Ω" />
 
-<item itemtype="Node" CircId="Node-131" mainComp="false" Pos="84,-408" />
+<item itemtype="Tunnel" CircId="Tunnel-235" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-296" rotation="0" hflip="1" vflip="1" label="Tunnel-235" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-146" mainComp="false" Pos="-200,-388" />
+<item itemtype="Resistor" CircId="Resistor-298" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="112,-264" rotation="90" hflip="1" vflip="1" label="Resistor-298" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
 
-<item itemtype="Node" CircId="Node-120" mainComp="false" Pos="272,-456" />
+<item itemtype="Led" CircId="Led-295" mainComp="false" Show_id="false" Show_Val="false" Pos="40,-300" rotation="90" hflip="1" vflip="1" label="Led-295" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
-<item itemtype="Node" CircId="Node-118" mainComp="false" Pos="272,-388" />
+<item itemtype="TextComponent" CircId="TextComponent-179" mainComp="false" Show_id="false" Show_Val="false" Pos="-76,-460" rotation="0" hflip="1" vflip="1" label="TextComponent-179" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="true" Text="XNOR" />
 
-<item itemtype="Node" CircId="Node-123" mainComp="false" Pos="152,-360" />
+<item itemtype="RelaySPST" CircId="RelaySPST-93" mainComp="false" Show_id="false" Show_Val="false" Pos="32,-392" rotation="90" hflip="1" vflip="1" label="RelaySPST-93" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Node" CircId="Node-117" mainComp="false" Pos="180,-388" />
+<item itemtype="Tunnel" CircId="Tunnel-184" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,-296" rotation="0" hflip="-1" vflip="1" label="Tunnel-184" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-159" mainComp="false" Pos="-176,-448" />
+<item itemtype="Tunnel" CircId="Tunnel-182" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-182" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-156" mainComp="false" Pos="-208,-420" />
+<item itemtype="Tunnel" CircId="Tunnel-183" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-500" rotation="0" hflip="1" vflip="1" label="Tunnel-183" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-142" mainComp="false" Pos="-208,-308" />
+<item itemtype="Tunnel" CircId="Tunnel-225" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,-348" rotation="0" hflip="-1" vflip="1" label="Tunnel-225" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-114" mainComp="false" Pos="248,-320" />
+<item itemtype="RelaySPST" CircId="RelaySPST-103" mainComp="false" Show_id="false" Show_Val="false" Pos="104,-440" rotation="90" hflip="-1" vflip="1" label="RelaySPST-103" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" ReaStep="0 ns" />
 
-<item itemtype="Node" CircId="Node-113" mainComp="false" Pos="196,-320" />
+<item itemtype="Tunnel" CircId="Tunnel-253" mainComp="false" Show_id="false" Show_Val="false" Pos="40,-320" rotation="90" hflip="1" vflip="1" label="Tunnel-253" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-125" mainComp="false" Pos="196,-468" />
+<item itemtype="Resistor" CircId="Resistor-148" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="64,-264" rotation="90" hflip="1" vflip="1" label="Resistor-148" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="30 Ω" />
 
-<item itemtype="Node" CircId="Node-126" mainComp="false" Pos="84,-416" />
+<item itemtype="Led" CircId="Led-147" mainComp="false" Show_id="false" Show_Val="false" Pos="64,-300" rotation="90" hflip="1" vflip="1" label="Led-147" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
-<item itemtype="Node" CircId="Node-158" mainComp="false" Pos="-280,-420" />
+<item itemtype="Tunnel" CircId="Tunnel-275" mainComp="false" Show_id="false" Show_Val="false" Pos="16,-472" rotation="90" hflip="1" vflip="1" label="Tunnel-275" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-119" mainComp="false" Pos="180,-456" />
+<item itemtype="Tunnel" CircId="Tunnel-190" mainComp="false" Show_id="false" Show_Val="false" Pos="132,-464" rotation="0" hflip="-1" vflip="1" label="Tunnel-190" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S4" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-141" mainComp="false" Pos="-116,-336" />
+<item itemtype="Mosfet" CircId="Mosfet-138" mainComp="false" Show_id="false" Show_Val="false" Pos="-196,-392" rotation="0" hflip="1" vflip="-1" label="Mosfet-138" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="Node" CircId="Node-140" mainComp="false" Pos="-176,-336" />
+<item itemtype="Xor Gate" CircId="Xor Gate-163" mainComp="false" Show_id="false" Show_Val="false" Pos="-204,-348" rotation="0" hflip="1" vflip="1" label="Xor Gate-163" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="true" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
 
-<item itemtype="Node" CircId="Node-157" mainComp="false" Pos="-220,-364" />
+<item itemtype="Ground" CircId="Ground-130" mainComp="false" Show_id="false" Show_Val="false" Pos="88,-228" rotation="0" hflip="1" vflip="1" label="Ground-130" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Node" CircId="Node-143" mainComp="false" Pos="-208,-392" />
+<item itemtype="TextComponent" CircId="TextComponent-290" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,-352" rotation="0" hflip="1" vflip="1" label="TextComponent-290" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="9 _Pixels" Font_Color="#000080" Fixed_Width="true" Text="74HC7266" />
 
-<item itemtype="Node" CircId="Node-161" mainComp="false" Pos="-148,-220" />
+<item itemtype="Tunnel" CircId="Tunnel-199" mainComp="false" Show_id="false" Show_Val="false" Pos="-68,-256" rotation="0" hflip="1" vflip="1" label="Tunnel-199" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-124" mainComp="false" Pos="160,-416" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-151" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-68,-288" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-151" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Node" CircId="Node-112" mainComp="false" Pos="224,-196" />
+<item itemtype="Tunnel" CircId="Tunnel-251" mainComp="false" Show_id="false" Show_Val="false" Pos="-224,-344" rotation="0" hflip="1" vflip="1" label="Tunnel-251" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B" IsBus="false" />
 
-<item itemtype="Connector" uid="Connector-444" startpinid="Node-161-1" endpinid="Ground-160-Gnd" pointList="-148,-220,-148,-204" />
+<item itemtype="Mosfet" CircId="Mosfet-137" mainComp="false" Show_id="false" Show_Val="false" Pos="-196,-488" rotation="0" hflip="1" vflip="-1" label="Mosfet-137" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="1 V" />
 
-<item itemtype="Connector" uid="Connector-443" startpinid="Node-159-2" endpinid="Mosfet-133-Sour" pointList="-176,-448,-116,-448,-116,-436" />
+<item itemtype="Tunnel" CircId="Tunnel-215" mainComp="false" Show_id="false" Show_Val="false" Pos="16,-376" rotation="90" hflip="1" vflip="1" label="Tunnel-215" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
 
-<item itemtype="Connector" uid="Connector-362" startpinid="RelaySPST-92-inductor-lPin" endpinid="Node-124-0" pointList="180,-304,180,-308,160,-308,160,-416" />
+<item itemtype="Led" CircId="Led-127" mainComp="false" Show_id="false" Show_Val="false" Pos="88,-300" rotation="90" hflip="1" vflip="1" label="Led-127" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
-<item itemtype="Connector" uid="Connector-442" startpinid="Mosfet-136-Sour" endpinid="Node-159-0" pointList="-176,-436,-176,-448" />
+<item itemtype="Tunnel" CircId="Tunnel-250" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-320" rotation="90" hflip="1" vflip="1" label="Tunnel-250" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S4" IsBus="false" />
 
-<item itemtype="Connector" uid="Connector-372" startpinid="Node-128-2" endpinid="RelaySPST-103-pinP2" pointList="248,-312,248,-304,256,-304" />
+<item itemtype="Tunnel" CircId="Tunnel-180" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,-560" rotation="0" hflip="1" vflip="1" label="Tunnel-180" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
 
-<item itemtype="Connector" uid="Connector-405" startpinid="Node-142-2" endpinid="Mosfet-132-Gate" pointList="-208,-308,-200,-308" />
+<item itemtype="Node" CircId="Node-114" mainComp="false" Pos="80,-468" />
 
-<item itemtype="Connector" uid="Connector-365" startpinid="Node-125-1" endpinid="Node-126-1" pointList="196,-468,84,-468,84,-416" />
+<item itemtype="Node" CircId="Node-269" mainComp="false" Pos="48,-560" />
 
-<item itemtype="Connector" uid="Connector-397" startpinid="Mosfet-137-Dren" endpinid="Node-140-0" pointList="-176,-348,-176,-336" />
+<item itemtype="Node" CircId="Node-272" mainComp="false" Pos="-212,-524" />
 
-<item itemtype="Connector" uid="Connector-412" startpinid="Mosfet-139-Gate" endpinid="Node-142-0" pointList="-92,-308,-84,-308,-84,-284,-208,-284,-208,-308" />
+<item itemtype="Node" CircId="Node-279" mainComp="false" Pos="68,-516" />
 
-<item itemtype="Connector" uid="Connector-303" startpinid="RelaySPST-92-inductor-rPin" endpinid="Ground-96-Gnd" pointList="180,-272,180,-264" />
+<item itemtype="Node" CircId="Node-140" mainComp="false" Pos="-188,-468" />
 
-<item itemtype="Connector" uid="Connector-438" startpinid="Node-157-2" endpinid="Node-146-1" pointList="-220,-364,-220,-388,-200,-388" />
+<item itemtype="Node" CircId="Node-141" mainComp="false" Pos="-156,-468" />
 
-<item itemtype="Connector" uid="Connector-302" startpinid="RelaySPST-103-inductor-rPin" endpinid="Ground-105-Gnd" pointList="272,-272,272,-264" />
+<item itemtype="Node" CircId="Node-159" mainComp="false" Pos="-188,-560" />
 
-<item itemtype="Connector" uid="Connector-366" startpinid="RelaySPST-90-pinP2" endpinid="Node-125-0" pointList="196,-452,196,-468" />
+<item itemtype="Node" CircId="Node-278" mainComp="false" Pos="64,-412" />
 
-<item itemtype="Connector" uid="Connector-419" startpinid="Resistor-148-rPin" endpinid="Ground-149-Gnd" pointList="-8,-340,0,-340,0,-328" />
+<item itemtype="Node" CircId="Node-176" mainComp="false" Pos="-172,-516" />
 
-<item itemtype="Connector" uid="Connector-355" startpinid="Node-119-2" endpinid="RelaySPST-90-inductor-lPin" pointList="180,-456,180,-452" />
+<item itemtype="Node" CircId="Node-266" mainComp="false" Pos="-48,-288" />
 
-<item itemtype="Connector" uid="Connector-436" startpinid="Node-157-1" endpinid="Switch-154-switch0pinN" pointList="-220,-364,-240,-364" />
+<item itemtype="Node" CircId="Node-285" mainComp="false" Pos="48,-368" />
 
-<item itemtype="Connector" uid="Connector-361" startpinid="Switch-121-switch0pinN" endpinid="Node-124-1" pointList="124,-416,160,-416" />
+<item itemtype="Node" CircId="Node-128" mainComp="false" Pos="80,-464" />
 
-<item itemtype="Connector" uid="Connector-326" startpinid="Ground-99-Gnd" endpinid="RelaySPST-102-inductor-rPin" pointList="272,-344,272,-352" />
+<item itemtype="Node" CircId="Node-166" mainComp="false" Pos="-176,-412" />
 
-<item itemtype="Connector" uid="Connector-360" startpinid="Node-123-2" endpinid="RelaySPST-93-inductor-lPin" pointList="152,-360,152,-236,180,-236" />
+<item itemtype="Node" CircId="Node-273" mainComp="false" Pos="-212,-500" />
 
-<item itemtype="Connector" uid="Connector-415" startpinid="Mosfet-135-Gate" endpinid="Node-145-0" pointList="-92,-256,-92,-276,-200,-276" />
+<item itemtype="Node" CircId="Node-281" mainComp="false" Pos="32,-516" />
 
-<item itemtype="Connector" uid="Connector-426" startpinid="Node-155-2" endpinid="Switch-154-pinP0" pointList="-280,-412,-280,-364,-272,-364" />
+<item itemtype="Node" CircId="Node-174" mainComp="false" Pos="-156,-464" />
 
-<item itemtype="Connector" uid="Connector-388" startpinid="Mosfet-136-Dren" endpinid="Mosfet-137-Sour" pointList="-176,-404,-176,-380" />
+<item itemtype="Node" CircId="Node-280" mainComp="false" Pos="68,-420" />
 
-<item itemtype="Connector" uid="Connector-441" startpinid="Node-158-2" endpinid="Node-155-0" pointList="-280,-420,-280,-412" />
+<item itemtype="Node" CircId="Node-277" mainComp="false" Pos="64,-508" />
 
-<item itemtype="Connector" uid="Connector-440" startpinid="Switch-153-pinP0" endpinid="Node-158-0" pointList="-272,-420,-280,-420" />
+<item itemtype="Node" CircId="Node-165" mainComp="false" Pos="-176,-508" />
 
-<item itemtype="Connector" uid="Connector-376" startpinid="Node-125-2" endpinid="RelaySPST-101-pinP2" pointList="196,-468,256,-468,256,-452" />
+<item itemtype="Node" CircId="Node-178" mainComp="false" Pos="-172,-420" />
 
-<item itemtype="Connector" uid="Connector-336" startpinid="Node-113-2" endpinid="RelaySPST-92-pinP2" pointList="196,-320,196,-304" />
+<item itemtype="Node" CircId="Node-260" mainComp="false" Pos="-188,-372" />
 
-<item itemtype="Connector" uid="Connector-371" startpinid="Node-114-2" endpinid="Node-128-0" pointList="248,-320,248,-312" />
+<item itemtype="Node" CircId="Node-155" mainComp="false" Pos="-44,-288" />
 
-<item itemtype="Connector" uid="Connector-416" startpinid="Node-145-2" endpinid="Mosfet-138-Gate" pointList="-200,-276,-200,-256" />
+<item itemtype="Node" CircId="Node-113" mainComp="false" Pos="48,-468" />
 
-<item itemtype="Connector" uid="Connector-377" startpinid="Fixed Voltage-108-outnod" endpinid="Node-131-1" pointList="68,-408,84,-408" />
+<item itemtype="Node" CircId="Node-117" mainComp="false" Pos="32,-508" />
 
-<item itemtype="Connector" uid="Connector-403" startpinid="Node-142-1" endpinid="Node-143-1" pointList="-208,-308,-208,-392" />
+<item itemtype="Connector" uid="Connector-577" startpinid="RelaySPST-93-inductor-lPin" endpinid="Node-278-0" pointList="32,-408,32,-412,64,-412" />
 
-<item itemtype="Connector" uid="Connector-370" startpinid="Led-127-lPin" endpinid="Node-128-1" pointList="304,-320,260,-320,260,-312,248,-312" />
+<item itemtype="Connector" uid="Connector-614" startpinid="Tunnel-190-pin" endpinid="Node-128-1" pointList="132,-464,80,-464" />
 
-<item itemtype="Connector" uid="Connector-363" startpinid="Node-124-2" endpinid="Node-119-0" pointList="160,-416,160,-456,180,-456" />
+<item itemtype="Connector" uid="Connector-499" startpinid="Tunnel-189-pin" endpinid="Node-260-1" pointList="-220,-372,-188,-372" />
 
-<item itemtype="Connector" uid="Connector-446" startpinid="Node-161-2" endpinid="Mosfet-135-Dren" pointList="-148,-220,-116,-220,-116,-240" />
+<item itemtype="Connector" uid="Connector-583" startpinid="Node-280-2" endpinid="RelaySPST-103-inductor-rPin" pointList="68,-420,104,-420,104,-424" />
 
-<item itemtype="Connector" uid="Connector-305" startpinid="Ground-95-Gnd" endpinid="RelaySPST-91-inductor-rPin" pointList="180,-344,180,-352" />
+<item itemtype="Connector" uid="Connector-522" startpinid="Tunnel-180-pin" endpinid="Node-159-1" pointList="-220,-560,-188,-560" />
 
-<item itemtype="Connector" uid="Connector-351" startpinid="RelaySPST-102-inductor-lPin" endpinid="Node-118-0" pointList="272,-384,272,-388" />
+<item itemtype="Connector" uid="Connector-575" startpinid="RelaySPST-102-inductor-lPin" endpinid="Node-277-0" pointList="104,-504,104,-508,64,-508" />
 
-<item itemtype="Connector" uid="Connector-421" startpinid="Led-147-lPin" endpinid="Node-150-1" pointList="-80,-340,-136,-340,-136,-336" />
+<item itemtype="Connector" uid="Connector-578" startpinid="Node-278-2" endpinid="RelaySPST-98-inductor-lPin" pointList="64,-412,104,-412,104,-408" />
 
-<item itemtype="Connector" uid="Connector-334" startpinid="Node-113-1" endpinid="Node-114-1" pointList="196,-320,248,-320" />
+<item itemtype="Connector" uid="Connector-576" startpinid="Node-277-2" endpinid="Node-117-1" pointList="64,-508,32,-508" />
 
-<item itemtype="Connector" uid="Connector-332" startpinid="RelaySPST-93-switch0pinN" endpinid="Node-112-0" pointList="196,-204,196,-196,224,-196" />
+<item itemtype="Connector" uid="Connector-620" startpinid="Led-127-lPin" endpinid="Tunnel-259-pin" pointList="88,-316,88,-320" />
 
-<item itemtype="Connector" uid="Connector-445" startpinid="Mosfet-138-Dren" endpinid="Node-161-0" pointList="-176,-240,-176,-220,-148,-220" />
+<item itemtype="Connector" uid="Connector-488" startpinid="Node-176-1" endpinid="Mosfet-133-Gate" pointList="-172,-516,-132,-516,-132,-536" />
 
-<item itemtype="Connector" uid="Connector-435" startpinid="Node-156-2" endpinid="Mosfet-136-Gate" pointList="-208,-420,-200,-420" />
+<item itemtype="Connector" uid="Connector-562" startpinid="RelaySPST-98-inductor-rPin" endpinid="Tunnel-270-pin" pointList="104,-376,120,-376" />
 
-<item itemtype="Connector" uid="Connector-387" startpinid="RelaySPST-103-switch0pinN" endpinid="RelaySPST-98-pinP2" pointList="256,-272,256,-236" />
+<item itemtype="Connector" uid="Connector-560" startpinid="Tunnel-183-pin" endpinid="Node-273-1" pointList="-228,-500,-212,-500" />
 
-<item itemtype="Connector" uid="Connector-422" startpinid="Node-140-1" endpinid="Node-150-0" pointList="-176,-336,-136,-336" />
+<item itemtype="Connector" uid="Connector-565" startpinid="RelaySPST-102-inductor-rPin" endpinid="Tunnel-276-pin" pointList="104,-472,120,-472" />
 
-<item itemtype="Connector" uid="Connector-359" startpinid="Node-117-2" endpinid="Node-123-0" pointList="180,-388,152,-388,152,-360" />
+<item itemtype="Connector" uid="Connector-386" startpinid="RelaySPST-92-switch1pinN" endpinid="RelaySPST-93-pinP2" pointList="56,-424,56,-408,48,-408" />
 
-<item itemtype="Connector" uid="Connector-358" startpinid="Switch-122-switch0pinN" endpinid="Node-123-1" pointList="124,-360,152,-360" />
+<item itemtype="Connector" uid="Connector-500" startpinid="Mosfet-138-Dren" endpinid="Node-260-0" pointList="-188,-376,-188,-372" />
 
-<item itemtype="Connector" uid="Connector-379" startpinid="Node-131-2" endpinid="Switch-122-pinP0" pointList="84,-408,84,-360,92,-360" />
+<item itemtype="Connector" uid="Connector-542" startpinid="Xor Gate-163-in0" endpinid="Tunnel-252-pin" pointList="-220,-352,-224,-352" />
 
-<item itemtype="Connector" uid="Connector-348" startpinid="Node-117-1" endpinid="Node-118-1" pointList="180,-388,272,-388" />
+<item itemtype="Connector" uid="Connector-604" startpinid="Tunnel-288-pin" endpinid="RelaySPST-103-inductor-lPin" pointList="120,-456,104,-456" />
 
-<item itemtype="Connector" uid="Connector-337" startpinid="RelaySPST-102-switch1pinN" endpinid="Node-114-0" pointList="248,-352,248,-320" />
+<item itemtype="Connector" uid="Connector-389" startpinid="Mosfet-133-Dren" endpinid="Mosfet-134-Sour" pointList="-156,-520,-156,-504" />
 
-<item itemtype="Connector" uid="Connector-384" startpinid="RelaySPST-90-switch0pinN" endpinid="RelaySPST-91-pinP2" pointList="196,-420,196,-384" />
+<item itemtype="Connector" uid="Connector-615" startpinid="Resistor-293-lPin" endpinid="Led-295-rPin" pointList="40,-280,40,-284" />
 
-<item itemtype="Connector" uid="Connector-306" startpinid="Ground-100-Gnd" endpinid="RelaySPST-101-inductor-rPin" pointList="272,-412,272,-420" />
+<item itemtype="Connector" uid="Connector-498" startpinid="Node-178-2" endpinid="Mosfet-132-Gate" pointList="-172,-420,-212,-420,-212,-444" />
 
-<item itemtype="Connector" uid="Connector-331" startpinid="Ground-111-Gnd" endpinid="Node-112-1" pointList="224,-188,224,-196" />
+<item itemtype="Connector" uid="Connector-385" startpinid="RelaySPST-101-switch1pinN" endpinid="RelaySPST-102-pinP2" pointList="80,-520,80,-504,88,-504" />
 
-<item itemtype="Connector" uid="Connector-439" startpinid="Node-158-1" endpinid="Node-159-1" pointList="-280,-420,-280,-448,-176,-448" />
+<item itemtype="Connector" uid="Connector-482" startpinid="Node-174-2" endpinid="Mosfet-139-Sour" pointList="-156,-464,-156,-460" />
 
-<item itemtype="Connector" uid="Connector-378" startpinid="Node-126-2" endpinid="Node-131-0" pointList="84,-416,84,-408" />
+<item itemtype="Connector" uid="Connector-540" startpinid="RelaySPST-90-pinP2" endpinid="Node-269-0" pointList="48,-552,48,-560" />
 
-<item itemtype="Connector" uid="Connector-418" startpinid="Node-146-2" endpinid="Mosfet-134-Gate" pointList="-200,-388,-92,-388,-92,-364" />
+<item itemtype="Connector" uid="Connector-545" startpinid="Tunnel-235-pin" endpinid="74HC86-162-1B" pointList="-236,-296,-232,-296" />
 
-<item itemtype="Connector" uid="Connector-420" startpinid="Resistor-148-lPin" endpinid="Led-147-rPin" pointList="-40,-340,-48,-340" />
+<item itemtype="Connector" uid="Connector-420" startpinid="Resistor-148-lPin" endpinid="Led-147-rPin" pointList="64,-280,64,-284" />
 
-<item itemtype="Connector" uid="Connector-374" startpinid="Resistor-129-rPin" endpinid="Ground-130-Gnd" pointList="376,-320,384,-320,384,-308" />
+<item itemtype="Connector" uid="Connector-621" startpinid="Tunnel-246-pin" endpinid="Led-147-lPin" pointList="64,-320,64,-316" />
 
-<item itemtype="Connector" uid="Connector-385" startpinid="RelaySPST-101-switch1pinN" endpinid="RelaySPST-102-pinP2" pointList="248,-420,248,-384,256,-384" />
+<item itemtype="Connector" uid="Connector-525" startpinid="Node-266-2" endpinid="Node-155-1" pointList="-48,-288,-44,-288" />
 
-<item itemtype="Connector" uid="Connector-357" startpinid="Node-120-2" endpinid="RelaySPST-103-inductor-lPin" pointList="272,-456,288,-456,288,-308,272,-308,272,-304" />
+<item itemtype="Connector" uid="Connector-561" startpinid="Node-273-2" endpinid="Node-165-0" pointList="-212,-500,-212,-508,-176,-508" />
 
-<item itemtype="Connector" uid="Connector-368" startpinid="Switch-121-pinP0" endpinid="Node-126-0" pointList="92,-416,84,-416" />
+<item itemtype="Connector" uid="Connector-447" startpinid="Node-165-1" endpinid="Node-166-1" pointList="-176,-508,-176,-412" />
 
-<item itemtype="Connector" uid="Connector-434" startpinid="Node-143-2" endpinid="Node-156-0" pointList="-208,-392,-208,-420" />
+<item itemtype="Connector" uid="Connector-521" startpinid="Switch-153-pinP0" endpinid="Node-155-0" pointList="-40,-288,-44,-288" />
 
-<item itemtype="Connector" uid="Connector-333" startpinid="Node-112-2" endpinid="RelaySPST-98-switch1pinN" pointList="224,-196,248,-196,248,-204" />
+<item itemtype="Connector" uid="Connector-619" startpinid="Tunnel-250-pin" endpinid="Led-297-lPin" pointList="112,-320,112,-316" />
 
-<item itemtype="Connector" uid="Connector-335" startpinid="RelaySPST-91-switch0pinN" endpinid="Node-113-0" pointList="196,-352,196,-320" />
+<item itemtype="Connector" uid="Connector-449" startpinid="Node-165-2" endpinid="Mosfet-134-Gate" pointList="-176,-508,-132,-508,-132,-488" />
 
-<item itemtype="Connector" uid="Connector-389" startpinid="Mosfet-133-Dren" endpinid="Mosfet-134-Sour" pointList="-116,-404,-116,-380" />
+<item itemtype="Connector" uid="Connector-585" startpinid="RelaySPST-90-inductor-rPin" endpinid="Node-281-0" pointList="32,-520,32,-516" />
 
-<item itemtype="Connector" uid="Connector-386" startpinid="RelaySPST-92-switch1pinN" endpinid="RelaySPST-93-pinP2" pointList="204,-272,204,-236,196,-236" />
+<item itemtype="Connector" uid="Connector-605" startpinid="74HC04-289-1A" endpinid="74HC86-162-1Y" pointList="-180,-296,-184,-296" />
 
-<item itemtype="Connector" uid="Connector-307" startpinid="Ground-94-Gnd" endpinid="RelaySPST-90-inductor-rPin" pointList="180,-412,180,-420" />
+<item itemtype="Connector" uid="Connector-582" startpinid="RelaySPST-92-inductor-rPin" endpinid="Node-280-0" pointList="32,-424,32,-420,68,-420" />
 
-<item itemtype="Connector" uid="Connector-300" startpinid="Ground-97-Gnd" endpinid="RelaySPST-93-inductor-rPin" pointList="180,-188,180,-204" />
+<item itemtype="Connector" uid="Connector-622" startpinid="Tunnel-253-pin" endpinid="Led-295-lPin" pointList="40,-320,40,-316" />
 
-<item itemtype="Connector" uid="Connector-406" startpinid="Mosfet-133-Gate" endpinid="Node-143-0" pointList="-92,-420,-84,-420,-84,-392,-208,-392" />
+<item itemtype="Connector" uid="Connector-372" startpinid="Node-128-2" endpinid="RelaySPST-103-pinP2" pointList="80,-464,80,-456,88,-456" />
 
-<item itemtype="Connector" uid="Connector-399" startpinid="Mosfet-134-Dren" endpinid="Node-141-0" pointList="-116,-348,-116,-336" />
+<item itemtype="Connector" uid="Connector-586" startpinid="Node-281-2" endpinid="Node-279-0" pointList="32,-516,68,-516" />
 
-<item itemtype="Connector" uid="Connector-349" startpinid="RelaySPST-91-inductor-lPin" endpinid="Node-117-0" pointList="180,-384,180,-388" />
+<item itemtype="Connector" uid="Connector-426" startpinid="Node-155-2" endpinid="Switch-154-pinP0" pointList="-44,-288,-44,-252,-40,-252" />
 
-<item itemtype="Connector" uid="Connector-392" startpinid="Mosfet-139-Dren" endpinid="Mosfet-135-Sour" pointList="-116,-292,-116,-272" />
+<item itemtype="Connector" uid="Connector-486" startpinid="Node-140-1" endpinid="Node-141-1" pointList="-188,-468,-156,-468" />
 
-<item itemtype="Connector" uid="Connector-353" startpinid="Node-119-1" endpinid="Node-120-1" pointList="180,-456,272,-456" />
+<item itemtype="Connector" uid="Connector-481" startpinid="Node-141-2" endpinid="Node-174-0" pointList="-156,-468,-156,-464" />
 
-<item itemtype="Connector" uid="Connector-400" startpinid="Node-141-2" endpinid="Mosfet-139-Sour" pointList="-116,-336,-116,-324" />
+<item itemtype="Connector" uid="Connector-597" startpinid="Tunnel-247-pin" endpinid="Node-285-1" pointList="4,-368,48,-368" />
 
-<item itemtype="Connector" uid="Connector-356" startpinid="RelaySPST-101-inductor-lPin" endpinid="Node-120-0" pointList="272,-452,272,-456" />
+<item itemtype="Connector" uid="Connector-443" startpinid="Node-159-2" endpinid="Mosfet-133-Sour" pointList="-188,-560,-156,-560,-156,-552" />
 
-<item itemtype="Connector" uid="Connector-373" startpinid="Resistor-129-lPin" endpinid="Led-127-rPin" pointList="344,-320,336,-320" />
+<item itemtype="Connector" uid="Connector-544" startpinid="Tunnel-236-pin" endpinid="74HC86-162-1A" pointList="-236,-304,-232,-304" />
 
-<item itemtype="Connector" uid="Connector-429" startpinid="Fixed Voltage-151-outnod" endpinid="Node-155-1" pointList="-296,-412,-280,-412" />
+<item itemtype="Connector" uid="Connector-600" startpinid="Node-285-2" endpinid="RelaySPST-98-switch1pinN" pointList="48,-368,80,-368,80,-376" />
 
-<item itemtype="Connector" uid="Connector-433" startpinid="Node-156-1" endpinid="Switch-153-switch0pinN" pointList="-208,-420,-240,-420" />
+<item itemtype="Connector" uid="Connector-371" startpinid="Node-114-2" endpinid="Node-128-0" pointList="80,-468,80,-464" />
 
-<item itemtype="Connector" uid="Connector-437" startpinid="Node-145-1" endpinid="Node-157-0" pointList="-200,-276,-220,-276,-220,-364" />
+<item itemtype="Connector" uid="Connector-335" startpinid="RelaySPST-91-switch0pinN" endpinid="Node-113-0" pointList="48,-472,48,-468" />
 
-<item itemtype="Connector" uid="Connector-325" startpinid="Ground-104-Gnd" endpinid="RelaySPST-98-inductor-rPin" pointList="272,-188,272,-204" />
+<item itemtype="Connector" uid="Connector-373" startpinid="Resistor-129-lPin" endpinid="Led-127-rPin" pointList="88,-280,88,-284" />
 
-<item itemtype="Connector" uid="Connector-417" startpinid="Mosfet-137-Gate" endpinid="Node-146-0" pointList="-200,-364,-200,-388" />
+<item itemtype="Connector" uid="Connector-387" startpinid="RelaySPST-103-switch0pinN" endpinid="RelaySPST-98-pinP2" pointList="88,-424,88,-408" />
 
-<item itemtype="Connector" uid="Connector-391" startpinid="Mosfet-132-Dren" endpinid="Mosfet-138-Sour" pointList="-176,-292,-176,-272" />
+<item itemtype="Connector" uid="Connector-539" startpinid="Tunnel-197-pin" endpinid="Node-269-1" pointList="4,-560,48,-560" />
 
-<item itemtype="Connector" uid="Connector-423" startpinid="Node-150-2" endpinid="Node-141-1" pointList="-136,-336,-116,-336" />
+<item itemtype="Connector" uid="Connector-581" startpinid="Node-279-2" endpinid="RelaySPST-101-inductor-rPin" pointList="68,-516,104,-516,104,-520" />
 
-<item itemtype="Connector" uid="Connector-352" startpinid="Node-118-2" endpinid="RelaySPST-98-inductor-lPin" pointList="272,-388,296,-388,296,-236,272,-236" />
+<item itemtype="Connector" uid="Connector-596" startpinid="Node-117-2" endpinid="Tunnel-219-pin" pointList="32,-508,-4,-508" />
 
-<item itemtype="Connector" uid="Connector-398" startpinid="Node-140-2" endpinid="Mosfet-132-Sour" pointList="-176,-336,-176,-324" />
+<item itemtype="Connector" uid="Connector-450" startpinid="Mosfet-135-Gate" endpinid="Node-166-0" pointList="-132,-392,-132,-412,-176,-412" />
+
+<item itemtype="Connector" uid="Connector-461" startpinid="Node-166-2" endpinid="Mosfet-138-Gate" pointList="-176,-412,-212,-412,-212,-392" />
+
+<item itemtype="Connector" uid="Connector-524" startpinid="Fixed Voltage-151-outnod" endpinid="Node-266-0" pointList="-52,-288,-48,-288" />
+
+<item itemtype="Connector" uid="Connector-527" startpinid="Tunnel-199-pin" endpinid="Ground-160-Gnd" pointList="-68,-256,-56,-256,-56,-252" />
+
+<item itemtype="Connector" uid="Connector-613" startpinid="Tunnel-195-pin" endpinid="Node-174-1" pointList="-124,-464,-156,-464" />
+
+<item itemtype="Connector" uid="Connector-579" startpinid="Node-279-1" endpinid="Node-280-1" pointList="68,-516,68,-420" />
+
+<item itemtype="Connector" uid="Connector-391" startpinid="Mosfet-132-Dren" endpinid="Mosfet-138-Sour" pointList="-188,-428,-188,-408" />
+
+<item itemtype="Connector" uid="Connector-606" startpinid="Tunnel-184-pin" endpinid="74HC04-289-1Y" pointList="-128,-296,-132,-296" />
+
+<item itemtype="Connector" uid="Connector-337" startpinid="RelaySPST-102-switch1pinN" endpinid="Node-114-0" pointList="80,-472,80,-468" />
+
+<item itemtype="Connector" uid="Connector-589" startpinid="Tunnel-220-pin" endpinid="Node-281-1" pointList="-4,-516,32,-516" />
+
+<item itemtype="Connector" uid="Connector-541" startpinid="Node-269-2" endpinid="RelaySPST-101-pinP2" pointList="48,-560,88,-560,88,-552" />
+
+<item itemtype="Connector" uid="Connector-543" startpinid="Xor Gate-163-in1" endpinid="Tunnel-251-pin" pointList="-220,-344,-224,-344" />
+
+<item itemtype="Connector" uid="Connector-598" startpinid="RelaySPST-93-switch0pinN" endpinid="Node-285-0" pointList="48,-376,48,-368" />
+
+<item itemtype="Connector" uid="Connector-601" startpinid="Tunnel-286-pin" endpinid="RelaySPST-101-inductor-lPin" pointList="120,-552,104,-552" />
+
+<item itemtype="Connector" uid="Connector-419" startpinid="Resistor-148-rPin" endpinid="Ground-149-Gnd" pointList="64,-248,64,-244" />
+
+<item itemtype="Connector" uid="Connector-398" startpinid="Node-140-2" endpinid="Mosfet-132-Sour" pointList="-188,-468,-188,-460" />
+
+<item itemtype="Connector" uid="Connector-397" startpinid="Mosfet-137-Dren" endpinid="Node-140-0" pointList="-188,-472,-188,-468" />
+
+<item itemtype="Connector" uid="Connector-519" startpinid="Switch-154-switch0pinN" endpinid="Tunnel-203-pin" pointList="-8,-252,-4,-252" />
+
+<item itemtype="Connector" uid="Connector-602" startpinid="Tunnel-181-pin" endpinid="RelaySPST-90-inductor-lPin" pointList="16,-552,32,-552" />
+
+<item itemtype="Connector" uid="Connector-392" startpinid="Mosfet-139-Dren" endpinid="Mosfet-135-Sour" pointList="-156,-428,-156,-408" />
+
+<item itemtype="Connector" uid="Connector-496" startpinid="Node-178-1" endpinid="Mosfet-139-Gate" pointList="-172,-420,-132,-420,-132,-444" />
+
+<item itemtype="Connector" uid="Connector-518" startpinid="Tunnel-204-pin" endpinid="Switch-153-switch0pinN" pointList="-4,-288,-8,-288" />
+
+<item itemtype="Connector" uid="Connector-563" startpinid="RelaySPST-93-inductor-rPin" endpinid="Tunnel-215-pin" pointList="32,-376,16,-376" />
+
+<item itemtype="Connector" uid="Connector-336" startpinid="Node-113-2" endpinid="RelaySPST-92-pinP2" pointList="48,-468,48,-456" />
+
+<item itemtype="Connector" uid="Connector-546" startpinid="Xor Gate-163-out" endpinid="Tunnel-225-pin" pointList="-188,-348,-184,-348" />
+
+<item itemtype="Connector" uid="Connector-564" startpinid="Tunnel-275-pin" endpinid="RelaySPST-91-inductor-rPin" pointList="16,-472,32,-472" />
+
+<item itemtype="Connector" uid="Connector-574" startpinid="Node-277-1" endpinid="Node-278-1" pointList="64,-508,64,-412" />
+
+<item itemtype="Connector" uid="Connector-497" startpinid="Node-176-0" endpinid="Node-178-0" pointList="-172,-516,-172,-420" />
+
+<item itemtype="Connector" uid="Connector-618" startpinid="Resistor-298-rPin" endpinid="Ground-294-Gnd" pointList="112,-248,112,-244" />
+
+<item itemtype="Connector" uid="Connector-603" startpinid="Tunnel-287-pin" endpinid="RelaySPST-92-inductor-lPin" pointList="16,-456,32,-456" />
+
+<item itemtype="Connector" uid="Connector-617" startpinid="Resistor-293-rPin" endpinid="Ground-296-Gnd" pointList="40,-248,40,-244" />
+
+<item itemtype="Connector" uid="Connector-334" startpinid="Node-113-1" endpinid="Node-114-1" pointList="48,-468,80,-468" />
+
+<item itemtype="Connector" uid="Connector-399" startpinid="Mosfet-134-Dren" endpinid="Node-141-0" pointList="-156,-472,-156,-468" />
+
+<item itemtype="Connector" uid="Connector-526" startpinid="Node-260-2" endpinid="Mosfet-135-Dren" pointList="-188,-372,-156,-372,-156,-376" />
+
+<item itemtype="Connector" uid="Connector-442" startpinid="Mosfet-136-Sour" endpinid="Node-159-0" pointList="-188,-552,-188,-560" />
+
+<item itemtype="Connector" uid="Connector-556" startpinid="Mosfet-137-Gate" endpinid="Node-273-0" pointList="-212,-488,-212,-500" />
+
+<item itemtype="Connector" uid="Connector-388" startpinid="Mosfet-136-Dren" endpinid="Mosfet-137-Sour" pointList="-188,-520,-188,-504" />
+
+<item itemtype="Connector" uid="Connector-374" startpinid="Resistor-129-rPin" endpinid="Ground-130-Gnd" pointList="88,-248,88,-244" />
+
+<item itemtype="Connector" uid="Connector-384" startpinid="RelaySPST-90-switch0pinN" endpinid="RelaySPST-91-pinP2" pointList="48,-520,48,-504" />
+
+<item itemtype="Connector" uid="Connector-616" startpinid="Resistor-298-lPin" endpinid="Led-297-rPin" pointList="112,-280,112,-284" />
+
+<item itemtype="Connector" uid="Connector-523" startpinid="Tunnel-213-pin" endpinid="Node-266-1" pointList="-64,-308,-48,-308,-48,-288" />
+
+<item itemtype="Connector" uid="Connector-349" startpinid="RelaySPST-91-inductor-lPin" endpinid="Node-117-0" pointList="32,-504,32,-508" />
+
+<item itemtype="Connector" uid="Connector-553" startpinid="Node-176-2" endpinid="Node-272-2" pointList="-172,-516,-212,-516,-212,-524" />
+
+<item itemtype="Connector" uid="Connector-551" startpinid="Mosfet-136-Gate" endpinid="Node-272-0" pointList="-212,-536,-212,-524" />
+
+<item itemtype="Connector" uid="Connector-554" startpinid="Node-272-1" endpinid="Tunnel-182-pin" pointList="-212,-524,-228,-524" />
 
 </circuit>
