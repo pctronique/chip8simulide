@@ -1,0 +1,505 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-775" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-796,-256" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-775" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-804" mainComp="false" Show_id="false" Show_Val="false" Pos="-888,-208" rotation="0" hflip="-1" vflip="1" label="Tunnel-804" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DATA2" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-779" mainComp="false" Show_id="false" Show_Val="false" Pos="-820,-328" rotation="0" hflip="1" vflip="1" label="Tunnel-779" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DATA1" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-809" mainComp="false" Show_id="false" Show_Val="false" Pos="-820,-208" rotation="0" hflip="1" vflip="1" label="Tunnel-809" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DATA2" IsBus="true" />
+
+<item itemtype="Led" CircId="Led-854" mainComp="false" Show_id="false" Show_Val="false" Pos="-392,-260" rotation="90" hflip="1" vflip="1" label="Led-854" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-853" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-260" rotation="90" hflip="1" vflip="1" label="Led-853" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-564" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,-312" rotation="0" hflip="-1" vflip="1" label="Tunnel-564" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-806" mainComp="false" Show_id="false" Show_Val="false" Pos="-888,-328" rotation="0" hflip="-1" vflip="1" label="Tunnel-806" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DATA1" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-851" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,-300" rotation="0" hflip="-1" vflip="1" label="Tunnel-851" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Led" CircId="Led-843" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,-260" rotation="90" hflip="1" vflip="1" label="Led-843" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-581" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-368" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-581" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Ground" CircId="Ground-857" mainComp="false" Show_id="false" Show_Val="false" Pos="-392,-176" rotation="0" hflip="1" vflip="1" label="Ground-857" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-848" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-568,-216" rotation="90" hflip="1" vflip="1" label="Resistor-848" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Bus" CircId="Bus-859" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-288" rotation="90" hflip="1" vflip="-1" label="Bus-859" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-557" mainComp="false" Show_id="false" Show_Val="false" Pos="-724,-448" rotation="0" hflip="-1" vflip="1" label="Tunnel-557" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Bus" CircId="Bus-710" mainComp="false" Show_id="false" Show_Val="false" Pos="-804,-376" rotation="0" hflip="-1" vflip="1" label="Bus-710" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="16 _Bits" Start_Bit="0" />
+
+<item itemtype="Ground" CircId="Ground-838" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,-176" rotation="0" hflip="1" vflip="1" label="Ground-838" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Bus" CircId="Bus-580" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-324" rotation="90" hflip="1" vflip="1" label="Bus-580" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Bus" CircId="Bus-817" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-272" rotation="0" hflip="1" vflip="1" label="Bus-817" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="8 _Bits" Start_Bit="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-812" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-796,-136" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-812" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-852" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,-176" rotation="0" hflip="1" vflip="1" label="Ground-852" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Bus" CircId="Bus-555" mainComp="false" Show_id="false" Show_Val="false" Pos="-728,-424" rotation="0" hflip="1" vflip="1" label="Bus-555" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="And Gate" CircId="And Gate-827" mainComp="false" Show_id="false" Show_Val="false" Pos="-688,-324" rotation="0" hflip="1" vflip="1" label="And Gate-827" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-849" mainComp="false" Show_id="false" Show_Val="false" Pos="-568,-260" rotation="90" hflip="1" vflip="1" label="Led-849" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Or Gate" CircId="Or Gate-834" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-244" rotation="0" hflip="1" vflip="1" label="Or Gate-834" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Subcircuit" CircId="CD4532-769" mainComp="false" Show_id="true" Show_Val="false" Pos="-764,-336" rotation="0" hflip="1" vflip="1" label="CD4532-769" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
+
+<item itemtype="Subcircuit" CircId="CD4532-807" mainComp="false" Show_id="true" Show_Val="false" Pos="-764,-216" rotation="0" hflip="1" vflip="1" label="CD4532-807" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-787" mainComp="false" Show_id="false" Show_Val="false" Pos="-912,-472" rotation="0" hflip="1" vflip="1" label="SwitchDip-787" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="16 _Lines" Exclusive="false" CommonPin="false" State="65535" />
+
+<item itemtype="Bus" CircId="Bus-774" mainComp="false" Show_id="false" Show_Val="false" Pos="-792,-272" rotation="0" hflip="-1" vflip="1" label="Bus-774" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="8 _Bits" Start_Bit="0" />
+
+<item itemtype="Led" CircId="Led-836" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,-260" rotation="90" hflip="1" vflip="1" label="Led-836" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Buffer" CircId="Buffer-825" mainComp="false" Show_id="false" Show_Val="false" Pos="-688,-176" rotation="0" hflip="1" vflip="1" label="Buffer-825" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="true" Open_Collector="false" Tristate="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Resistor" CircId="Resistor-860" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-544,-216" rotation="90" hflip="1" vflip="1" label="Resistor-860" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Ground" CircId="Ground-856" mainComp="false" Show_id="false" Show_Val="false" Pos="-464,-176" rotation="0" hflip="1" vflip="1" label="Ground-856" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Bus" CircId="Bus-814" mainComp="false" Show_id="false" Show_Val="false" Pos="-616,-228" rotation="0" hflip="1" vflip="1" label="Bus-814" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="And Gate" CircId="And Gate-829" mainComp="false" Show_id="false" Show_Val="false" Pos="-688,-284" rotation="0" hflip="1" vflip="1" label="And Gate-829" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Bus" CircId="Bus-776" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-376" rotation="0" hflip="1" vflip="1" label="Bus-776" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="16 _Bits" Start_Bit="0" />
+
+<item itemtype="And Gate" CircId="And Gate-828" mainComp="false" Show_id="false" Show_Val="false" Pos="-688,-304" rotation="0" hflip="1" vflip="1" label="And Gate-828" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Resistor" CircId="Resistor-842" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-440,-216" rotation="90" hflip="1" vflip="1" label="Resistor-842" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Or Gate" CircId="Or Gate-833" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-264" rotation="0" hflip="1" vflip="1" label="Or Gate-833" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Ground" CircId="Ground-844" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-176" rotation="0" hflip="1" vflip="1" label="Ground-844" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Or Gate" CircId="Or Gate-835" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-224" rotation="0" hflip="1" vflip="1" label="Or Gate-835" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-850" mainComp="false" Show_id="false" Show_Val="false" Pos="-464,-260" rotation="90" hflip="1" vflip="1" label="Led-850" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-847" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,-260" rotation="90" hflip="1" vflip="1" label="Led-847" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-816" mainComp="false" Show_id="false" Show_Val="false" Pos="-612,-252" rotation="0" hflip="-1" vflip="1" label="Tunnel-816" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
+
+<item itemtype="Resistor" CircId="Resistor-862" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-520,-216" rotation="90" hflip="1" vflip="1" label="Resistor-862" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-805" mainComp="false" Show_id="false" Show_Val="false" Pos="-932,-328" rotation="0" hflip="1" vflip="1" label="Tunnel-805" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DATA" IsBus="true" />
+
+<item itemtype="Bus" CircId="Bus-818" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-208" rotation="0" hflip="1" vflip="1" label="Bus-818" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="8 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-777" mainComp="false" Show_id="false" Show_Val="false" Pos="-880,-496" rotation="0" hflip="-1" vflip="1" label="Tunnel-777" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DATA" IsBus="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-801" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-944,-496" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-801" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Bus" CircId="Bus-819" mainComp="false" Show_id="false" Show_Val="false" Pos="-920,-208" rotation="0" hflip="-1" vflip="1" label="Bus-819" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="16 _Bits" Start_Bit="0" />
+
+<item itemtype="Ground" CircId="Ground-861" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,-176" rotation="0" hflip="1" vflip="1" label="Ground-861" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-855" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,-176" rotation="0" hflip="1" vflip="1" label="Ground-855" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-763" mainComp="false" Show_id="false" Show_Val="false" Pos="-792,-348" rotation="0" hflip="1" vflip="1" label="Ground-763" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-840" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-496,-216" rotation="90" hflip="1" vflip="1" label="Resistor-840" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-563" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-312" rotation="0" hflip="-1" vflip="1" label="Tunnel-563" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-778" mainComp="false" Show_id="false" Show_Val="false" Pos="-808,-376" rotation="0" hflip="1" vflip="1" label="Tunnel-778" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DATA" IsBus="true" />
+
+<item itemtype="Resistor" CircId="Resistor-863" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-464,-216" rotation="90" hflip="1" vflip="1" label="Resistor-863" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-841" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-392,-216" rotation="90" hflip="1" vflip="1" label="Resistor-841" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Led" CircId="Led-858" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,-260" rotation="90" hflip="1" vflip="1" label="Led-858" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-140" mainComp="false" Show_id="false" Show_Val="false" Pos="-532,-368" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-140" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Ground" CircId="Ground-837" mainComp="false" Show_id="false" Show_Val="false" Pos="-568,-176" rotation="0" hflip="1" vflip="1" label="Ground-837" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Bus" CircId="Bus-575" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,-324" rotation="90" hflip="1" vflip="1" label="Bus-575" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-845" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-300" rotation="0" hflip="-1" vflip="1" label="Tunnel-845" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
+
+<item itemtype="Bus" CircId="Bus-808" mainComp="false" Show_id="false" Show_Val="false" Pos="-792,-152" rotation="0" hflip="-1" vflip="1" label="Bus-808" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="8 _Bits" Start_Bit="0" />
+
+<item itemtype="DecToBcd" CircId="DecToBcd-551" mainComp="false" Show_id="false" Show_Val="false" Pos="-764,-432" rotation="0" hflip="1" vflip="1" label="DecToBcd-551" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" _16_Bits="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Bus" CircId="Bus-846" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,-288" rotation="90" hflip="1" vflip="-1" label="Bus-846" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Resistor" CircId="Resistor-839" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-416,-216" rotation="90" hflip="1" vflip="1" label="Resistor-839" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Node" CircId="Node-792" mainComp="false" Pos="-924,-424" />
+
+<item itemtype="Node" CircId="Node-795" mainComp="false" Pos="-924,-448" />
+
+<item itemtype="Node" CircId="Node-796" mainComp="false" Pos="-924,-456" />
+
+<item itemtype="Node" CircId="Node-800" mainComp="false" Pos="-924,-488" />
+
+<item itemtype="Node" CircId="Node-832" mainComp="false" Pos="-708,-300" />
+
+<item itemtype="Node" CircId="Node-799" mainComp="false" Pos="-924,-480" />
+
+<item itemtype="Node" CircId="Node-830" mainComp="false" Pos="-708,-176" />
+
+<item itemtype="Node" CircId="Node-797" mainComp="false" Pos="-924,-464" />
+
+<item itemtype="Node" CircId="Node-794" mainComp="false" Pos="-924,-440" />
+
+<item itemtype="Node" CircId="Node-789" mainComp="false" Pos="-924,-400" />
+
+<item itemtype="Node" CircId="Node-803" mainComp="false" Pos="-924,-384" />
+
+<item itemtype="Node" CircId="Node-791" mainComp="false" Pos="-924,-416" />
+
+<item itemtype="Node" CircId="Node-831" mainComp="false" Pos="-708,-280" />
+
+<item itemtype="Node" CircId="Node-802" mainComp="false" Pos="-924,-496" />
+
+<item itemtype="Node" CircId="Node-790" mainComp="false" Pos="-924,-408" />
+
+<item itemtype="Node" CircId="Node-798" mainComp="false" Pos="-924,-472" />
+
+<item itemtype="Node" CircId="Node-788" mainComp="false" Pos="-924,-392" />
+
+<item itemtype="Node" CircId="Node-793" mainComp="false" Pos="-924,-432" />
+
+<item itemtype="Connector" uid="Connector-1935" startpinid="Bus-776-ePin9" endpinid="SwitchDip-787-switch8-pinN" pointList="-892,-432,-896,-432" />
+
+<item itemtype="Connector" uid="Connector-1939" startpinid="Bus-776-ePin13" endpinid="SwitchDip-787-switch12-pinN" pointList="-892,-400,-896,-400" />
+
+<item itemtype="Connector" uid="Connector-1925" startpinid="DecToBcd-551-in13" endpinid="Bus-710-ePin15" pointList="-788,-384,-796,-384" />
+
+<item itemtype="Connector" uid="Connector-2075" startpinid="Resistor-860-rPin" endpinid="Ground-855-Gnd" pointList="-544,-200,-544,-192" />
+
+<item itemtype="Connector" uid="Connector-1923" startpinid="DecToBcd-551-in11" endpinid="Bus-710-ePin13" pointList="-788,-400,-796,-400" />
+
+<item itemtype="Connector" uid="Connector-2086" startpinid="Resistor-863-rPin" endpinid="Ground-856-Gnd" pointList="-464,-200,-464,-192" />
+
+<item itemtype="Connector" uid="Connector-1936" startpinid="SwitchDip-787-switch9-pinN" endpinid="Bus-776-ePin10" pointList="-896,-424,-892,-424" />
+
+<item itemtype="Connector" uid="Connector-1988" startpinid="Bus-817-ePin1" endpinid="Bus-819-ePin1" pointList="-908,-328,-912,-328" />
+
+<item itemtype="Connector" uid="Connector-2082" startpinid="Resistor-839-rPin" endpinid="Ground-861-Gnd" pointList="-416,-200,-416,-192" />
+
+<item itemtype="Connector" uid="Connector-1873" startpinid="SwitchDip-787-switch8-pinP" endpinid="Node-793-1" pointList="-920,-432,-924,-432" />
+
+<item itemtype="Connector" uid="Connector-2044" startpinid="CD4532-769-Q0" endpinid="And Gate-827-in0" pointList="-724,-328,-704,-328" />
+
+<item itemtype="Connector" uid="Connector-1183" startpinid="Bus-555-ePin3" endpinid="DecToBcd-551-out2" pointList="-736,-432,-740,-432" />
+
+<item itemtype="Connector" uid="Connector-1943" startpinid="SwitchDip-787-switch15-pinP" endpinid="Node-803-1" pointList="-920,-376,-924,-376,-924,-384" />
+
+<item itemtype="Connector" uid="Connector-1919" startpinid="DecToBcd-551-in7" endpinid="Bus-710-ePin9" pointList="-788,-432,-796,-432" />
+
+<item itemtype="Connector" uid="Connector-2040" startpinid="Node-831-2" endpinid="Node-830-1" pointList="-708,-280,-708,-176" />
+
+<item itemtype="Connector" uid="Connector-1997" startpinid="Bus-819-ePin10" endpinid="Bus-818-ePin2" pointList="-912,-256,-908,-256" />
+
+<item itemtype="Connector" uid="Connector-2047" startpinid="Or Gate-833-in1" endpinid="CD4532-807-Q0" pointList="-660,-260,-700,-260,-700,-208,-724,-208" />
+
+<item itemtype="Connector" uid="Connector-1908" startpinid="DecToBcd-551-in15" endpinid="Ground-763-Gnd" pointList="-788,-368,-792,-368,-792,-364" />
+
+<item itemtype="Connector" uid="Connector-1945" startpinid="Node-803-2" endpinid="SwitchDip-787-switch14-pinP" pointList="-924,-384,-920,-384" />
+
+<item itemtype="Connector" uid="Connector-2003" startpinid="Bus-819-ePin16" endpinid="Bus-818-ePin8" pointList="-912,-208,-908,-208" />
+
+<item itemtype="Connector" uid="Connector-1915" startpinid="Bus-710-ePin7" endpinid="DecToBcd-551-in5" pointList="-796,-448,-788,-448" />
+
+<item itemtype="Connector" uid="Connector-2068" startpinid="Resistor-848-rPin" endpinid="Ground-837-Gnd" pointList="-568,-200,-568,-192" />
+
+<item itemtype="Connector" uid="Connector-1947" startpinid="Bus-774-ePin2" endpinid="CD4532-769-D1" pointList="-784,-320,-772,-320" />
+
+<item itemtype="Connector" uid="Connector-2002" startpinid="Bus-818-ePin7" endpinid="Bus-819-ePin15" pointList="-908,-216,-912,-216" />
+
+<item itemtype="Connector" uid="Connector-1875" startpinid="Node-793-2" endpinid="Node-792-0" pointList="-924,-432,-924,-424" />
+
+<item itemtype="Connector" uid="Connector-1920" startpinid="Bus-710-ePin10" endpinid="DecToBcd-551-in8" pointList="-796,-424,-788,-424" />
+
+<item itemtype="Connector" uid="Connector-2037" startpinid="Node-830-2" endpinid="Buffer-825-in0" pointList="-708,-176,-704,-176" />
+
+<item itemtype="Connector" uid="Connector-1990" startpinid="Bus-817-ePin3" endpinid="Bus-819-ePin3" pointList="-908,-312,-912,-312" />
+
+<item itemtype="Connector" uid="Connector-1981" startpinid="CD4532-807-EI" endpinid="Fixed Voltage-812-outnod" pointList="-772,-136,-780,-136" />
+
+<item itemtype="Connector" uid="Connector-1994" startpinid="Bus-817-ePin7" endpinid="Bus-819-ePin7" pointList="-908,-280,-912,-280" />
+
+<item itemtype="Connector" uid="Connector-1900" startpinid="7-Seg BCD-140-in3" endpinid="Bus-575-ePin4" pointList="-544,-336,-544,-332" />
+
+<item itemtype="Connector" uid="Connector-1878" startpinid="Node-794-2" endpinid="Node-793-0" pointList="-924,-440,-924,-432" />
+
+<item itemtype="Connector" uid="Connector-2095" startpinid="Bus-846-ePin3" endpinid="Led-858-lPin" pointList="-536,-280,-536,-276,-544,-276" />
+
+<item itemtype="Connector" uid="Connector-1867" startpinid="SwitchDip-787-switch10-pinP" endpinid="Node-791-1" pointList="-920,-416,-924,-416" />
+
+<item itemtype="Connector" uid="Connector-2000" startpinid="Bus-818-ePin5" endpinid="Bus-819-ePin13" pointList="-908,-232,-912,-232" />
+
+<item itemtype="Connector" uid="Connector-1986" startpinid="Bus-814-busPinI" endpinid="Tunnel-816-pin" pointList="-616,-252,-612,-252" />
+
+<item itemtype="Connector" uid="Connector-1927" startpinid="Bus-776-ePin1" endpinid="SwitchDip-787-switch0-pinN" pointList="-892,-496,-896,-496" />
+
+<item itemtype="Connector" uid="Connector-1861" startpinid="SwitchDip-787-switch12-pinP" endpinid="Node-789-1" pointList="-920,-400,-924,-400" />
+
+<item itemtype="Connector" uid="Connector-1888" startpinid="SwitchDip-787-switch3-pinP" endpinid="Node-798-1" pointList="-920,-472,-924,-472" />
+
+<item itemtype="Connector" uid="Connector-1941" startpinid="Bus-776-ePin15" endpinid="SwitchDip-787-switch14-pinN" pointList="-892,-384,-896,-384" />
+
+<item itemtype="Connector" uid="Connector-1872" startpinid="Node-792-2" endpinid="Node-791-0" pointList="-924,-424,-924,-416" />
+
+<item itemtype="Connector" uid="Connector-1899" startpinid="Node-802-2" endpinid="Node-800-0" pointList="-924,-496,-924,-488" />
+
+<item itemtype="Connector" uid="Connector-2073" startpinid="Resistor-840-rPin" endpinid="Ground-852-Gnd" pointList="-496,-200,-496,-192" />
+
+<item itemtype="Connector" uid="Connector-1951" startpinid="Bus-774-ePin6" endpinid="CD4532-769-D5" pointList="-784,-288,-772,-288" />
+
+<item itemtype="Connector" uid="Connector-2049" startpinid="Or Gate-834-in1" endpinid="CD4532-807-Q1" pointList="-660,-240,-696,-240,-696,-200,-724,-200" />
+
+<item itemtype="Connector" uid="Connector-1181" startpinid="Bus-555-ePin1" endpinid="DecToBcd-551-out0" pointList="-736,-448,-740,-448" />
+
+<item itemtype="Connector" uid="Connector-1879" startpinid="SwitchDip-787-switch6-pinP" endpinid="Node-795-1" pointList="-920,-448,-924,-448" />
+
+<item itemtype="Connector" uid="Connector-1882" startpinid="SwitchDip-787-switch5-pinP" endpinid="Node-796-1" pointList="-920,-456,-924,-456" />
+
+<item itemtype="Connector" uid="Connector-1949" startpinid="Bus-774-ePin4" endpinid="CD4532-769-D3" pointList="-784,-304,-772,-304" />
+
+<item itemtype="Connector" uid="Connector-1946" startpinid="CD4532-769-D0" endpinid="Bus-774-ePin1" pointList="-772,-328,-784,-328" />
+
+<item itemtype="Connector" uid="Connector-1184" startpinid="DecToBcd-551-out3" endpinid="Bus-555-ePin4" pointList="-740,-424,-736,-424" />
+
+<item itemtype="Connector" uid="Connector-1897" startpinid="Fixed Voltage-801-outnod" endpinid="Node-802-1" pointList="-928,-496,-924,-496" />
+
+<item itemtype="Connector" uid="Connector-1884" startpinid="Node-796-2" endpinid="Node-795-0" pointList="-924,-456,-924,-448" />
+
+<item itemtype="Connector" uid="Connector-1909" startpinid="Tunnel-778-pin" endpinid="Bus-710-ePin0" pointList="-808,-376,-804,-376" />
+
+<item itemtype="Connector" uid="Connector-1898" startpinid="SwitchDip-787-switch0-pinP" endpinid="Node-802-0" pointList="-920,-496,-924,-496" />
+
+<item itemtype="Connector" uid="Connector-2036" startpinid="CD4532-807-EO" endpinid="Node-830-0" pointList="-724,-176,-708,-176" />
+
+<item itemtype="Connector" uid="Connector-1980" startpinid="CD4532-807-D6" endpinid="Bus-808-ePin7" pointList="-772,-160,-784,-160" />
+
+<item itemtype="Connector" uid="Connector-1866" startpinid="Node-790-2" endpinid="Node-789-0" pointList="-924,-408,-924,-400" />
+
+<item itemtype="Connector" uid="Connector-1910" startpinid="DecToBcd-551-in0" endpinid="Bus-710-ePin2" pointList="-788,-488,-796,-488" />
+
+<item itemtype="Connector" uid="Connector-1930" startpinid="SwitchDip-787-switch3-pinN" endpinid="Bus-776-ePin4" pointList="-896,-472,-892,-472" />
+
+<item itemtype="Connector" uid="Connector-1894" startpinid="SwitchDip-787-switch1-pinP" endpinid="Node-800-1" pointList="-920,-488,-924,-488" />
+
+<item itemtype="Connector" uid="Connector-1837" startpinid="CD4532-769-EI" endpinid="Fixed Voltage-775-outnod" pointList="-772,-256,-780,-256" />
+
+<item itemtype="Connector" uid="Connector-1916" startpinid="DecToBcd-551-in6" endpinid="Bus-710-ePin8" pointList="-788,-440,-796,-440" />
+
+<item itemtype="Connector" uid="Connector-2062" startpinid="Bus-814-ePin1" endpinid="Or Gate-833-out" pointList="-624,-252,-628,-252,-628,-264" />
+
+<item itemtype="Connector" uid="Connector-1982" startpinid="CD4532-807-D4" endpinid="Bus-808-ePin5" pointList="-772,-176,-784,-176" />
+
+<item itemtype="Connector" uid="Connector-2089" startpinid="Bus-859-ePin4" endpinid="Led-850-lPin" pointList="-440,-280,-464,-280,-464,-276" />
+
+<item itemtype="Connector" uid="Connector-1944" startpinid="Node-788-2" endpinid="Node-803-0" pointList="-924,-392,-924,-384" />
+
+<item itemtype="Connector" uid="Connector-2059" startpinid="And Gate-828-out" endpinid="Or Gate-834-in0" pointList="-672,-304,-664,-304,-664,-248,-660,-248" />
+
+<item itemtype="Connector" uid="Connector-2061" startpinid="Bus-814-ePin3" endpinid="Or Gate-835-out" pointList="-624,-236,-628,-236,-628,-224" />
+
+<item itemtype="Connector" uid="Connector-1950" startpinid="CD4532-769-D4" endpinid="Bus-774-ePin5" pointList="-772,-296,-784,-296" />
+
+<item itemtype="Connector" uid="Connector-1933" startpinid="Bus-776-ePin7" endpinid="SwitchDip-787-switch6-pinN" pointList="-892,-448,-896,-448" />
+
+<item itemtype="Connector" uid="Connector-1996" startpinid="Bus-818-ePin1" endpinid="Bus-819-ePin9" pointList="-908,-264,-912,-264" />
+
+<item itemtype="Connector" uid="Connector-2004" startpinid="Bus-819-busPinI" endpinid="Tunnel-805-pin" pointList="-920,-328,-932,-328" />
+
+<item itemtype="Connector" uid="Connector-1901" startpinid="Bus-575-ePin3" endpinid="7-Seg BCD-140-in2" pointList="-536,-332,-536,-336" />
+
+<item itemtype="Connector" uid="Connector-1983" startpinid="Bus-808-ePin2" endpinid="CD4532-807-D1" pointList="-784,-200,-772,-200" />
+
+<item itemtype="Connector" uid="Connector-2096" startpinid="Bus-846-ePin4" endpinid="Led-849-lPin" pointList="-544,-280,-568,-280,-568,-276" />
+
+<item itemtype="Connector" uid="Connector-1931" startpinid="Bus-776-ePin5" endpinid="SwitchDip-787-switch4-pinN" pointList="-892,-464,-896,-464" />
+
+<item itemtype="Connector" uid="Connector-1904" startpinid="7-Seg BCD-581-in3" endpinid="Bus-580-ePin4" pointList="-440,-336,-440,-332" />
+
+<item itemtype="Connector" uid="Connector-1351" startpinid="Tunnel-564-pin" endpinid="Bus-575-ePin0" pointList="-544,-312,-544,-324" />
+
+<item itemtype="Connector" uid="Connector-2084" startpinid="Resistor-862-rPin" endpinid="Ground-838-Gnd" pointList="-520,-200,-520,-192" />
+
+<item itemtype="Connector" uid="Connector-2031" startpinid="Tunnel-804-pin" endpinid="Bus-818-ePin0" pointList="-888,-208,-900,-208" />
+
+<item itemtype="Connector" uid="Connector-1881" startpinid="Node-795-2" endpinid="Node-794-0" pointList="-924,-448,-924,-440" />
+
+<item itemtype="Connector" uid="Connector-1940" startpinid="SwitchDip-787-switch13-pinN" endpinid="Bus-776-ePin14" pointList="-896,-392,-892,-392" />
+
+<item itemtype="Connector" uid="Connector-2093" startpinid="Bus-846-ePin1" endpinid="Led-847-lPin" pointList="-520,-280,-496,-280,-496,-276" />
+
+<item itemtype="Connector" uid="Connector-1938" startpinid="SwitchDip-787-switch11-pinN" endpinid="Bus-776-ePin12" pointList="-896,-408,-892,-408" />
+
+<item itemtype="Connector" uid="Connector-1992" startpinid="Bus-817-ePin5" endpinid="Bus-819-ePin5" pointList="-908,-296,-912,-296" />
+
+<item itemtype="Connector" uid="Connector-1999" startpinid="Bus-819-ePin12" endpinid="Bus-818-ePin4" pointList="-912,-240,-908,-240" />
+
+<item itemtype="Connector" uid="Connector-2090" startpinid="Bus-859-ePin3" endpinid="Led-853-lPin" pointList="-432,-280,-432,-276,-440,-276" />
+
+<item itemtype="Connector" uid="Connector-2091" startpinid="Bus-859-ePin2" endpinid="Led-836-lPin" pointList="-424,-280,-424,-276,-416,-276" />
+
+<item itemtype="Connector" uid="Connector-1912" startpinid="DecToBcd-551-in2" endpinid="Bus-710-ePin4" pointList="-788,-472,-796,-472" />
+
+<item itemtype="Connector" uid="Connector-2097" startpinid="Led-854-rPin" endpinid="Resistor-841-lPin" pointList="-392,-244,-392,-232" />
+
+<item itemtype="Connector" uid="Connector-2043" startpinid="Node-832-2" endpinid="Node-831-0" pointList="-708,-300,-708,-280" />
+
+<item itemtype="Connector" uid="Connector-2038" startpinid="And Gate-829-in1" endpinid="Node-831-1" pointList="-704,-280,-708,-280" />
+
+<item itemtype="Connector" uid="Connector-1913" startpinid="Bus-710-ePin5" endpinid="DecToBcd-551-in3" pointList="-796,-464,-788,-464" />
+
+<item itemtype="Connector" uid="Connector-2094" startpinid="Bus-846-ePin2" endpinid="Led-843-lPin" pointList="-528,-280,-528,-276,-520,-276" />
+
+<item itemtype="Connector" uid="Connector-2045" startpinid="And Gate-828-in0" endpinid="CD4532-769-Q1" pointList="-704,-308,-712,-308,-712,-320,-724,-320" />
+
+<item itemtype="Connector" uid="Connector-1890" startpinid="Node-798-2" endpinid="Node-797-0" pointList="-924,-472,-924,-464" />
+
+<item itemtype="Connector" uid="Connector-1903" startpinid="Bus-575-ePin1" endpinid="7-Seg BCD-140-in0" pointList="-520,-332,-520,-336" />
+
+<item itemtype="Connector" uid="Connector-2030" startpinid="Bus-814-ePin4" endpinid="Buffer-825-out" pointList="-624,-228,-624,-176,-672,-176" />
+
+<item itemtype="Connector" uid="Connector-1840" startpinid="Tunnel-777-pin" endpinid="Bus-776-busPinI" pointList="-880,-496,-884,-496" />
+
+<item itemtype="Connector" uid="Connector-2072" startpinid="Resistor-840-lPin" endpinid="Led-847-rPin" pointList="-496,-232,-496,-244" />
+
+<item itemtype="Connector" uid="Connector-1876" startpinid="SwitchDip-787-switch7-pinP" endpinid="Node-794-1" pointList="-920,-440,-924,-440" />
+
+<item itemtype="Connector" uid="Connector-1924" startpinid="Bus-710-ePin14" endpinid="DecToBcd-551-in12" pointList="-796,-392,-788,-392" />
+
+<item itemtype="Connector" uid="Connector-1906" startpinid="7-Seg BCD-581-in1" endpinid="Bus-580-ePin2" pointList="-424,-336,-424,-332" />
+
+<item itemtype="Connector" uid="Connector-1907" startpinid="Bus-580-ePin1" endpinid="7-Seg BCD-581-in0" pointList="-416,-332,-416,-336" />
+
+<item itemtype="Connector" uid="Connector-2050" startpinid="Or Gate-835-in1" endpinid="CD4532-807-Q2" pointList="-660,-220,-692,-220,-692,-192,-724,-192" />
+
+<item itemtype="Connector" uid="Connector-2077" startpinid="Led-849-rPin" endpinid="Resistor-848-lPin" pointList="-568,-244,-568,-232" />
+
+<item itemtype="Connector" uid="Connector-2069" startpinid="Tunnel-851-pin" endpinid="Bus-846-ePin0" pointList="-544,-300,-544,-288" />
+
+<item itemtype="Connector" uid="Connector-1885" startpinid="SwitchDip-787-switch4-pinP" endpinid="Node-797-1" pointList="-920,-464,-924,-464" />
+
+<item itemtype="Connector" uid="Connector-1188" startpinid="Bus-555-busPinI" endpinid="Tunnel-557-pin" pointList="-728,-448,-724,-448" />
+
+<item itemtype="Connector" uid="Connector-1891" startpinid="SwitchDip-787-switch2-pinP" endpinid="Node-799-1" pointList="-920,-480,-924,-480" />
+
+<item itemtype="Connector" uid="Connector-1989" startpinid="Bus-819-ePin2" endpinid="Bus-817-ePin2" pointList="-912,-320,-908,-320" />
+
+<item itemtype="Connector" uid="Connector-1887" startpinid="Node-797-2" endpinid="Node-796-0" pointList="-924,-464,-924,-456" />
+
+<item itemtype="Connector" uid="Connector-1911" startpinid="Bus-710-ePin3" endpinid="DecToBcd-551-in1" pointList="-796,-480,-788,-480" />
+
+<item itemtype="Connector" uid="Connector-2001" startpinid="Bus-819-ePin14" endpinid="Bus-818-ePin6" pointList="-912,-224,-908,-224" />
+
+<item itemtype="Connector" uid="Connector-1953" startpinid="Bus-774-ePin8" endpinid="CD4532-769-D7" pointList="-784,-272,-772,-272" />
+
+<item itemtype="Connector" uid="Connector-1995" startpinid="Bus-819-ePin8" endpinid="Bus-817-ePin8" pointList="-912,-272,-908,-272" />
+
+<item itemtype="Connector" uid="Connector-1976" startpinid="Bus-808-ePin4" endpinid="CD4532-807-D3" pointList="-784,-184,-772,-184" />
+
+<item itemtype="Connector" uid="Connector-1182" startpinid="DecToBcd-551-out1" endpinid="Bus-555-ePin2" pointList="-740,-440,-736,-440" />
+
+<item itemtype="Connector" uid="Connector-1985" startpinid="CD4532-807-D0" endpinid="Bus-808-ePin1" pointList="-772,-208,-784,-208" />
+
+<item itemtype="Connector" uid="Connector-2070" startpinid="Led-853-rPin" endpinid="Resistor-842-lPin" pointList="-440,-244,-440,-232" />
+
+<item itemtype="Connector" uid="Connector-2046" startpinid="And Gate-829-in0" endpinid="CD4532-769-Q2" pointList="-704,-288,-716,-288,-716,-312,-724,-312" />
+
+<item itemtype="Connector" uid="Connector-1896" startpinid="Node-800-2" endpinid="Node-799-0" pointList="-924,-488,-924,-480" />
+
+<item itemtype="Connector" uid="Connector-1870" startpinid="SwitchDip-787-switch9-pinP" endpinid="Node-792-1" pointList="-920,-424,-924,-424" />
+
+<item itemtype="Connector" uid="Connector-1993" startpinid="Bus-819-ePin6" endpinid="Bus-817-ePin6" pointList="-912,-288,-908,-288" />
+
+<item itemtype="Connector" uid="Connector-2042" startpinid="And Gate-827-in1" endpinid="Node-832-0" pointList="-704,-320,-708,-320,-708,-300" />
+
+<item itemtype="Connector" uid="Connector-2088" startpinid="Bus-859-ePin1" endpinid="Led-854-lPin" pointList="-416,-280,-392,-280,-392,-276" />
+
+<item itemtype="Connector" uid="Connector-1921" startpinid="DecToBcd-551-in9" endpinid="Bus-710-ePin11" pointList="-788,-416,-796,-416" />
+
+<item itemtype="Connector" uid="Connector-1864" startpinid="SwitchDip-787-switch11-pinP" endpinid="Node-790-1" pointList="-920,-408,-924,-408" />
+
+<item itemtype="Connector" uid="Connector-1987" startpinid="Bus-808-ePin8" endpinid="CD4532-807-D7" pointList="-784,-152,-772,-152" />
+
+<item itemtype="Connector" uid="Connector-1905" startpinid="Bus-580-ePin3" endpinid="7-Seg BCD-581-in2" pointList="-432,-332,-432,-336" />
+
+<item itemtype="Connector" uid="Connector-1970" startpinid="Bus-808-ePin6" endpinid="CD4532-807-D5" pointList="-784,-168,-772,-168" />
+
+<item itemtype="Connector" uid="Connector-1914" startpinid="DecToBcd-551-in4" endpinid="Bus-710-ePin6" pointList="-788,-456,-796,-456" />
+
+<item itemtype="Connector" uid="Connector-1998" startpinid="Bus-818-ePin3" endpinid="Bus-819-ePin11" pointList="-908,-248,-912,-248" />
+
+<item itemtype="Connector" uid="Connector-1348" startpinid="Bus-580-ePin0" endpinid="Tunnel-563-pin" pointList="-440,-324,-440,-312" />
+
+<item itemtype="Connector" uid="Connector-1948" startpinid="CD4532-769-D2" endpinid="Bus-774-ePin3" pointList="-772,-312,-784,-312" />
+
+<item itemtype="Connector" uid="Connector-1838" startpinid="Tunnel-779-pin" endpinid="Bus-774-busPinI" pointList="-820,-328,-792,-328" />
+
+<item itemtype="Connector" uid="Connector-2067" startpinid="Resistor-842-rPin" endpinid="Ground-844-Gnd" pointList="-440,-200,-440,-192" />
+
+<item itemtype="Connector" uid="Connector-1932" startpinid="SwitchDip-787-switch5-pinN" endpinid="Bus-776-ePin6" pointList="-896,-456,-892,-456" />
+
+<item itemtype="Connector" uid="Connector-2085" startpinid="Led-836-rPin" endpinid="Resistor-839-lPin" pointList="-416,-244,-416,-232" />
+
+<item itemtype="Connector" uid="Connector-1902" startpinid="7-Seg BCD-140-in1" endpinid="Bus-575-ePin2" pointList="-528,-336,-528,-332" />
+
+<item itemtype="Connector" uid="Connector-2064" startpinid="Bus-859-ePin0" endpinid="Tunnel-845-pin" pointList="-440,-288,-440,-300" />
+
+<item itemtype="Connector" uid="Connector-1869" startpinid="Node-791-2" endpinid="Node-790-0" pointList="-924,-416,-924,-408" />
+
+<item itemtype="Connector" uid="Connector-1942" startpinid="SwitchDip-787-switch15-pinN" endpinid="Bus-776-ePin16" pointList="-896,-376,-892,-376" />
+
+<item itemtype="Connector" uid="Connector-1893" startpinid="Node-799-2" endpinid="Node-798-0" pointList="-924,-480,-924,-472" />
+
+<item itemtype="Connector" uid="Connector-1926" startpinid="Bus-710-ePin16" endpinid="DecToBcd-551-in14" pointList="-796,-376,-788,-376" />
+
+<item itemtype="Connector" uid="Connector-1937" startpinid="Bus-776-ePin11" endpinid="SwitchDip-787-switch10-pinN" pointList="-892,-416,-896,-416" />
+
+<item itemtype="Connector" uid="Connector-1928" startpinid="SwitchDip-787-switch1-pinN" endpinid="Bus-776-ePin2" pointList="-896,-488,-892,-488" />
+
+<item itemtype="Connector" uid="Connector-1977" startpinid="Tunnel-809-pin" endpinid="Bus-808-busPinI" pointList="-820,-208,-792,-208" />
+
+<item itemtype="Connector" uid="Connector-1991" startpinid="Bus-819-ePin4" endpinid="Bus-817-ePin4" pointList="-912,-304,-908,-304" />
+
+<item itemtype="Connector" uid="Connector-2063" startpinid="Bus-814-ePin2" endpinid="Or Gate-834-out" pointList="-624,-244,-628,-244" />
+
+<item itemtype="Connector" uid="Connector-2058" startpinid="Or Gate-833-in0" endpinid="And Gate-827-out" pointList="-660,-268,-660,-324,-672,-324" />
+
+<item itemtype="Connector" uid="Connector-2078" startpinid="Led-850-rPin" endpinid="Resistor-863-lPin" pointList="-464,-244,-464,-232" />
+
+<item itemtype="Connector" uid="Connector-2060" startpinid="Or Gate-835-in0" endpinid="And Gate-829-out" pointList="-660,-228,-668,-228,-668,-284,-672,-284" />
+
+<item itemtype="Connector" uid="Connector-1934" startpinid="SwitchDip-787-switch7-pinN" endpinid="Bus-776-ePin8" pointList="-896,-440,-892,-440" />
+
+<item itemtype="Connector" uid="Connector-1929" startpinid="Bus-776-ePin3" endpinid="SwitchDip-787-switch2-pinN" pointList="-892,-480,-896,-480" />
+
+<item itemtype="Connector" uid="Connector-1952" startpinid="CD4532-769-D6" endpinid="Bus-774-ePin7" pointList="-772,-280,-784,-280" />
+
+<item itemtype="Connector" uid="Connector-1978" startpinid="CD4532-807-D2" endpinid="Bus-808-ePin3" pointList="-772,-192,-784,-192" />
+
+<item itemtype="Connector" uid="Connector-2005" startpinid="Bus-817-busPinI" endpinid="Tunnel-806-pin" pointList="-900,-328,-888,-328" />
+
+<item itemtype="Connector" uid="Connector-1858" startpinid="SwitchDip-787-switch13-pinP" endpinid="Node-788-1" pointList="-920,-392,-924,-392" />
+
+<item itemtype="Connector" uid="Connector-2083" startpinid="Led-843-rPin" endpinid="Resistor-862-lPin" pointList="-520,-244,-520,-232" />
+
+<item itemtype="Connector" uid="Connector-2098" startpinid="Resistor-841-rPin" endpinid="Ground-857-Gnd" pointList="-392,-200,-392,-192" />
+
+<item itemtype="Connector" uid="Connector-2041" startpinid="And Gate-828-in1" endpinid="Node-832-1" pointList="-704,-300,-708,-300" />
+
+<item itemtype="Connector" uid="Connector-1922" startpinid="Bus-710-ePin12" endpinid="DecToBcd-551-in10" pointList="-796,-408,-788,-408" />
+
+<item itemtype="Connector" uid="Connector-2079" startpinid="Led-858-rPin" endpinid="Resistor-860-lPin" pointList="-544,-244,-544,-232" />
+
+<item itemtype="Connector" uid="Connector-1863" startpinid="Node-789-2" endpinid="Node-788-0" pointList="-924,-400,-924,-392" />
+
+</circuit>
