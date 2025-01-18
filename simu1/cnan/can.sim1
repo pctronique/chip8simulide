@@ -1,919 +1,911 @@
 <circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="Tunnel" CircId="Tunnel-567" mainComp="false" Show_id="false" Show_Val="false" Pos="-300,-416" rotation="0" hflip="1" vflip="1" label="Tunnel-567" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-702" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-348" rotation="0" hflip="1" vflip="1" label="Tunnel-702" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P15" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-665" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-284" rotation="0" hflip="1" vflip="1" label="Tunnel-665" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Ground" CircId="Ground-579" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,-456" rotation="0" hflip="1" vflip="1" label="Ground-579" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-605" mainComp="false" Show_id="false" Show_Val="false" Pos="-672,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-605" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS5" IsBus="false" />
-
-<item itemtype="opAmp" CircId="opAmp-470" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-372" rotation="0" hflip="1" vflip="1" label="opAmp-470" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Mosfet" CircId="Mosfet-484" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-476" rotation="90" hflip="-1" vflip="1" label="Mosfet-484" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-515" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,-532" rotation="0" hflip="-1" vflip="1" label="Tunnel-515" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-693" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-468" rotation="0" hflip="-1" vflip="1" label="Tunnel-693" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P8" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-696" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-460" rotation="0" hflip="1" vflip="1" label="Tunnel-696" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P1" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-712" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-964,-552" rotation="90" hflip="1" vflip="1" label="Resistor-712" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-682" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-224" rotation="0" hflip="-1" vflip="1" label="Tunnel-682" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P5" IsBus="false" />
-
-<item itemtype="Led" CircId="Led-157" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,-540" rotation="90" hflip="1" vflip="1" label="Led-157" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-607" mainComp="false" Show_id="false" Show_Val="false" Pos="-728,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-607" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS7" IsBus="false" />
-
-<item itemtype="Bus" CircId="Bus-576" mainComp="false" Show_id="false" Show_Val="false" Pos="-200,-568" rotation="90" hflip="-1" vflip="-1" label="Bus-576" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Bus" CircId="Bus-594" mainComp="false" Show_id="false" Show_Val="false" Pos="-96,-568" rotation="90" hflip="-1" vflip="-1" label="Bus-594" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-675" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-380" rotation="0" hflip="1" vflip="1" label="Tunnel-675" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-668" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-428" rotation="0" hflip="1" vflip="1" label="Tunnel-668" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-598" mainComp="false" Show_id="false" Show_Val="false" Pos="-940,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-598" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS14" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-238" mainComp="false" Show_id="false" Show_Val="false" Pos="-368,-536" rotation="0" hflip="1" vflip="1" label="Tunnel-238" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
-
-<item itemtype="Tunnel" CircId="Tunnel-553" mainComp="false" Show_id="false" Show_Val="false" Pos="-600,-488" rotation="0" hflip="1" vflip="1" label="Tunnel-553" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-673" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-284" rotation="0" hflip="1" vflip="1" label="Tunnel-673" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-666" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-332" rotation="0" hflip="1" vflip="1" label="Tunnel-666" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-393" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-616,-552" rotation="90" hflip="1" vflip="1" label="Resistor-393" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-627" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-316" rotation="0" hflip="1" vflip="1" label="Tunnel-627" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS3" IsBus="false" />
 
 <item itemtype="Mosfet" CircId="Mosfet-469" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-332" rotation="90" hflip="-1" vflip="1" label="Mosfet-469" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
 
-<item itemtype="Ground" CircId="Ground-151" mainComp="false" Show_id="false" Show_Val="false" Pos="-248,-456" rotation="0" hflip="1" vflip="1" label="Ground-151" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-626" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-364" rotation="0" hflip="1" vflip="1" label="Tunnel-626" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS10" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-599" mainComp="false" Show_id="false" Show_Val="false" Pos="-908,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-599" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS13" IsBus="false" />
-
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-142" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-484,-332" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-142" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
-
-<item itemtype="Voltage Source" CircId="Voltage Source-197" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-444,-400" rotation="0" hflip="1" vflip="1" label="Voltage Source-197" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="0 V" MaxValue="5 V" MinValue="0 V" />
-
-<item itemtype="Ground" CircId="Ground-711" mainComp="false" Show_id="false" Show_Val="false" Pos="-608,-320" rotation="0" hflip="1" vflip="1" label="Ground-711" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="DecToBcd" CircId="DecToBcd-551" mainComp="false" Show_id="false" Show_Val="false" Pos="-576,-404" rotation="0" hflip="1" vflip="1" label="DecToBcd-551" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" _16_Bits="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
-
-<item itemtype="Tunnel" CircId="Tunnel-700" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-372" rotation="0" hflip="1" vflip="1" label="Tunnel-700" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P12" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-614" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-268" rotation="0" hflip="1" vflip="1" label="Tunnel-614" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS4" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-690" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-324" rotation="0" hflip="-1" vflip="1" label="Tunnel-690" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P11" IsBus="false" />
-
 <item itemtype="Tunnel" CircId="Tunnel-611" mainComp="false" Show_id="false" Show_Val="false" Pos="-844,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-611" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS11" IsBus="false" />
 
-<item itemtype="Tunnel" CircId="Tunnel-477" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-492" rotation="0" hflip="1" vflip="1" label="Tunnel-477" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-707" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-468" rotation="0" hflip="1" vflip="1" label="Tunnel-707" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P0" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-672" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-232" rotation="0" hflip="1" vflip="1" label="Tunnel-672" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Bus" CircId="Bus-237" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-536" rotation="0" hflip="-1" vflip="1" label="Bus-237" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-699" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-388" rotation="0" hflip="1" vflip="1" label="Tunnel-699" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P10" IsBus="false" />
-
-<item itemtype="WaveGen" CircId="WaveGen-143" mainComp="false" ShowProp="Freq" Show_id="false" Show_Val="true" Pos="-428,-448" rotation="0" hflip="1" vflip="1" label="WaveGen-143" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="20 mHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
-
-<item itemtype="Led" CircId="Led-160" mainComp="false" Show_id="false" Show_Val="false" Pos="-248,-540" rotation="90" hflip="1" vflip="1" label="Led-160" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="Resistor" CircId="Resistor-340" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-756,-552" rotation="90" hflip="1" vflip="1" label="Resistor-340" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-705" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-404" rotation="0" hflip="1" vflip="1" label="Tunnel-705" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P8" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-709" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-356" rotation="0" hflip="1" vflip="1" label="Tunnel-709" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P14" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-625" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-316" rotation="0" hflip="1" vflip="1" label="Tunnel-625" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS11" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-667" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-380" rotation="0" hflip="1" vflip="1" label="Tunnel-667" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-706" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-436" rotation="0" hflip="1" vflip="1" label="Tunnel-706" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P4" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-444" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-348" rotation="0" hflip="1" vflip="1" label="Tunnel-444" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-686" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-176" rotation="-360" hflip="-1" vflip="-1" label="Tunnel-686" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P14" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-608" mainComp="false" Show_id="false" Show_Val="false" Pos="-756,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-608" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS8" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-453" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-248" rotation="0" hflip="1" vflip="1" label="Tunnel-453" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="opAmp" CircId="opAmp-459" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-276" rotation="0" hflip="1" vflip="1" label="opAmp-459" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-445" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-396" rotation="0" hflip="1" vflip="1" label="Tunnel-445" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-617" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-168" rotation="0" hflip="1" vflip="1" label="Tunnel-617" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS14" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-704" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-452" rotation="0" hflip="1" vflip="1" label="Tunnel-704" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P2" IsBus="false" />
-
-<item itemtype="Bus" CircId="Bus-580" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-504" rotation="90" hflip="1" vflip="1" label="Bus-580" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-565" mainComp="false" Show_id="false" Show_Val="false" Pos="-300,-512" rotation="0" hflip="-1" vflip="1" label="Tunnel-565" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA1" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-662" mainComp="false" Show_id="false" Show_Val="false" Pos="-596,-488" rotation="0" hflip="-1" vflip="1" label="Tunnel-662" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-240" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,-268" rotation="0" hflip="-1" vflip="1" label="Tunnel-240" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
-
-<item itemtype="Tunnel" CircId="Tunnel-246" mainComp="false" Show_id="false" Show_Val="false" Pos="-288,-268" rotation="0" hflip="-1" vflip="1" label="Tunnel-246" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
-
-<item itemtype="opAmp" CircId="opAmp-395" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-468" rotation="0" hflip="1" vflip="1" label="opAmp-395" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-689" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-124" rotation="0" hflip="-1" vflip="1" label="Tunnel-689" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P15" IsBus="false" />
-
-<item itemtype="opAmp" CircId="opAmp-446" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-324" rotation="0" hflip="1" vflip="1" label="opAmp-446" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-664" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-232" rotation="0" hflip="1" vflip="1" label="Tunnel-664" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Oscope" CircId="Oscope-252" mainComp="false" Show_id="false" Show_Val="false" Pos="-204,-188" rotation="0" hflip="1" vflip="1" label="Oscope-252" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="8536478367183" TimPos="-9149900746345,-9149900746345,-9149900746345,-9149900746345," VolDiv="0.506962,0.506962,0.506962,0.506962," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="-2.5114,-2.5114,-2.5114,-2.5114," />
-
-<item itemtype="Resistor" CircId="Resistor-397" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-908,-552" rotation="90" hflip="1" vflip="1" label="Resistor-397" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-708" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-364" rotation="0" hflip="1" vflip="1" label="Tunnel-708" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P13" IsBus="false" />
-
-<item itemtype="Oscope" CircId="Oscope-148" mainComp="false" Show_id="false" Show_Val="false" Pos="-204,-368" rotation="0" hflip="1" vflip="1" label="Oscope-148" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="8536478367183" TimPos="-9149900746345,-9149900746345,-9149900746345,-9149900746345," VolDiv="0.506962,0.506962,0.506962,0.506962," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="2" HideCh="false,false,false,false," VolPos="-2.5114,-2.5114,-2.5114,-2.5114," />
-
-<item itemtype="opAmp" CircId="opAmp-498" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-124" rotation="0" hflip="1" vflip="1" label="opAmp-498" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-474" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-300" rotation="0" hflip="1" vflip="1" label="Tunnel-474" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-613" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-364" rotation="0" hflip="1" vflip="1" label="Tunnel-613" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS2" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-584" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-120,-496" rotation="90" hflip="1" vflip="1" label="Resistor-584" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
-
-<item itemtype="Mosfet" CircId="Mosfet-495" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-284" rotation="90" hflip="-1" vflip="1" label="Mosfet-495" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="opAmp" CircId="opAmp-486" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-224" rotation="0" hflip="1" vflip="1" label="opAmp-486" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-557" mainComp="false" Show_id="false" Show_Val="false" Pos="-536,-420" rotation="0" hflip="-1" vflip="1" label="Tunnel-557" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
-
-<item itemtype="Resistor" CircId="Resistor-369" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-560,-552" rotation="90" hflip="1" vflip="1" label="Resistor-369" idLabPos="-12,-24" labelrot="0" valLabPos="-16,7.00727" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="opAmp" CircId="opAmp-441" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-420" rotation="0" hflip="1" vflip="1" label="opAmp-441" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Mosfet" CircId="Mosfet-455" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-284" rotation="90" hflip="-1" vflip="1" label="Mosfet-455" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-440" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-444" rotation="0" hflip="1" vflip="1" label="Tunnel-440" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-670" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-128" rotation="0" hflip="1" vflip="1" label="Tunnel-670" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Mosfet" CircId="Mosfet-341" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-476" rotation="90" hflip="-1" vflip="1" label="Mosfet-341" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-562" mainComp="false" Show_id="false" Show_Val="false" Pos="-296,-368" rotation="0" hflip="1" vflip="1" label="Tunnel-562" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA2" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-624" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-112" rotation="0" hflip="1" vflip="1" label="Tunnel-624" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS7" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-691" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-372" rotation="0" hflip="-1" vflip="1" label="Tunnel-691" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P10" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-610" mainComp="false" Show_id="false" Show_Val="false" Pos="-812,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-610" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS10" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-452" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-196" rotation="0" hflip="1" vflip="1" label="Tunnel-452" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Ground" CircId="Ground-583" mainComp="false" Show_id="false" Show_Val="false" Pos="-96,-456" rotation="0" hflip="1" vflip="1" label="Ground-583" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="opAmp" CircId="opAmp-481" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-468" rotation="0" hflip="1" vflip="1" label="opAmp-481" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-616" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-116" rotation="0" hflip="1" vflip="1" label="Tunnel-616" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS15" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-150" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-248,-496" rotation="90" hflip="1" vflip="1" label="Resistor-150" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-695" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-380" rotation="0" hflip="1" vflip="1" label="Tunnel-695" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P11" IsBus="false" />
-
-<item itemtype="Bus" CircId="Bus-247" mainComp="false" Show_id="false" Show_Val="false" Pos="-304,-176" rotation="0" hflip="-1" vflip="1" label="Bus-247" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-627" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-316" rotation="0" hflip="1" vflip="1" label="Tunnel-627" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS3" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-623" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-412" rotation="0" hflip="1" vflip="1" label="Tunnel-623" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS1" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-591" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-96,-496" rotation="90" hflip="1" vflip="1" label="Resistor-591" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-601" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-601" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS1" IsBus="false" />
-
-<item itemtype="Ground" CircId="Ground-588" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,-456" rotation="0" hflip="1" vflip="1" label="Ground-588" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-684" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-172" rotation="0" hflip="-1" vflip="1" label="Tunnel-684" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P6" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-679" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-420" rotation="0" hflip="-1" vflip="1" label="Tunnel-679" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P1" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-688" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-224" rotation="0" hflip="-1" vflip="1" label="Tunnel-688" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P13" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-697" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-428" rotation="0" hflip="1" vflip="1" label="Tunnel-697" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P5" IsBus="false" />
-
-<item itemtype="Ground" CircId="Ground-586" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,-456" rotation="0" hflip="1" vflip="1" label="Ground-586" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="opAmp" CircId="opAmp-447" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-372" rotation="0" hflip="1" vflip="1" label="opAmp-447" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Led" CircId="Led-582" mainComp="false" Show_id="false" Show_Val="false" Pos="-96,-540" rotation="90" hflip="1" vflip="1" label="Led-582" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="Mosfet" CircId="Mosfet-460" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-232" rotation="90" hflip="-1" vflip="1" label="Mosfet-460" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-436" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,-348" rotation="0" hflip="1" vflip="1" label="Tunnel-436" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-239" mainComp="false" Show_id="false" Show_Val="false" Pos="-368,-488" rotation="0" hflip="1" vflip="1" label="Tunnel-239" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
-
-<item itemtype="Tunnel" CircId="Tunnel-694" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-420" rotation="0" hflip="1" vflip="1" label="Tunnel-694" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P6" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-471" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-348" rotation="0" hflip="1" vflip="1" label="Tunnel-471" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-609" mainComp="false" Show_id="false" Show_Val="false" Pos="-784,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-609" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS9" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-604" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-604" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS4" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-692" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-276" rotation="0" hflip="-1" vflip="1" label="Tunnel-692" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P12" IsBus="false" />
-
-<item itemtype="Switch" CircId="Switch-200" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-404" rotation="0" hflip="-1" vflip="1" label="Switch-200" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" />
-
-<item itemtype="Tunnel" CircId="Tunnel-483" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-396" rotation="0" hflip="1" vflip="1" label="Tunnel-483" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-564" mainComp="false" Show_id="false" Show_Val="false" Pos="-480,-492" rotation="0" hflip="-1" vflip="1" label="Tunnel-564" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
-
-<item itemtype="Tunnel" CircId="Tunnel-561" mainComp="false" Show_id="false" Show_Val="false" Pos="-296,-320" rotation="0" hflip="1" vflip="1" label="Tunnel-561" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA1" IsBus="false" />
-
-<item itemtype="Bus" CircId="Bus-236" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-488" rotation="0" hflip="-1" vflip="1" label="Bus-236" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-661" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-132" rotation="0" hflip="1" vflip="1" label="Tunnel-661" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Ground" CircId="Ground-332" mainComp="false" Show_id="false" Show_Val="false" Pos="-464,-292" rotation="0" hflip="1" vflip="1" label="Ground-332" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" />
-
-<item itemtype="Mosfet" CircId="Mosfet-488" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-232" rotation="90" hflip="-1" vflip="1" label="Mosfet-488" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Oscope" CircId="Oscope-253" mainComp="false" Show_id="false" Show_Val="false" Pos="-456,-188" rotation="0" hflip="1" vflip="1" label="Oscope-253" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="8536478367183" TimPos="-9149900746345,-9149900746345,-9149900746345,-9149900746345," VolDiv="0.506962,0.506962,0.506962,0.506962," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="-2.5114,-2.5114,-2.5114,-2.5114," />
-
-<item itemtype="opAmp" CircId="opAmp-461" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-172" rotation="0" hflip="1" vflip="1" label="opAmp-461" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-566" mainComp="false" Show_id="false" Show_Val="false" Pos="-300,-560" rotation="0" hflip="-1" vflip="1" label="Tunnel-566" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA2" IsBus="false" />
-
-<item itemtype="Led" CircId="Led-589" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,-540" rotation="90" hflip="1" vflip="1" label="Led-589" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="Mosfet" CircId="Mosfet-442" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-428" rotation="90" hflip="-1" vflip="1" label="Mosfet-442" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-674" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-332" rotation="0" hflip="1" vflip="1" label="Tunnel-674" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="DAC" CircId="DAC-235" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-504" rotation="0" hflip="1" vflip="1" label="DAC-235" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
-
-<item itemtype="Resistor" CircId="Resistor-342" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-588,-552" rotation="90" hflip="1" vflip="1" label="Resistor-342" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-493" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-148" rotation="0" hflip="1" vflip="1" label="Tunnel-493" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Mosfet" CircId="Mosfet-497" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-380" rotation="90" hflip="-1" vflip="1" label="Mosfet-497" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Resistor" CircId="Resistor-156" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-200,-496" rotation="90" hflip="1" vflip="1" label="Resistor-156" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-677" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-476" rotation="0" hflip="1" vflip="1" label="Tunnel-677" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="opAmp" CircId="opAmp-454" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-120" rotation="0" hflip="1" vflip="1" label="opAmp-454" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Mosfet" CircId="Mosfet-475" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-184" rotation="90" hflip="-1" vflip="1" label="Mosfet-475" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Mosfet" CircId="Mosfet-448" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-332" rotation="90" hflip="-1" vflip="1" label="Mosfet-448" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Mosfet" CircId="Mosfet-489" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-132" rotation="90" hflip="-1" vflip="1" label="Mosfet-489" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-703" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-444" rotation="0" hflip="1" vflip="1" label="Tunnel-703" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P3" IsBus="false" />
-
-<item itemtype="Led" CircId="Led-158" mainComp="false" Show_id="false" Show_Val="false" Pos="-200,-540" rotation="90" hflip="1" vflip="1" label="Led-158" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="opAmp" CircId="opAmp-457" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-224" rotation="0" hflip="1" vflip="1" label="opAmp-457" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Bus" CircId="Bus-555" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,-396" rotation="0" hflip="1" vflip="1" label="Bus-555" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-600" mainComp="false" Show_id="false" Show_Val="false" Pos="-532,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-600" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS0" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-612" mainComp="false" Show_id="false" Show_Val="false" Pos="-876,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-612" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS12" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-701" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-412" rotation="0" hflip="1" vflip="1" label="Tunnel-701" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P7" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-681" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-324" rotation="0" hflip="-1" vflip="1" label="Tunnel-681" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P3" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-663" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-184" rotation="0" hflip="1" vflip="1" label="Tunnel-663" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-487" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-444" rotation="0" hflip="1" vflip="1" label="Tunnel-487" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Mosfet" CircId="Mosfet-449" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-380" rotation="90" hflip="-1" vflip="1" label="Mosfet-449" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-563" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-492" rotation="0" hflip="-1" vflip="1" label="Tunnel-563" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
-
-<item itemtype="Tunnel" CircId="Tunnel-568" mainComp="false" Show_id="false" Show_Val="false" Pos="-376,-404" rotation="0" hflip="-1" vflip="1" label="Tunnel-568" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-482" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-248" rotation="0" hflip="1" vflip="1" label="Tunnel-482" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="opAmp" CircId="opAmp-485" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-276" rotation="0" hflip="1" vflip="1" label="opAmp-485" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-597" mainComp="false" Show_id="false" Show_Val="false" Pos="-972,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-597" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS15" IsBus="false" />
-
-<item itemtype="7-Seg BCD" CircId="7-Seg BCD-140" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-548" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-140" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-622" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-216" rotation="0" hflip="1" vflip="1" label="Tunnel-622" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS5" IsBus="false" />
-
-<item itemtype="DAC" CircId="DAC-234" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-552" rotation="0" hflip="1" vflip="1" label="DAC-234" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
-
-<item itemtype="Resistor" CircId="Resistor-347" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-532,-552" rotation="90" hflip="1" vflip="1" label="Resistor-347" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-456" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-300" rotation="0" hflip="1" vflip="1" label="Tunnel-456" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
 
 <item itemtype="opAmp" CircId="opAmp-473" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-176" rotation="0" hflip="1" vflip="1" label="opAmp-473" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
 
-<item itemtype="Resistor" CircId="Resistor-396" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-940,-552" rotation="90" hflip="1" vflip="1" label="Resistor-396" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-691" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-372" rotation="0" hflip="-1" vflip="1" label="Tunnel-691" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P10" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-393" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-616,-552" rotation="90" hflip="1" vflip="1" label="Resistor-393" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-440" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-444" rotation="0" hflip="1" vflip="1" label="Tunnel-440" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-605" mainComp="false" Show_id="false" Show_Val="false" Pos="-672,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-605" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS5" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-464" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-180" rotation="90" hflip="-1" vflip="1" label="Mosfet-464" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-437" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-284" rotation="0" hflip="1" vflip="1" label="Tunnel-437" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-620" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-460" rotation="0" hflip="1" vflip="1" label="Tunnel-620" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS8" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-442" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-428" rotation="90" hflip="-1" vflip="1" label="Mosfet-442" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-515" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,-532" rotation="0" hflip="-1" vflip="1" label="Tunnel-515" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-562" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-176" rotation="0" hflip="1" vflip="1" label="Tunnel-562" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-666" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-332" rotation="0" hflip="1" vflip="1" label="Tunnel-666" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-428" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-812,-552" rotation="90" hflip="1" vflip="1" label="Resistor-428" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-449" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-380" rotation="90" hflip="-1" vflip="1" label="Mosfet-449" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-708" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-368" rotation="0" hflip="1" vflip="1" label="Tunnel-708" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P13" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-358" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-644,-552" rotation="90" hflip="1" vflip="1" label="Resistor-358" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-490" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-200" rotation="0" hflip="1" vflip="1" label="Tunnel-490" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-341" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-476" rotation="90" hflip="-1" vflip="1" label="Mosfet-341" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Oscope" CircId="Oscope-252" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-332" rotation="0" hflip="1" vflip="1" label="Oscope-252" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="8536478367183" TimPos="-9149900746345,-9149900746345,-9149900746345,-9149900746345," VolDiv="0.506962,0.506962,0.506962,0.506962," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="-2.5114,-2.5114,-2.5114,-2.5114," />
+
+<item itemtype="Tunnel" CircId="Tunnel-618" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-460" rotation="0" hflip="1" vflip="1" label="Tunnel-618" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-444" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-348" rotation="0" hflip="1" vflip="1" label="Tunnel-444" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="opAmp" CircId="opAmp-459" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-276" rotation="0" hflip="1" vflip="1" label="opAmp-459" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-695" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-384" rotation="0" hflip="1" vflip="1" label="Tunnel-695" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P11" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-694" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-424" rotation="0" hflip="1" vflip="1" label="Tunnel-694" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P6" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-397" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-908,-552" rotation="90" hflip="1" vflip="1" label="Resistor-397" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-709" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-360" rotation="0" hflip="1" vflip="1" label="Tunnel-709" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P14" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-681" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-324" rotation="0" hflip="-1" vflip="1" label="Tunnel-681" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P3" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-698" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-400" rotation="0" hflip="1" vflip="1" label="Tunnel-698" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P9" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-462" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-128" rotation="90" hflip="-1" vflip="1" label="Mosfet-462" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-612" mainComp="false" Show_id="false" Show_Val="false" Pos="-876,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-612" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS12" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-332" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,-268" rotation="0" hflip="1" vflip="1" label="Ground-332" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-707" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-472" rotation="0" hflip="1" vflip="1" label="Tunnel-707" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-565" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,-152" rotation="0" hflip="-1" vflip="1" label="Tunnel-565" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-246" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-412" rotation="0" hflip="-1" vflip="1" label="Tunnel-246" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
+
+<item itemtype="opAmp" CircId="opAmp-457" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-224" rotation="0" hflip="1" vflip="1" label="opAmp-457" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-369" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-560,-552" rotation="90" hflip="1" vflip="1" label="Resistor-369" idLabPos="-12,-24" labelrot="0" valLabPos="-16,7.00727" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-667" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-380" rotation="0" hflip="1" vflip="1" label="Tunnel-667" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-495" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-284" rotation="90" hflip="-1" vflip="1" label="Mosfet-495" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-687" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-420" rotation="0" hflip="-1" vflip="1" label="Tunnel-687" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P9" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-690" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-324" rotation="0" hflip="-1" vflip="1" label="Tunnel-690" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P11" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-679" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-420" rotation="0" hflip="-1" vflip="1" label="Tunnel-679" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P1" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-497" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-380" rotation="90" hflip="-1" vflip="1" label="Mosfet-497" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-697" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-432" rotation="0" hflip="1" vflip="1" label="Tunnel-697" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P5" IsBus="false" />
+
+<item itemtype="Bus" CircId="Bus-580" mainComp="false" Show_id="false" Show_Val="false" Pos="-488,-248" rotation="90" hflip="1" vflip="1" label="Bus-580" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-670" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-128" rotation="0" hflip="1" vflip="1" label="Tunnel-670" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-673" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-284" rotation="0" hflip="1" vflip="1" label="Tunnel-673" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-663" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-184" rotation="0" hflip="1" vflip="1" label="Tunnel-663" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-156" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-492,-380" rotation="90" hflip="1" vflip="1" label="Resistor-156" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-624" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-112" rotation="0" hflip="1" vflip="1" label="Tunnel-624" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS7" IsBus="false" />
 
 <item itemtype="Tunnel" CircId="Tunnel-680" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-372" rotation="0" hflip="-1" vflip="1" label="Tunnel-680" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P2" IsBus="false" />
 
-<item itemtype="Resistor" CircId="Resistor-355" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-876,-552" rotation="90" hflip="1" vflip="1" label="Resistor-355" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-678" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-468" rotation="0" hflip="-1" vflip="1" label="Tunnel-678" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P0" IsBus="false" />
 
-<item itemtype="Tunnel" CircId="Tunnel-433" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-492" rotation="0" hflip="1" vflip="1" label="Tunnel-433" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+<item itemtype="Tunnel" CircId="Tunnel-606" mainComp="false" Show_id="false" Show_Val="false" Pos="-700,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-606" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS6" IsBus="false" />
 
-<item itemtype="Resistor" CircId="Resistor-161" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-224,-496" rotation="90" hflip="1" vflip="1" label="Resistor-161" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+<item itemtype="Tunnel" CircId="Tunnel-692" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-276" rotation="0" hflip="-1" vflip="1" label="Tunnel-692" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P12" IsBus="false" />
 
-<item itemtype="Resistor" CircId="Resistor-412" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-728,-552" rotation="90" hflip="1" vflip="1" label="Resistor-412" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+<item itemtype="Led" CircId="Led-587" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-208" rotation="90" hflip="1" vflip="1" label="Led-587" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-626" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-364" rotation="0" hflip="1" vflip="1" label="Tunnel-626" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS10" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-600" mainComp="false" Show_id="false" Show_Val="false" Pos="-532,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-600" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-597" mainComp="false" Show_id="false" Show_Val="false" Pos="-972,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-597" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS15" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-703" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-448" rotation="0" hflip="1" vflip="1" label="Tunnel-703" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P3" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-601" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-601" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-693" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-468" rotation="0" hflip="-1" vflip="1" label="Tunnel-693" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P8" IsBus="false" />
+
+<item itemtype="WaveGen" CircId="WaveGen-143" mainComp="false" ShowProp="Freq" Show_id="false" Show_Val="true" Pos="-588,-300" rotation="0" hflip="1" vflip="1" label="WaveGen-143" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="20 mHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="opAmp" CircId="opAmp-454" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-120" rotation="0" hflip="1" vflip="1" label="opAmp-454" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="opAmp" CircId="opAmp-472" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-324" rotation="0" hflip="1" vflip="1" label="opAmp-472" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-563" mainComp="false" Show_id="false" Show_Val="false" Pos="-488,-236" rotation="0" hflip="-1" vflip="1" label="Tunnel-563" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
+
+<item itemtype="Resistor" CircId="Resistor-150" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-540,-380" rotation="90" hflip="1" vflip="1" label="Resistor-150" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-539" mainComp="false" Show_id="false" Show_Val="false" Pos="-984,-548" rotation="0" hflip="1" vflip="1" label="Tunnel-539" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-396" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-940,-552" rotation="90" hflip="1" vflip="1" label="Resistor-396" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-702" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-352" rotation="0" hflip="1" vflip="1" label="Tunnel-702" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P15" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-239" mainComp="false" Show_id="false" Show_Val="false" Pos="-656,-128" rotation="0" hflip="1" vflip="1" label="Tunnel-239" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
 
 <item itemtype="Mosfet" CircId="Mosfet-480" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-428" rotation="90" hflip="-1" vflip="1" label="Mosfet-480" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
 
 <item itemtype="Tunnel" CircId="Tunnel-603" mainComp="false" Show_id="false" Show_Val="false" Pos="-616,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-603" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS3" IsBus="false" />
 
-<item itemtype="Tunnel" CircId="Tunnel-678" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-468" rotation="0" hflip="-1" vflip="1" label="Tunnel-678" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P0" IsBus="false" />
+<item itemtype="Tunnel" CircId="Tunnel-674" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-332" rotation="0" hflip="1" vflip="1" label="Tunnel-674" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
 
-<item itemtype="Tunnel" CircId="Tunnel-558" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,-332" rotation="0" hflip="1" vflip="1" label="Tunnel-558" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
+<item itemtype="Resistor" CircId="Resistor-593" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-540,-164" rotation="90" hflip="1" vflip="1" label="Resistor-593" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
 
-<item itemtype="Resistor" CircId="Resistor-358" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-644,-552" rotation="90" hflip="1" vflip="1" label="Resistor-358" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="7-Seg BCD" CircId="7-Seg BCD-581" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,-548" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-581" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
-
-<item itemtype="Mosfet" CircId="Mosfet-462" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-128" rotation="90" hflip="-1" vflip="1" label="Mosfet-462" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Resistor" CircId="Resistor-379" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-672,-552" rotation="90" hflip="1" vflip="1" label="Resistor-379" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Resistor" CircId="Resistor-372" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-700,-552" rotation="90" hflip="1" vflip="1" label="Resistor-372" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Led" CircId="Led-585" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-540" rotation="90" hflip="1" vflip="1" label="Led-585" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-687" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-420" rotation="0" hflip="-1" vflip="1" label="Tunnel-687" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P9" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-592" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-72,-496" rotation="90" hflip="1" vflip="1" label="Resistor-592" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
-
-<item itemtype="Ground" CircId="Ground-590" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-456" rotation="0" hflip="1" vflip="1" label="Ground-590" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-606" mainComp="false" Show_id="false" Show_Val="false" Pos="-700,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-606" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS6" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-615" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-412" rotation="0" hflip="1" vflip="1" label="Tunnel-615" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS9" IsBus="false" />
-
-<item itemtype="opAmp" CircId="opAmp-472" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-324" rotation="0" hflip="1" vflip="1" label="opAmp-472" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-595" mainComp="false" Show_id="false" Show_Val="false" Pos="-96,-580" rotation="0" hflip="1" vflip="1" label="Tunnel-595" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
-
-<item itemtype="Tunnel" CircId="Tunnel-602" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-602" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS2" IsBus="false" />
-
-<item itemtype="Ground" CircId="Ground-577" mainComp="false" Show_id="false" Show_Val="false" Pos="-224,-456" rotation="0" hflip="1" vflip="1" label="Ground-577" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="Mosfet" CircId="Mosfet-464" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-180" rotation="90" hflip="-1" vflip="1" label="Mosfet-464" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
-
-<item itemtype="Ground" CircId="Ground-578" mainComp="false" Show_id="false" Show_Val="false" Pos="-200,-456" rotation="0" hflip="1" vflip="1" label="Ground-578" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-539" mainComp="false" Show_id="false" Show_Val="false" Pos="-984,-548" rotation="0" hflip="1" vflip="1" label="Tunnel-539" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-618" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-460" rotation="0" hflip="1" vflip="1" label="Tunnel-618" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS0" IsBus="false" />
-
-<item itemtype="Led" CircId="Led-587" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,-540" rotation="90" hflip="1" vflip="1" label="Led-587" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-559" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-332" rotation="0" hflip="-1" vflip="1" label="Tunnel-559" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
-
-<item itemtype="Resistor" CircId="Resistor-428" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-812,-552" rotation="90" hflip="1" vflip="1" label="Resistor-428" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-465" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-144" rotation="0" hflip="1" vflip="1" label="Tunnel-465" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Bus" CircId="Bus-241" mainComp="false" Show_id="false" Show_Val="false" Pos="-556,-176" rotation="0" hflip="-1" vflip="1" label="Bus-241" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-437" mainComp="false" Show_id="false" Show_Val="false" Pos="-472,-308" rotation="0" hflip="1" vflip="1" label="Tunnel-437" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-490" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-200" rotation="0" hflip="1" vflip="1" label="Tunnel-490" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-620" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-460" rotation="0" hflip="1" vflip="1" label="Tunnel-620" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS8" IsBus="false" />
+<item itemtype="Tunnel" CircId="Tunnel-452" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-196" rotation="0" hflip="1" vflip="1" label="Tunnel-452" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
 
 <item itemtype="Tunnel" CircId="Tunnel-685" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-276" rotation="0" hflip="-1" vflip="1" label="Tunnel-685" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P4" IsBus="false" />
 
-<item itemtype="Resistor" CircId="Resistor-153" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-176,-496" rotation="90" hflip="1" vflip="1" label="Resistor-153" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-676" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-428" rotation="0" hflip="1" vflip="1" label="Tunnel-676" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-671" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-180" rotation="0" hflip="1" vflip="1" label="Tunnel-671" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-593" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-144,-496" rotation="90" hflip="1" vflip="1" label="Resistor-593" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
-
-<item itemtype="Led" CircId="Led-159" mainComp="false" Show_id="false" Show_Val="false" Pos="-224,-540" rotation="90" hflip="1" vflip="1" label="Led-159" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
-
-<item itemtype="Tunnel" CircId="Tunnel-596" mainComp="false" Show_id="false" Show_Val="false" Pos="-200,-580" rotation="0" hflip="1" vflip="1" label="Tunnel-596" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
-
-<item itemtype="Resistor" CircId="Resistor-328" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-784,-552" rotation="90" hflip="1" vflip="1" label="Resistor-328" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
-
-<item itemtype="Bus" CircId="Bus-560" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-308" rotation="0" hflip="1" vflip="1" label="Bus-560" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-683" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-120" rotation="0" hflip="-1" vflip="1" label="Tunnel-683" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P7" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-619" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-164" rotation="0" hflip="1" vflip="1" label="Tunnel-619" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS6" IsBus="false" />
-
-<item itemtype="ADC" CircId="ADC-146" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-324" rotation="0" hflip="1" vflip="1" label="ADC-146" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
-
-<item itemtype="Bus" CircId="Bus-575" mainComp="false" Show_id="false" Show_Val="false" Pos="-480,-504" rotation="90" hflip="1" vflip="1" label="Bus-575" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
-
-<item itemtype="Tunnel" CircId="Tunnel-669" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-476" rotation="0" hflip="1" vflip="1" label="Tunnel-669" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
-
-<item itemtype="opAmp" CircId="opAmp-491" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-420" rotation="0" hflip="1" vflip="1" label="opAmp-491" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
-<item itemtype="Tunnel" CircId="Tunnel-628" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-216" rotation="0" hflip="1" vflip="1" label="Tunnel-628" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS13" IsBus="false" />
-
-<item itemtype="Tunnel" CircId="Tunnel-456" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-300" rotation="0" hflip="1" vflip="1" label="Tunnel-456" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
-
-<item itemtype="Resistor" CircId="Resistor-346" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-844,-552" rotation="90" hflip="1" vflip="1" label="Resistor-346" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+<item itemtype="Led" CircId="Led-160" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,-424" rotation="90" hflip="1" vflip="1" label="Led-160" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
 <item itemtype="Tunnel" CircId="Tunnel-621" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-268" rotation="0" hflip="1" vflip="1" label="Tunnel-621" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS12" IsBus="false" />
 
-<item itemtype="Tunnel" CircId="Tunnel-698" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-396" rotation="0" hflip="1" vflip="1" label="Tunnel-698" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P9" IsBus="false" />
+<item itemtype="Tunnel" CircId="Tunnel-686" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-176" rotation="-360" hflip="-1" vflip="-1" label="Tunnel-686" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P14" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-535" mainComp="false" Pos="-940,-536" />
+<item itemtype="Bus" CircId="Bus-236" mainComp="false" Show_id="false" Show_Val="false" Pos="-652,-128" rotation="0" hflip="-1" vflip="1" label="Bus-236" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
 
-<item itemtype="Node" CircId="Node-534" mainComp="false" Pos="-908,-536" />
+<item itemtype="Tunnel" CircId="Tunnel-471" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-348" rotation="0" hflip="1" vflip="1" label="Tunnel-471" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
 
-<item itemtype="Node" CircId="Node-526" mainComp="false" Pos="-784,-536" />
+<item itemtype="Led" CircId="Led-589" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-208" rotation="90" hflip="1" vflip="1" label="Led-589" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
-<item itemtype="Node" CircId="Node-521" mainComp="false" Pos="-700,-536" />
+<item itemtype="Tunnel" CircId="Tunnel-598" mainComp="false" Show_id="false" Show_Val="false" Pos="-940,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-598" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS14" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-669" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-476" rotation="0" hflip="1" vflip="1" label="Tunnel-669" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-566" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,-200" rotation="0" hflip="-1" vflip="1" label="Tunnel-566" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA2" IsBus="false" />
+
+<item itemtype="opAmp" CircId="opAmp-498" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-124" rotation="0" hflip="1" vflip="1" label="opAmp-498" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-706" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-440" rotation="0" hflip="1" vflip="1" label="Tunnel-706" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P4" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-714" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-344" rotation="0" hflip="1" vflip="1" label="Tunnel-714" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-328" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-784,-552" rotation="90" hflip="1" vflip="1" label="Resistor-328" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-668" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-428" rotation="0" hflip="1" vflip="1" label="Tunnel-668" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-579" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-340" rotation="0" hflip="1" vflip="1" label="Ground-579" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-625" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-316" rotation="0" hflip="1" vflip="1" label="Tunnel-625" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS11" IsBus="false" />
+
+<item itemtype="DAC" CircId="DAC-235" mainComp="false" Show_id="false" Show_Val="false" Pos="-616,-144" rotation="0" hflip="1" vflip="1" label="DAC-235" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="opAmp" CircId="opAmp-491" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-420" rotation="0" hflip="1" vflip="1" label="opAmp-491" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-614" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-268" rotation="0" hflip="1" vflip="1" label="Tunnel-614" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS4" IsBus="false" />
+
+<item itemtype="opAmp" CircId="opAmp-447" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-372" rotation="0" hflip="1" vflip="1" label="opAmp-447" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Oscope" CircId="Oscope-148" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-176" rotation="0" hflip="1" vflip="1" label="Oscope-148" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="8536478367183" TimPos="-9149900746345,-9149900746345,-9149900746345,-9149900746345," VolDiv="0.506962,0.506962,0.506962,0.506962," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="2" HideCh="false,false,false,false," VolPos="-2.5114,-2.5114,-2.5114,-2.5114," />
+
+<item itemtype="Ground" CircId="Ground-578" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-340" rotation="0" hflip="1" vflip="1" label="Ground-578" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-151" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,-340" rotation="0" hflip="1" vflip="1" label="Ground-151" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-558" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-248" rotation="0" hflip="1" vflip="1" label="Tunnel-558" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
+
+<item itemtype="DAC" CircId="DAC-234" mainComp="false" Show_id="false" Show_Val="false" Pos="-616,-192" rotation="0" hflip="1" vflip="1" label="DAC-234" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Mosfet" CircId="Mosfet-475" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-184" rotation="90" hflip="-1" vflip="1" label="Mosfet-475" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-613" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-364" rotation="0" hflip="1" vflip="1" label="Tunnel-613" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-664" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-232" rotation="0" hflip="1" vflip="1" label="Tunnel-664" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-238" mainComp="false" Show_id="false" Show_Val="false" Pos="-656,-176" rotation="0" hflip="1" vflip="1" label="Tunnel-238" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-604" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-604" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS4" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-465" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-144" rotation="0" hflip="1" vflip="1" label="Tunnel-465" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-683" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-120" rotation="0" hflip="-1" vflip="1" label="Tunnel-683" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P7" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-592" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-468,-164" rotation="90" hflip="1" vflip="1" label="Resistor-592" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-609" mainComp="false" Show_id="false" Show_Val="false" Pos="-784,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-609" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS9" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-596" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-464" rotation="0" hflip="1" vflip="1" label="Tunnel-596" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Led" CircId="Led-159" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-424" rotation="90" hflip="1" vflip="1" label="Led-159" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-436" mainComp="false" Show_id="false" Show_Val="false" Pos="-636,-324" rotation="0" hflip="1" vflip="1" label="Tunnel-436" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-700" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-376" rotation="0" hflip="1" vflip="1" label="Tunnel-700" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P12" IsBus="false" />
+
+<item itemtype="opAmp" CircId="opAmp-485" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-276" rotation="0" hflip="1" vflip="1" label="opAmp-485" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-484" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-476" rotation="90" hflip="-1" vflip="1" label="Mosfet-484" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Resistor" CircId="Resistor-153" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-468,-380" rotation="90" hflip="1" vflip="1" label="Resistor-153" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-616" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-116" rotation="0" hflip="1" vflip="1" label="Tunnel-616" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS15" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-161" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-516,-380" rotation="90" hflip="1" vflip="1" label="Resistor-161" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Led" CircId="Led-585" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,-208" rotation="90" hflip="1" vflip="1" label="Led-585" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-142" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-644,-308" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-142" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-355" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-876,-552" rotation="90" hflip="1" vflip="1" label="Resistor-355" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Ground" CircId="Ground-588" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-124" rotation="0" hflip="1" vflip="1" label="Ground-588" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-347" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-532,-552" rotation="90" hflip="1" vflip="1" label="Resistor-347" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-567" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,-224" rotation="0" hflip="1" vflip="1" label="Tunnel-567" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-617" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-168" rotation="0" hflip="1" vflip="1" label="Tunnel-617" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS14" IsBus="false" />
+
+<item itemtype="opAmp" CircId="opAmp-470" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-372" rotation="0" hflip="1" vflip="1" label="opAmp-470" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-607" mainComp="false" Show_id="false" Show_Val="false" Pos="-728,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-607" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS7" IsBus="false" />
+
+<item itemtype="Bus" CircId="Bus-575" mainComp="false" Show_id="false" Show_Val="false" Pos="-488,-464" rotation="90" hflip="1" vflip="1" label="Bus-575" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-623" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-412" rotation="0" hflip="1" vflip="1" label="Tunnel-623" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS1" IsBus="false" />
+
+<item itemtype="Bus" CircId="Bus-241" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-488" rotation="0" hflip="-1" vflip="1" label="Bus-241" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-595" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-248" rotation="0" hflip="1" vflip="1" label="Tunnel-595" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-672" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-232" rotation="0" hflip="1" vflip="1" label="Tunnel-672" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-553" mainComp="false" Show_id="false" Show_Val="false" Pos="-640,-492" rotation="0" hflip="1" vflip="1" label="Tunnel-553" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-482" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-248" rotation="0" hflip="1" vflip="1" label="Tunnel-482" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="ADC" CircId="ADC-146" mainComp="false" Show_id="false" Show_Val="false" Pos="-616,-240" rotation="0" hflip="1" vflip="1" label="ADC-146" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Mosfet" CircId="Mosfet-488" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-232" rotation="90" hflip="-1" vflip="1" label="Mosfet-488" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Resistor" CircId="Resistor-712" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-964,-552" rotation="90" hflip="1" vflip="1" label="Resistor-712" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-682" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-224" rotation="0" hflip="-1" vflip="1" label="Tunnel-682" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P5" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-677" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-476" rotation="0" hflip="1" vflip="1" label="Tunnel-677" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-445" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-396" rotation="0" hflip="1" vflip="1" label="Tunnel-445" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="opAmp" CircId="opAmp-461" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-172" rotation="0" hflip="1" vflip="1" label="opAmp-461" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Resistor" CircId="Resistor-372" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-700,-552" rotation="90" hflip="1" vflip="1" label="Resistor-372" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-599" mainComp="false" Show_id="false" Show_Val="false" Pos="-908,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-599" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS13" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-608" mainComp="false" Show_id="false" Show_Val="false" Pos="-756,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-608" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS8" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-661" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-132" rotation="0" hflip="1" vflip="1" label="Tunnel-661" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-564" mainComp="false" Show_id="false" Show_Val="false" Pos="-488,-452" rotation="0" hflip="-1" vflip="1" label="Tunnel-564" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Oscope" CircId="Oscope-253" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-500" rotation="0" hflip="1" vflip="1" label="Oscope-253" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="8536478367183" TimPos="-9149900746345,-9149900746345,-9149900746345,-9149900746345," VolDiv="0.506962,0.506962,0.506962,0.506962," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="-2.5114,-2.5114,-2.5114,-2.5114," />
+
+<item itemtype="Tunnel" CircId="Tunnel-684" mainComp="false" Show_id="false" Show_Val="false" Pos="-884,-172" rotation="0" hflip="-1" vflip="1" label="Tunnel-684" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P6" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-590" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,-124" rotation="0" hflip="1" vflip="1" label="Ground-590" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-340" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-756,-552" rotation="90" hflip="1" vflip="1" label="Resistor-340" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Bus" CircId="Bus-237" mainComp="false" Show_id="false" Show_Val="false" Pos="-652,-176" rotation="0" hflip="-1" vflip="1" label="Bus-237" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-561" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-128" rotation="0" hflip="1" vflip="1" label="Tunnel-561" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SA1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-699" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-392" rotation="0" hflip="1" vflip="1" label="Tunnel-699" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P10" IsBus="false" />
+
+<item itemtype="opAmp" CircId="opAmp-481" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-468" rotation="0" hflip="1" vflip="1" label="opAmp-481" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Bus" CircId="Bus-576" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-452" rotation="90" hflip="-1" vflip="-1" label="Bus-576" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-696" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-464" rotation="0" hflip="1" vflip="1" label="Tunnel-696" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-671" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-180" rotation="0" hflip="1" vflip="1" label="Tunnel-671" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-583" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-124" rotation="0" hflip="1" vflip="1" label="Ground-583" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="opAmp" CircId="opAmp-486" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-224" rotation="0" hflip="1" vflip="1" label="opAmp-486" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-689" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-124" rotation="0" hflip="-1" vflip="1" label="Tunnel-689" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P15" IsBus="false" />
+
+<item itemtype="Led" CircId="Led-582" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-208" rotation="90" hflip="1" vflip="1" label="Led-582" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-477" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-492" rotation="0" hflip="1" vflip="1" label="Tunnel-477" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-460" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-232" rotation="90" hflip="-1" vflip="1" label="Mosfet-460" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Mosfet" CircId="Mosfet-448" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-332" rotation="90" hflip="-1" vflip="1" label="Mosfet-448" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-619" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-164" rotation="0" hflip="1" vflip="1" label="Tunnel-619" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS6" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-584" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-516,-164" rotation="90" hflip="1" vflip="1" label="Resistor-584" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-342" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-588,-552" rotation="90" hflip="1" vflip="1" label="Resistor-342" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-140" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,-508" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-140" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Ground" CircId="Ground-586" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-124" rotation="0" hflip="1" vflip="1" label="Ground-586" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Bus" CircId="Bus-555" mainComp="false" Show_id="false" Show_Val="false" Pos="-580,-400" rotation="0" hflip="1" vflip="1" label="Bus-555" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-557" mainComp="false" Show_id="false" Show_Val="false" Pos="-576,-424" rotation="0" hflip="-1" vflip="1" label="Tunnel-557" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Resistor" CircId="Resistor-591" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-492,-164" rotation="90" hflip="1" vflip="1" label="Resistor-591" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="DecToBcd" CircId="DecToBcd-551" mainComp="false" Show_id="false" Show_Val="false" Pos="-616,-408" rotation="0" hflip="1" vflip="1" label="DecToBcd-551" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" _16_Bits="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Tunnel" CircId="Tunnel-602" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-602" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS2" IsBus="false" />
+
+<item itemtype="Led" CircId="Led-157" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-424" rotation="90" hflip="1" vflip="1" label="Led-157" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-568" mainComp="false" Show_id="false" Show_Val="false" Pos="-572,-316" rotation="0" hflip="1" vflip="1" label="Tunnel-568" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-489" mainComp="false" Show_id="false" Show_Val="false" Pos="-732,-132" rotation="90" hflip="-1" vflip="1" label="Mosfet-489" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Resistor" CircId="Resistor-379" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-672,-552" rotation="90" hflip="1" vflip="1" label="Resistor-379" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-559" mainComp="false" Show_id="false" Show_Val="false" Pos="-576,-248" rotation="0" hflip="-1" vflip="1" label="Tunnel-559" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-662" mainComp="false" Show_id="false" Show_Val="false" Pos="-636,-492" rotation="0" hflip="-1" vflip="1" label="Tunnel-662" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Led" CircId="Led-158" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-424" rotation="90" hflip="1" vflip="1" label="Led-158" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Bus" CircId="Bus-560" mainComp="false" Show_id="false" Show_Val="false" Pos="-580,-224" rotation="0" hflip="1" vflip="1" label="Bus-560" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-622" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-216" rotation="0" hflip="1" vflip="1" label="Tunnel-622" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS5" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-675" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-380" rotation="0" hflip="1" vflip="1" label="Tunnel-675" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-688" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-224" rotation="0" hflip="-1" vflip="1" label="Tunnel-688" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P13" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-412" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-728,-552" rotation="90" hflip="1" vflip="1" label="Resistor-412" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-395" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-468" rotation="0" hflip="1" vflip="1" label="opAmp-395" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-705" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-408" rotation="0" hflip="1" vflip="1" label="Tunnel-705" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P8" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-455" mainComp="false" Show_id="false" Show_Val="false" Pos="-904,-284" rotation="90" hflip="-1" vflip="1" label="Mosfet-455" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="true" RDSon="1 Ω" Threshold="3 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-453" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-248" rotation="0" hflip="1" vflip="1" label="Tunnel-453" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-346" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-844,-552" rotation="90" hflip="1" vflip="1" label="Resistor-346" idLabPos="-12,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="84 Ω" />
+
+<item itemtype="opAmp" CircId="opAmp-441" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-420" rotation="0" hflip="1" vflip="1" label="opAmp-441" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-704" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-456" rotation="0" hflip="1" vflip="1" label="Tunnel-704" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-493" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-148" rotation="0" hflip="1" vflip="1" label="Tunnel-493" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-577" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-340" rotation="0" hflip="1" vflip="1" label="Ground-577" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="opAmp" CircId="opAmp-446" mainComp="false" Show_id="false" Show_Val="false" Pos="-960,-324" rotation="0" hflip="1" vflip="1" label="opAmp-446" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-581" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,-292" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-581" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-474" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-300" rotation="0" hflip="1" vflip="1" label="Tunnel-474" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Bus" CircId="Bus-594" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-236" rotation="90" hflip="-1" vflip="-1" label="Bus-594" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-665" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-284" rotation="0" hflip="1" vflip="1" label="Tunnel-665" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-483" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-396" rotation="0" hflip="1" vflip="1" label="Tunnel-483" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-487" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,-444" rotation="0" hflip="1" vflip="1" label="Tunnel-487" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-615" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-412" rotation="0" hflip="1" vflip="1" label="Tunnel-615" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS9" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-628" mainComp="false" Show_id="false" Show_Val="false" Pos="-816,-216" rotation="0" hflip="1" vflip="1" label="Tunnel-628" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS13" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-676" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-428" rotation="0" hflip="1" vflip="1" label="Tunnel-676" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="INF" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-240" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-580" rotation="0" hflip="-1" vflip="1" label="Tunnel-240" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-701" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-416" rotation="0" hflip="1" vflip="1" label="Tunnel-701" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="P7" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-610" mainComp="false" Show_id="false" Show_Val="false" Pos="-812,-524" rotation="0" hflip="1" vflip="1" label="Tunnel-610" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PS10" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-433" mainComp="false" Show_id="false" Show_Val="false" Pos="-916,-492" rotation="0" hflip="1" vflip="1" label="Tunnel-433" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Bus" CircId="Bus-247" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-320" rotation="0" hflip="-1" vflip="1" label="Bus-247" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Start_Bit="0" />
 
 <item itemtype="Node" CircId="Node-530" mainComp="false" Pos="-876,-536" />
 
-<item itemtype="Node" CircId="Node-710" mainComp="false" Pos="-532,-532" />
-
-<item itemtype="Node" CircId="Node-517" mainComp="false" Pos="-588,-536" />
-
-<item itemtype="Node" CircId="Node-524" mainComp="false" Pos="-728,-536" />
-
-<item itemtype="Node" CircId="Node-514" mainComp="false" Pos="-560,-536" />
-
-<item itemtype="Node" CircId="Node-529" mainComp="false" Pos="-844,-536" />
-
-<item itemtype="Node" CircId="Node-528" mainComp="false" Pos="-812,-536" />
+<item itemtype="Node" CircId="Node-526" mainComp="false" Pos="-784,-536" />
 
 <item itemtype="Node" CircId="Node-518" mainComp="false" Pos="-616,-536" />
 
+<item itemtype="Node" CircId="Node-534" mainComp="false" Pos="-908,-536" />
+
+<item itemtype="Node" CircId="Node-710" mainComp="false" Pos="-532,-532" />
+
+<item itemtype="Node" CircId="Node-514" mainComp="false" Pos="-560,-536" />
+
+<item itemtype="Node" CircId="Node-521" mainComp="false" Pos="-700,-536" />
+
+<item itemtype="Node" CircId="Node-528" mainComp="false" Pos="-812,-536" />
+
+<item itemtype="Node" CircId="Node-517" mainComp="false" Pos="-588,-536" />
+
+<item itemtype="Node" CircId="Node-529" mainComp="false" Pos="-844,-536" />
+
 <item itemtype="Node" CircId="Node-713" mainComp="false" Pos="-964,-536" />
-
-<item itemtype="Node" CircId="Node-525" mainComp="false" Pos="-756,-536" />
-
-<item itemtype="Node" CircId="Node-571" mainComp="false" Pos="-292,-368" />
 
 <item itemtype="Node" CircId="Node-520" mainComp="false" Pos="-672,-536" />
 
+<item itemtype="Node" CircId="Node-524" mainComp="false" Pos="-728,-536" />
+
+<item itemtype="Node" CircId="Node-525" mainComp="false" Pos="-756,-536" />
+
 <item itemtype="Node" CircId="Node-519" mainComp="false" Pos="-644,-536" />
 
-<item itemtype="Connector" uid="Connector-1312" startpinid="Bus-241-ePin1" endpinid="Oscope-253-Pin0" pointList="-548,-200,-548,-236,-544,-236" />
+<item itemtype="Node" CircId="Node-571" mainComp="false" Pos="-416,-176" />
 
-<item itemtype="Connector" uid="Connector-495" startpinid="Bus-236-ePin2" endpinid="DAC-235-in1" pointList="-356,-504,-352,-504" />
-
-<item itemtype="Connector" uid="Connector-1736" startpinid="7-Seg BCD-140-in2" endpinid="Bus-575-ePin3" pointList="-472,-516,-472,-512" />
-
-<item itemtype="Connector" uid="Connector-301" startpinid="Led-158-rPin" endpinid="Resistor-156-lPin" pointList="-200,-524,-200,-512" />
-
-<item itemtype="Connector" uid="Connector-1579" startpinid="Tunnel-689-pin" endpinid="Mosfet-489-Sour" pointList="-712,-124,-716,-124" />
-
-<item itemtype="Connector" uid="Connector-1256" startpinid="ADC-146-out2" endpinid="Bus-560-ePin3" pointList="-372,-316,-368,-316" />
-
-<item itemtype="Connector" uid="Connector-1726" startpinid="Tunnel-616-pin" endpinid="opAmp-498-inputInv" pointList="-816,-116,-812,-116" />
-
-<item itemtype="Connector" uid="Connector-1469" startpinid="Node-525-1" endpinid="Tunnel-608-pin" pointList="-756,-536,-756,-524" />
-
-<item itemtype="Connector" uid="Connector-1578" startpinid="Tunnel-679-pin" endpinid="Mosfet-442-Sour" pointList="-884,-420,-888,-420" />
-
-<item itemtype="Connector" uid="Connector-1337" startpinid="Resistor-592-lPin" endpinid="Led-589-rPin" pointList="-72,-512,-72,-524" />
-
-<item itemtype="Connector" uid="Connector-1287" startpinid="Node-571-2" endpinid="Oscope-148-Pin1" pointList="-292,-368,-292,-384" />
-
-<item itemtype="Connector" uid="Connector-1052" startpinid="Resistor-379-rPin" endpinid="Node-520-0" pointList="-672,-536,-672,-536" />
-
-<item itemtype="Connector" uid="Connector-1338" startpinid="Led-582-rPin" endpinid="Resistor-591-lPin" pointList="-96,-524,-96,-512" />
-
-<item itemtype="Connector" uid="Connector-1283" startpinid="Oscope-148-Pin3" endpinid="Tunnel-561-pin" pointList="-292,-320,-296,-320" />
-
-<item itemtype="Connector" uid="Connector-1305" startpinid="Bus-247-ePin4" endpinid="Oscope-252-Pin3" pointList="-296,-176,-296,-140,-292,-140" />
-
-<item itemtype="Connector" uid="Connector-491" startpinid="Bus-237-ePin2" endpinid="DAC-234-in1" pointList="-356,-552,-352,-552" />
-
-<item itemtype="Connector" uid="Connector-1346" startpinid="Resistor-592-rPin" endpinid="Ground-588-Gnd" pointList="-72,-480,-72,-472" />
-
-<item itemtype="Connector" uid="Connector-1056" startpinid="Resistor-372-rPin" endpinid="Node-521-0" pointList="-700,-536,-700,-536" />
-
-<item itemtype="Connector" uid="Connector-1718" startpinid="opAmp-472-inputInv" endpinid="Tunnel-625-pin" pointList="-812,-316,-816,-316" />
-
-<item itemtype="Connector" uid="Connector-493" startpinid="Bus-237-ePin4" endpinid="DAC-234-in3" pointList="-356,-536,-352,-536" />
-
-<item itemtype="Connector" uid="Connector-1760" startpinid="Tunnel-703-pin" endpinid="DecToBcd-551-in2" pointList="-604,-444,-600,-444" />
-
-<item itemtype="Connector" uid="Connector-1709" startpinid="Mosfet-464-Dren" endpinid="opAmp-461-output" pointList="-920,-172,-936,-172" />
-
-<item itemtype="Connector" uid="Connector-960" startpinid="Mosfet-495-Gate" endpinid="Tunnel-474-pin" pointList="-732,-300,-744,-300" />
-
-<item itemtype="Connector" uid="Connector-1637" startpinid="Node-526-2" endpinid="Resistor-340-lPin" pointList="-784,-536,-772,-536,-772,-568,-756,-568" />
-
-<item itemtype="Connector" uid="Connector-1730" startpinid="opAmp-472-output" endpinid="Mosfet-469-Dren" pointList="-764,-324,-748,-324" />
-
-<item itemtype="Connector" uid="Connector-1352" startpinid="WaveGen-143-outnod" endpinid="Switch-200-switch1pinN" pointList="-412,-448,-412,-412" />
-
-<item itemtype="Connector" uid="Connector-1182" startpinid="DecToBcd-551-out1" endpinid="Bus-555-ePin2" pointList="-552,-412,-548,-412" />
-
-<item itemtype="Connector" uid="Connector-1188" startpinid="Bus-555-busPinI" endpinid="Tunnel-557-pin" pointList="-540,-420,-536,-420" />
-
-<item itemtype="Connector" uid="Connector-1105" startpinid="Resistor-396-rPin" endpinid="Node-535-0" pointList="-940,-536,-940,-536" />
-
-<item itemtype="Connector" uid="Connector-1696" startpinid="Tunnel-614-pin" endpinid="opAmp-459-inputInv" pointList="-988,-268,-984,-268" />
-
-<item itemtype="Connector" uid="Connector-1577" startpinid="Tunnel-693-pin" endpinid="Mosfet-484-Sour" pointList="-712,-468,-716,-468" />
+<item itemtype="Node" CircId="Node-535" mainComp="false" Pos="-940,-536" />
 
 <item itemtype="Connector" uid="Connector-1705" startpinid="Mosfet-449-Dren" endpinid="opAmp-447-output" pointList="-920,-372,-936,-372" />
 
-<item itemtype="Connector" uid="Connector-1183" startpinid="Bus-555-ePin3" endpinid="DecToBcd-551-out2" pointList="-548,-404,-552,-404" />
-
-<item itemtype="Connector" uid="Connector-1495" startpinid="Node-528-1" endpinid="Tunnel-610-pin" pointList="-812,-536,-812,-524" />
-
-<item itemtype="Connector" uid="Connector-1310" startpinid="Bus-241-ePin3" endpinid="Oscope-253-Pin2" pointList="-548,-184,-544,-184,-544,-172" />
-
-<item itemtype="Connector" uid="Connector-1303" startpinid="Switch-200-pinP0" endpinid="Tunnel-568-pin" pointList="-380,-404,-376,-404" />
-
-<item itemtype="Connector" uid="Connector-1085" startpinid="Resistor-346-rPin" endpinid="Node-529-0" pointList="-844,-536,-844,-536" />
-
-<item itemtype="Connector" uid="Connector-1711" startpinid="Tunnel-669-pin" endpinid="opAmp-481-inputNinv" pointList="-816,-476,-812,-476" />
-
-<item itemtype="Connector" uid="Connector-1339" startpinid="Bus-594-ePin1" endpinid="Led-585-lPin" pointList="-120,-560,-144,-560,-144,-556" />
-
-<item itemtype="Connector" uid="Connector-1592" startpinid="Tunnel-688-pin" endpinid="Mosfet-488-Sour" pointList="-712,-224,-716,-224" />
-
-<item itemtype="Connector" uid="Connector-1340" startpinid="Bus-594-ePin2" endpinid="Led-587-lPin" pointList="-112,-560,-112,-556,-120,-556" />
-
-<item itemtype="Connector" uid="Connector-1703" startpinid="Mosfet-341-Dren" endpinid="opAmp-395-output" pointList="-920,-468,-936,-468" />
-
-<item itemtype="Connector" uid="Connector-1692" startpinid="Tunnel-613-pin" endpinid="opAmp-447-inputInv" pointList="-988,-364,-984,-364" />
-
-<item itemtype="Connector" uid="Connector-1048" startpinid="Resistor-358-rPin" endpinid="Node-519-0" pointList="-644,-536,-644,-536" />
-
-<item itemtype="Connector" uid="Connector-1658" startpinid="Node-521-2" endpinid="Resistor-379-lPin" pointList="-700,-536,-688,-536,-688,-568,-672,-568" />
-
-<item itemtype="Connector" uid="Connector-310" startpinid="Resistor-153-lPin" endpinid="Led-157-rPin" pointList="-176,-512,-176,-524" />
-
-<item itemtype="Connector" uid="Connector-1739" startpinid="Bus-580-ePin4" endpinid="7-Seg BCD-581-in3" pointList="-436,-512,-436,-516" />
-
-<item itemtype="Connector" uid="Connector-1737" startpinid="Bus-575-ePin2" endpinid="7-Seg BCD-140-in1" pointList="-464,-512,-464,-516" />
-
-<item itemtype="Connector" uid="Connector-963" startpinid="Mosfet-480-Gate" endpinid="Tunnel-487-pin" pointList="-732,-444,-744,-444" />
-
-<item itemtype="Connector" uid="Connector-303" startpinid="Led-160-rPin" endpinid="Resistor-150-lPin" pointList="-248,-524,-248,-512" />
-
-<item itemtype="Connector" uid="Connector-1476" startpinid="Tunnel-599-pin" endpinid="Node-534-1" pointList="-908,-524,-908,-536" />
-
-<item itemtype="Connector" uid="Connector-1482" startpinid="Tunnel-601-pin" endpinid="Node-514-1" pointList="-560,-524,-560,-536" />
-
-<item itemtype="Connector" uid="Connector-1707" startpinid="Mosfet-455-Dren" endpinid="opAmp-459-output" pointList="-920,-276,-936,-276" />
-
-<item itemtype="Connector" uid="Connector-1328" startpinid="Bus-576-ePin4" endpinid="Led-157-lPin" pointList="-200,-560,-176,-560,-176,-556" />
-
-<item itemtype="Connector" uid="Connector-1694" startpinid="Tunnel-627-pin" endpinid="opAmp-446-inputInv" pointList="-988,-316,-984,-316" />
-
-<item itemtype="Connector" uid="Connector-1755" startpinid="DecToBcd-551-in7" endpinid="Tunnel-705-pin" pointList="-600,-404,-604,-404" />
-
-<item itemtype="Connector" uid="Connector-1254" startpinid="Bus-560-ePin1" endpinid="ADC-146-out0" pointList="-368,-332,-372,-332" />
-
-<item itemtype="Connector" uid="Connector-1727" startpinid="Mosfet-484-Dren" endpinid="opAmp-481-output" pointList="-748,-468,-764,-468" />
-
-<item itemtype="Connector" uid="Connector-950" startpinid="Mosfet-455-Gate" endpinid="Tunnel-456-pin" pointList="-904,-300,-916,-300" />
-
-<item itemtype="Connector" uid="Connector-1034" startpinid="Node-514-2" endpinid="Resistor-347-lPin" pointList="-560,-536,-552,-536,-552,-568,-532,-568" />
-
-<item itemtype="Connector" uid="Connector-980" startpinid="Mosfet-489-Gate" endpinid="Tunnel-493-pin" pointList="-732,-148,-744,-148" />
-
-<item itemtype="Connector" uid="Connector-1588" startpinid="Tunnel-684-pin" endpinid="Mosfet-464-Sour" pointList="-884,-172,-888,-172" />
-
 <item itemtype="Connector" uid="Connector-1066" startpinid="Resistor-412-rPin" endpinid="Node-524-0" pointList="-728,-536,-728,-536" />
-
-<item itemtype="Connector" uid="Connector-1331" startpinid="Bus-576-ePin1" endpinid="Led-160-lPin" pointList="-224,-560,-248,-560,-248,-556" />
-
-<item itemtype="Connector" uid="Connector-1585" startpinid="Tunnel-687-pin" endpinid="Mosfet-480-Sour" pointList="-712,-420,-716,-420" />
-
-<item itemtype="Connector" uid="Connector-944" startpinid="Mosfet-449-Gate" endpinid="Tunnel-445-pin" pointList="-904,-396,-916,-396" />
-
-<item itemtype="Connector" uid="Connector-1714" startpinid="opAmp-491-inputInv" endpinid="Tunnel-615-pin" pointList="-812,-412,-816,-412" />
-
-<item itemtype="Connector" uid="Connector-1584" startpinid="Tunnel-682-pin" endpinid="Mosfet-460-Sour" pointList="-884,-224,-888,-224" />
-
-<item itemtype="Connector" uid="Connector-1712" startpinid="opAmp-481-inputInv" endpinid="Tunnel-620-pin" pointList="-812,-460,-816,-460" />
-
-<item itemtype="Connector" uid="Connector-1759" startpinid="DecToBcd-551-in3" endpinid="Tunnel-706-pin" pointList="-600,-436,-604,-436" />
-
-<item itemtype="Connector" uid="Connector-1255" startpinid="ADC-146-out1" endpinid="Bus-560-ePin2" pointList="-372,-324,-368,-324" />
-
-<item itemtype="Connector" uid="Connector-966" startpinid="Mosfet-469-Gate" endpinid="Tunnel-471-pin" pointList="-732,-348,-744,-348" />
-
-<item itemtype="Connector" uid="Connector-1733" startpinid="Mosfet-475-Dren" endpinid="opAmp-473-output" pointList="-748,-176,-764,-176" />
-
-<item itemtype="Connector" uid="Connector-1468" startpinid="Tunnel-602-pin" endpinid="Node-517-1" pointList="-588,-524,-588,-536" />
-
-<item itemtype="Connector" uid="Connector-1723" startpinid="opAmp-473-inputNinv" endpinid="Tunnel-663-pin" pointList="-812,-184,-816,-184" />
-
-<item itemtype="Connector" uid="Connector-982" startpinid="Mosfet-497-Gate" endpinid="Tunnel-483-pin" pointList="-732,-396,-744,-396" />
-
-<item itemtype="Connector" uid="Connector-1313" startpinid="Bus-241-busPinI" endpinid="Tunnel-240-pin" pointList="-556,-200,-556,-268,-540,-268" />
-
-<item itemtype="Connector" uid="Connector-1768" startpinid="Node-713-2" endpinid="Tunnel-597-pin" pointList="-964,-536,-972,-536,-972,-524" />
-
-<item itemtype="Connector" uid="Connector-1746" startpinid="Node-710-2" endpinid="Tunnel-600-pin" pointList="-532,-532,-532,-524" />
-
-<item itemtype="Connector" uid="Connector-1586" startpinid="Tunnel-683-pin" endpinid="Mosfet-462-Sour" pointList="-884,-120,-888,-120" />
-
-<item itemtype="Connector" uid="Connector-1752" startpinid="Tunnel-695-pin" endpinid="DecToBcd-551-in10" pointList="-604,-380,-600,-380" />
-
-<item itemtype="Connector" uid="Connector-1184" startpinid="DecToBcd-551-out3" endpinid="Bus-555-ePin4" pointList="-552,-396,-548,-396" />
-
-<item itemtype="Connector" uid="Connector-1672" startpinid="Node-519-2" endpinid="Resistor-393-lPin" pointList="-644,-536,-632,-536,-632,-568,-616,-568" />
-
-<item itemtype="Connector" uid="Connector-1086" startpinid="Node-529-2" endpinid="Resistor-428-lPin" pointList="-844,-536,-836,-536,-836,-568,-812,-568" />
-
-<item itemtype="Connector" uid="Connector-1326" startpinid="Resistor-161-rPin" endpinid="Ground-577-Gnd" pointList="-224,-480,-224,-472" />
-
-<item itemtype="Connector" uid="Connector-1751" startpinid="DecToBcd-551-in11" endpinid="Tunnel-700-pin" pointList="-600,-372,-604,-372" />
-
-<item itemtype="Connector" uid="Connector-1336" startpinid="Resistor-591-rPin" endpinid="Ground-583-Gnd" pointList="-96,-480,-96,-472" />
-
-<item itemtype="Connector" uid="Connector-1486" startpinid="Tunnel-598-pin" endpinid="Node-535-1" pointList="-940,-524,-940,-536" />
-
-<item itemtype="Connector" uid="Connector-313" startpinid="Led-159-rPin" endpinid="Resistor-161-lPin" pointList="-224,-524,-224,-512" />
-
-<item itemtype="Connector" uid="Connector-1747" startpinid="DecToBcd-551-in15" endpinid="Ground-711-Gnd" pointList="-600,-340,-608,-340,-608,-336" />
-
-<item itemtype="Connector" uid="Connector-497" startpinid="Bus-236-ePin4" endpinid="DAC-235-in3" pointList="-356,-488,-352,-488" />
-
-<item itemtype="Connector" uid="Connector-1689" startpinid="opAmp-441-inputNinv" endpinid="Tunnel-676-pin" pointList="-984,-428,-988,-428" />
-
-<item itemtype="Connector" uid="Connector-981" startpinid="Mosfet-488-Gate" endpinid="Tunnel-482-pin" pointList="-732,-248,-744,-248" />
-
-<item itemtype="Connector" uid="Connector-1720" startpinid="opAmp-485-inputInv" endpinid="Tunnel-621-pin" pointList="-812,-268,-816,-268" />
-
-<item itemtype="Connector" uid="Connector-1304" startpinid="Bus-247-ePin1" endpinid="Oscope-252-Pin0" pointList="-296,-200,-296,-236,-292,-236" />
-
-<item itemtype="Connector" uid="Connector-1074" startpinid="Resistor-328-rPin" endpinid="Node-526-0" pointList="-784,-536,-784,-536" />
-
-<item itemtype="Connector" uid="Connector-1353" startpinid="Switch-200-switch0pinN" endpinid="Voltage Source-197-outPin" pointList="-412,-404,-416,-404,-416,-384" />
-
-<item itemtype="Connector" uid="Connector-1738" startpinid="Bus-575-ePin1" endpinid="7-Seg BCD-140-in0" pointList="-456,-512,-456,-516" />
-
-<item itemtype="Connector" uid="Connector-1257" startpinid="ADC-146-out3" endpinid="Bus-560-ePin4" pointList="-372,-308,-368,-308" />
-
-<item itemtype="Connector" uid="Connector-1750" startpinid="Tunnel-708-pin" endpinid="DecToBcd-551-in12" pointList="-604,-364,-600,-364" />
-
-<item itemtype="Connector" uid="Connector-1695" startpinid="opAmp-459-inputNinv" endpinid="Tunnel-673-pin" pointList="-984,-284,-988,-284" />
-
-<item itemtype="Connector" uid="Connector-1343" startpinid="Resistor-593-rPin" endpinid="Ground-590-Gnd" pointList="-144,-480,-144,-472" />
-
-<item itemtype="Connector" uid="Connector-1351" startpinid="Tunnel-564-pin" endpinid="Bus-575-ePin0" pointList="-480,-492,-480,-504" />
-
-<item itemtype="Connector" uid="Connector-951" startpinid="Mosfet-462-Gate" endpinid="Tunnel-465-pin" pointList="-904,-144,-916,-144" />
-
-<item itemtype="Connector" uid="Connector-1735" startpinid="Bus-575-ePin4" endpinid="7-Seg BCD-140-in3" pointList="-480,-512,-480,-516" />
-
-<item itemtype="Connector" uid="Connector-1307" startpinid="Bus-247-ePin2" endpinid="Oscope-252-Pin1" pointList="-296,-192,-292,-192,-292,-204" />
-
-<item itemtype="Connector" uid="Connector-1644" startpinid="Node-525-2" endpinid="Resistor-412-lPin" pointList="-756,-536,-744,-536,-744,-568,-728,-568" />
-
-<item itemtype="Connector" uid="Connector-494" startpinid="Bus-236-ePin1" endpinid="DAC-235-in0" pointList="-356,-512,-352,-512" />
-
-<item itemtype="Connector" uid="Connector-1691" startpinid="opAmp-447-inputNinv" endpinid="Tunnel-675-pin" pointList="-984,-380,-988,-380" />
-
-<item itemtype="Connector" uid="Connector-1761" startpinid="DecToBcd-551-in1" endpinid="Tunnel-704-pin" pointList="-600,-452,-604,-452" />
-
-<item itemtype="Connector" uid="Connector-500" startpinid="Tunnel-238-pin" endpinid="Bus-237-ePin0" pointList="-368,-536,-364,-536" />
-
-<item itemtype="Connector" uid="Connector-975" startpinid="Mosfet-484-Gate" endpinid="Tunnel-477-pin" pointList="-732,-492,-744,-492" />
-
-<item itemtype="Connector" uid="Connector-1491" startpinid="Node-526-1" endpinid="Tunnel-609-pin" pointList="-784,-536,-784,-524" />
-
-<item itemtype="Connector" uid="Connector-1690" startpinid="Tunnel-623-pin" endpinid="opAmp-441-inputInv" pointList="-988,-412,-984,-412" />
-
-<item itemtype="Connector" uid="Connector-1710" startpinid="Mosfet-462-Dren" endpinid="opAmp-454-output" pointList="-920,-120,-936,-120" />
-
-<item itemtype="Connector" uid="Connector-1686" startpinid="Node-517-2" endpinid="Resistor-369-lPin" pointList="-588,-536,-576,-536,-576,-568,-560,-568" />
-
-<item itemtype="Connector" uid="Connector-1697" startpinid="opAmp-457-inputNinv" endpinid="Tunnel-672-pin" pointList="-984,-232,-988,-232" />
-
-<item itemtype="Connector" uid="Connector-1729" startpinid="Mosfet-497-Dren" endpinid="opAmp-470-output" pointList="-748,-372,-764,-372" />
-
-<item itemtype="Connector" uid="Connector-1327" startpinid="Resistor-150-rPin" endpinid="Ground-151-Gnd" pointList="-248,-480,-248,-472" />
-
-<item itemtype="Connector" uid="Connector-1512" startpinid="Tunnel-553-pin" endpinid="Tunnel-662-pin" pointList="-600,-488,-596,-488" />
-
-<item itemtype="Connector" uid="Connector-1477" startpinid="Node-524-1" endpinid="Tunnel-607-pin" pointList="-728,-536,-728,-524" />
-
-<item itemtype="Connector" uid="Connector-1687" startpinid="Tunnel-677-pin" endpinid="opAmp-395-inputNinv" pointList="-988,-476,-984,-476" />
-
-<item itemtype="Connector" uid="Connector-490" startpinid="Bus-237-ePin1" endpinid="DAC-234-in0" pointList="-356,-560,-352,-560" />
-
-<item itemtype="Connector" uid="Connector-1347" startpinid="Resistor-584-rPin" endpinid="Ground-586-Gnd" pointList="-120,-480,-120,-472" />
-
-<item itemtype="Connector" uid="Connector-1465" startpinid="Node-519-1" endpinid="Tunnel-604-pin" pointList="-644,-536,-644,-524" />
-
-<item itemtype="Connector" uid="Connector-1582" startpinid="Tunnel-692-pin" endpinid="Mosfet-495-Sour" pointList="-712,-276,-716,-276" />
-
-<item itemtype="Connector" uid="Connector-1699" startpinid="opAmp-461-inputNinv" endpinid="Tunnel-671-pin" pointList="-984,-180,-988,-180" />
-
-<item itemtype="Connector" uid="Connector-1591" startpinid="Tunnel-680-pin" endpinid="Mosfet-449-Sour" pointList="-884,-372,-888,-372" />
-
-<item itemtype="Connector" uid="Connector-1590" startpinid="Tunnel-681-pin" endpinid="Mosfet-448-Sour" pointList="-884,-324,-888,-324" />
-
-<item itemtype="Connector" uid="Connector-948" startpinid="Mosfet-464-Gate" endpinid="Tunnel-452-pin" pointList="-904,-196,-916,-196" />
-
-<item itemtype="Connector" uid="Connector-1090" startpinid="Node-530-2" endpinid="Resistor-346-lPin" pointList="-876,-536,-868,-536,-868,-568,-844,-568" />
-
-<item itemtype="Connector" uid="Connector-943" startpinid="Mosfet-448-Gate" endpinid="Tunnel-444-pin" pointList="-904,-348,-916,-348" />
-
-<item itemtype="Connector" uid="Connector-1181" startpinid="Bus-555-ePin1" endpinid="DecToBcd-551-out0" pointList="-548,-420,-552,-420" />
-
-<item itemtype="Connector" uid="Connector-1702" startpinid="Tunnel-624-pin" endpinid="opAmp-454-inputInv" pointList="-988,-112,-984,-112" />
-
-<item itemtype="Connector" uid="Connector-1732" startpinid="opAmp-486-output" endpinid="Mosfet-488-Dren" pointList="-764,-224,-748,-224" />
-
-<item itemtype="Connector" uid="Connector-1734" startpinid="opAmp-498-output" endpinid="Mosfet-489-Dren" pointList="-764,-124,-748,-124" />
-
-<item itemtype="Connector" uid="Connector-969" startpinid="Mosfet-475-Gate" endpinid="Tunnel-490-pin" pointList="-732,-200,-744,-200" />
-
-<item itemtype="Connector" uid="Connector-496" startpinid="Bus-236-ePin3" endpinid="DAC-235-in2" pointList="-356,-496,-352,-496" />
-
-<item itemtype="Connector" uid="Connector-492" startpinid="Bus-237-ePin3" endpinid="DAC-234-in2" pointList="-356,-544,-352,-544" />
-
-<item itemtype="Connector" uid="Connector-1704" startpinid="Mosfet-442-Dren" endpinid="opAmp-441-output" pointList="-920,-420,-936,-420" />
-
-<item itemtype="Connector" uid="Connector-1306" startpinid="Bus-247-ePin3" endpinid="Oscope-252-Pin2" pointList="-296,-184,-292,-184,-292,-172" />
-
-<item itemtype="Connector" uid="Connector-1349" startpinid="Bus-594-ePin0" endpinid="Tunnel-595-pin" pointList="-96,-568,-96,-580" />
-
-<item itemtype="Connector" uid="Connector-1708" startpinid="Mosfet-460-Dren" endpinid="opAmp-457-output" pointList="-920,-224,-936,-224" />
-
-<item itemtype="Connector" uid="Connector-1722" startpinid="opAmp-486-inputInv" endpinid="Tunnel-628-pin" pointList="-812,-216,-816,-216" />
-
-<item itemtype="Connector" uid="Connector-1719" startpinid="Tunnel-665-pin" endpinid="opAmp-485-inputNinv" pointList="-816,-284,-812,-284" />
-
-<item itemtype="Connector" uid="Connector-1471" startpinid="Node-521-1" endpinid="Tunnel-606-pin" pointList="-700,-536,-700,-524" />
-
-<item itemtype="Connector" uid="Connector-1296" startpinid="Tunnel-436-pin" endpinid="Fixed Voltage-142-outnod" pointList="-476,-348,-468,-348,-468,-332" />
-
-<item itemtype="Connector" uid="Connector-1285" startpinid="Tunnel-562-pin" endpinid="Node-571-1" pointList="-296,-368,-292,-368" />
-
-<item itemtype="Connector" uid="Connector-1329" startpinid="Bus-576-ePin3" endpinid="Led-158-lPin" pointList="-208,-560,-208,-556,-200,-556" />
-
-<item itemtype="Connector" uid="Connector-1731" startpinid="Mosfet-495-Dren" endpinid="opAmp-485-output" pointList="-748,-276,-764,-276" />
-
-<item itemtype="Connector" uid="Connector-1286" startpinid="Oscope-148-Pin2" endpinid="Node-571-0" pointList="-292,-352,-292,-368" />
-
-<item itemtype="Connector" uid="Connector-1342" startpinid="Bus-594-ePin4" endpinid="Led-589-lPin" pointList="-96,-560,-72,-560,-72,-556" />
-
-<item itemtype="Connector" uid="Connector-1741" startpinid="Bus-580-ePin2" endpinid="7-Seg BCD-581-in1" pointList="-420,-512,-420,-516" />
-
-<item itemtype="Connector" uid="Connector-1033" startpinid="Resistor-369-rPin" endpinid="Node-514-0" pointList="-560,-536,-560,-536" />
-
-<item itemtype="Connector" uid="Connector-1623" startpinid="Node-528-2" endpinid="Resistor-328-lPin" pointList="-812,-536,-804,-536,-804,-568,-784,-568" />
-
-<item itemtype="Connector" uid="Connector-1651" startpinid="Node-524-2" endpinid="Resistor-372-lPin" pointList="-728,-536,-716,-536,-716,-568,-700,-568" />
-
-<item itemtype="Connector" uid="Connector-1717" startpinid="Tunnel-666-pin" endpinid="opAmp-472-inputNinv" pointList="-816,-332,-812,-332" />
-
-<item itemtype="Connector" uid="Connector-1580" startpinid="Tunnel-678-pin" endpinid="Mosfet-341-Sour" pointList="-884,-468,-888,-468" />
-
-<item itemtype="Connector" uid="Connector-1311" startpinid="Bus-241-ePin4" endpinid="Oscope-253-Pin3" pointList="-548,-176,-548,-140,-544,-140" />
-
-<item itemtype="Connector" uid="Connector-1724" startpinid="Tunnel-617-pin" endpinid="opAmp-473-inputInv" pointList="-816,-168,-812,-168" />
-
-<item itemtype="Connector" uid="Connector-1701" startpinid="opAmp-454-inputNinv" endpinid="Tunnel-670-pin" pointList="-984,-128,-988,-128" />
-
-<item itemtype="Connector" uid="Connector-1766" startpinid="Node-713-1" endpinid="Resistor-396-lPin" pointList="-964,-536,-956,-536,-956,-568,-940,-568" />
-
-<item itemtype="Connector" uid="Connector-1344" startpinid="Led-587-rPin" endpinid="Resistor-584-lPin" pointList="-120,-524,-120,-512" />
-
-<item itemtype="Connector" uid="Connector-1248" startpinid="Tunnel-558-pin" endpinid="ADC-146-in0" pointList="-424,-332,-420,-332" />
-
-<item itemtype="Connector" uid="Connector-1725" startpinid="opAmp-498-inputNinv" endpinid="Tunnel-661-pin" pointList="-812,-132,-816,-132" />
-
-<item itemtype="Connector" uid="Connector-1044" startpinid="Resistor-393-rPin" endpinid="Node-518-0" pointList="-616,-536,-616,-536" />
-
-<item itemtype="Connector" uid="Connector-1251" startpinid="Bus-560-busPinI" endpinid="Tunnel-559-pin" pointList="-360,-332,-356,-332" />
-
-<item itemtype="Connector" uid="Connector-1260" startpinid="Tunnel-565-pin" endpinid="DAC-235-out0" pointList="-300,-512,-304,-512" />
-
-<item itemtype="Connector" uid="Connector-1081" startpinid="Resistor-428-rPin" endpinid="Node-528-0" pointList="-812,-536,-812,-536" />
-
-<item itemtype="Connector" uid="Connector-1325" startpinid="Resistor-156-rPin" endpinid="Ground-578-Gnd" pointList="-200,-480,-200,-472" />
-
-<item itemtype="Connector" uid="Connector-1749" startpinid="DecToBcd-551-in13" endpinid="Tunnel-709-pin" pointList="-600,-356,-604,-356" />
-
-<item itemtype="Connector" uid="Connector-1698" startpinid="Tunnel-622-pin" endpinid="opAmp-457-inputInv" pointList="-988,-216,-984,-216" />
-
-<item itemtype="Connector" uid="Connector-939" startpinid="Mosfet-442-Gate" endpinid="Tunnel-440-pin" pointList="-904,-444,-916,-444" />
-
-<item itemtype="Connector" uid="Connector-1742" startpinid="Bus-580-ePin1" endpinid="7-Seg BCD-581-in0" pointList="-412,-512,-412,-516" />
-
-<item itemtype="Connector" uid="Connector-1345" startpinid="Led-585-rPin" endpinid="Resistor-593-lPin" pointList="-144,-524,-144,-512" />
-
-<item itemtype="Connector" uid="Connector-1679" startpinid="Node-518-2" endpinid="Resistor-342-lPin" pointList="-616,-536,-604,-536,-604,-568,-588,-568" />
-
-<item itemtype="Connector" uid="Connector-1693" startpinid="opAmp-446-inputNinv" endpinid="Tunnel-674-pin" pointList="-984,-332,-988,-332" />
-
-<item itemtype="Connector" uid="Connector-1728" startpinid="opAmp-491-output" endpinid="Mosfet-480-Dren" pointList="-764,-420,-748,-420" />
-
-<item itemtype="Connector" uid="Connector-1583" startpinid="Tunnel-686-pin" endpinid="Mosfet-475-Sour" pointList="-712,-176,-716,-176" />
-
-<item itemtype="Connector" uid="Connector-1758" startpinid="Tunnel-697-pin" endpinid="DecToBcd-551-in4" pointList="-604,-428,-600,-428" />
-
-<item itemtype="Connector" uid="Connector-1103" startpinid="Node-534-2" endpinid="Resistor-355-lPin" pointList="-908,-536,-900,-536,-900,-568,-876,-568" />
-
-<item itemtype="Connector" uid="Connector-1587" startpinid="Tunnel-691-pin" endpinid="Mosfet-497-Sour" pointList="-712,-372,-716,-372" />
-
-<item itemtype="Connector" uid="Connector-1259" startpinid="Tunnel-566-pin" endpinid="DAC-234-out0" pointList="-300,-560,-304,-560" />
-
-<item itemtype="Connector" uid="Connector-1581" startpinid="Tunnel-685-pin" endpinid="Mosfet-455-Sour" pointList="-884,-276,-888,-276" />
-
-<item itemtype="Connector" uid="Connector-1479" startpinid="Node-518-1" endpinid="Tunnel-603-pin" pointList="-616,-536,-616,-524" />
-
-<item itemtype="Connector" uid="Connector-1700" startpinid="Tunnel-619-pin" endpinid="opAmp-461-inputInv" pointList="-988,-164,-984,-164" />
-
-<item itemtype="Connector" uid="Connector-1716" startpinid="opAmp-470-inputInv" endpinid="Tunnel-626-pin" pointList="-812,-364,-816,-364" />
-
-<item itemtype="Connector" uid="Connector-1350" startpinid="Tunnel-596-pin" endpinid="Bus-576-ePin0" pointList="-200,-580,-200,-568" />
-
-<item itemtype="Connector" uid="Connector-1713" startpinid="Tunnel-668-pin" endpinid="opAmp-491-inputNinv" pointList="-816,-428,-812,-428" />
 
 <item itemtype="Connector" uid="Connector-1767" startpinid="Resistor-712-rPin" endpinid="Node-713-0" pointList="-964,-536,-964,-536" />
 
+<item itemtype="Connector" uid="Connector-1711" startpinid="Tunnel-669-pin" endpinid="opAmp-481-inputNinv" pointList="-816,-476,-812,-476" />
+
+<item itemtype="Connector" uid="Connector-1690" startpinid="Tunnel-623-pin" endpinid="opAmp-441-inputInv" pointList="-988,-412,-984,-412" />
+
+<item itemtype="Connector" uid="Connector-496" startpinid="Bus-236-ePin3" endpinid="DAC-235-in2" pointList="-644,-136,-640,-136" />
+
+<item itemtype="Connector" uid="Connector-1034" startpinid="Node-514-2" endpinid="Resistor-347-lPin" pointList="-560,-536,-552,-536,-552,-568,-532,-568" />
+
+<item itemtype="Connector" uid="Connector-1512" startpinid="Tunnel-553-pin" endpinid="Tunnel-662-pin" pointList="-640,-492,-636,-492" />
+
+<item itemtype="Connector" uid="Connector-1491" startpinid="Node-526-1" endpinid="Tunnel-609-pin" pointList="-784,-536,-784,-524" />
+
+<item itemtype="Connector" uid="Connector-1582" startpinid="Tunnel-692-pin" endpinid="Mosfet-495-Sour" pointList="-712,-276,-716,-276" />
+
+<item itemtype="Connector" uid="Connector-1716" startpinid="opAmp-470-inputInv" endpinid="Tunnel-626-pin" pointList="-812,-364,-816,-364" />
+
+<item itemtype="Connector" uid="Connector-1254" startpinid="Bus-560-ePin1" endpinid="ADC-146-out0" pointList="-588,-248,-592,-248" />
+
+<item itemtype="Connector" uid="Connector-1184" startpinid="DecToBcd-551-out3" endpinid="Bus-555-ePin4" pointList="-592,-400,-588,-400" />
+
+<item itemtype="Connector" uid="Connector-1327" startpinid="Resistor-150-rPin" endpinid="Ground-151-Gnd" pointList="-540,-364,-540,-356" />
+
+<item itemtype="Connector" uid="Connector-1766" startpinid="Node-713-1" endpinid="Resistor-396-lPin" pointList="-964,-536,-956,-536,-956,-568,-940,-568" />
+
+<item itemtype="Connector" uid="Connector-1056" startpinid="Resistor-372-rPin" endpinid="Node-521-0" pointList="-700,-536,-700,-536" />
+
+<item itemtype="Connector" uid="Connector-1286" startpinid="Oscope-148-Pin2" endpinid="Node-571-0" pointList="-416,-160,-416,-176" />
+
+<item itemtype="Connector" uid="Connector-499" startpinid="Tunnel-239-pin" endpinid="Bus-236-ePin0" pointList="-656,-128,-652,-128" />
+
+<item itemtype="Connector" uid="Connector-1086" startpinid="Node-529-2" endpinid="Resistor-428-lPin" pointList="-844,-536,-836,-536,-836,-568,-812,-568" />
+
+<item itemtype="Connector" uid="Connector-1578" startpinid="Tunnel-679-pin" endpinid="Mosfet-442-Sour" pointList="-884,-420,-888,-420" />
+
 <item itemtype="Connector" uid="Connector-1744" startpinid="Tunnel-515-pin" endpinid="Node-710-1" pointList="-520,-532,-532,-532" />
 
-<item itemtype="Connector" uid="Connector-1688" startpinid="opAmp-395-inputInv" endpinid="Tunnel-618-pin" pointList="-984,-460,-988,-460" />
+<item itemtype="Connector" uid="Connector-1340" startpinid="Bus-594-ePin2" endpinid="Led-587-lPin" pointList="-508,-228,-508,-224,-516,-224" />
 
-<item itemtype="Connector" uid="Connector-1762" startpinid="Tunnel-696-pin" endpinid="DecToBcd-551-in0" pointList="-604,-460,-600,-460" />
+<item itemtype="Connector" uid="Connector-1731" startpinid="Mosfet-495-Dren" endpinid="opAmp-485-output" pointList="-748,-276,-764,-276" />
 
-<item itemtype="Connector" uid="Connector-1288" startpinid="Oscope-148-Pin0" endpinid="Tunnel-567-pin" pointList="-292,-416,-300,-416" />
+<item itemtype="Connector" uid="Connector-1577" startpinid="Tunnel-693-pin" endpinid="Mosfet-484-Sour" pointList="-712,-468,-716,-468" />
 
-<item itemtype="Connector" uid="Connector-1308" startpinid="Tunnel-246-pin" endpinid="Bus-247-busPinI" pointList="-288,-268,-304,-268,-304,-200" />
+<item itemtype="Connector" uid="Connector-1345" startpinid="Led-585-rPin" endpinid="Resistor-593-lPin" pointList="-540,-192,-540,-180" />
 
-<item itemtype="Connector" uid="Connector-1494" startpinid="Tunnel-611-pin" endpinid="Node-529-1" pointList="-844,-524,-844,-536" />
+<item itemtype="Connector" uid="Connector-931" startpinid="Tunnel-437-pin" endpinid="Ground-332-Gnd" pointList="-632,-284,-624,-284" />
 
-<item itemtype="Connector" uid="Connector-1665" startpinid="Node-520-2" endpinid="Resistor-358-lPin" pointList="-672,-536,-660,-536,-660,-568,-644,-568" />
+<item itemtype="Connector" uid="Connector-1741" startpinid="Bus-580-ePin2" endpinid="7-Seg BCD-581-in1" pointList="-472,-256,-472,-260" />
 
-<item itemtype="Connector" uid="Connector-1753" startpinid="DecToBcd-551-in9" endpinid="Tunnel-699-pin" pointList="-600,-388,-604,-388" />
+<item itemtype="Connector" uid="Connector-1720" startpinid="opAmp-485-inputInv" endpinid="Tunnel-621-pin" pointList="-812,-268,-816,-268" />
 
-<item itemtype="Connector" uid="Connector-931" startpinid="Tunnel-437-pin" endpinid="Ground-332-Gnd" pointList="-472,-308,-464,-308" />
-
-<item itemtype="Connector" uid="Connector-1106" startpinid="Node-535-2" endpinid="Resistor-397-lPin" pointList="-940,-536,-932,-536,-932,-568,-908,-568" />
-
-<item itemtype="Connector" uid="Connector-1706" startpinid="Mosfet-448-Dren" endpinid="opAmp-446-output" pointList="-920,-324,-936,-324" />
-
-<item itemtype="Connector" uid="Connector-1040" startpinid="Resistor-342-rPin" endpinid="Node-517-0" pointList="-588,-536,-588,-536" />
-
-<item itemtype="Connector" uid="Connector-1089" startpinid="Resistor-355-rPin" endpinid="Node-530-0" pointList="-876,-536,-876,-536" />
-
-<item itemtype="Connector" uid="Connector-1483" startpinid="Node-530-1" endpinid="Tunnel-612-pin" pointList="-876,-536,-876,-524" />
-
-<item itemtype="Connector" uid="Connector-1589" startpinid="Tunnel-690-pin" endpinid="Mosfet-469-Sour" pointList="-712,-324,-716,-324" />
-
-<item itemtype="Connector" uid="Connector-1748" startpinid="Tunnel-702-pin" endpinid="DecToBcd-551-in14" pointList="-604,-348,-600,-348" />
-
-<item itemtype="Connector" uid="Connector-1745" startpinid="Resistor-347-rPin" endpinid="Node-710-0" pointList="-532,-536,-532,-532" />
-
-<item itemtype="Connector" uid="Connector-1715" startpinid="Tunnel-667-pin" endpinid="opAmp-470-inputNinv" pointList="-816,-380,-812,-380" />
-
-<item itemtype="Connector" uid="Connector-1341" startpinid="Bus-594-ePin3" endpinid="Led-582-lPin" pointList="-104,-560,-104,-556,-96,-556" />
-
-<item itemtype="Connector" uid="Connector-1102" startpinid="Resistor-397-rPin" endpinid="Node-534-0" pointList="-908,-536,-908,-536" />
-
-<item itemtype="Connector" uid="Connector-957" startpinid="Mosfet-460-Gate" endpinid="Tunnel-453-pin" pointList="-904,-248,-916,-248" />
-
-<item itemtype="Connector" uid="Connector-1765" startpinid="Resistor-712-lPin" endpinid="Tunnel-539-pin" pointList="-964,-568,-984,-568,-984,-548" />
+<item itemtype="Connector" uid="Connector-982" startpinid="Mosfet-497-Gate" endpinid="Tunnel-483-pin" pointList="-732,-396,-744,-396" />
 
 <item itemtype="Connector" uid="Connector-1721" startpinid="Tunnel-664-pin" endpinid="opAmp-486-inputNinv" pointList="-816,-232,-812,-232" />
 
-<item itemtype="Connector" uid="Connector-1754" startpinid="Tunnel-698-pin" endpinid="DecToBcd-551-in8" pointList="-604,-396,-600,-396" />
+<item itemtype="Connector" uid="Connector-1765" startpinid="Resistor-712-lPin" endpinid="Tunnel-539-pin" pointList="-964,-568,-984,-568,-984,-548" />
 
-<item itemtype="Connector" uid="Connector-935" startpinid="Mosfet-341-Gate" endpinid="Tunnel-433-pin" pointList="-904,-492,-916,-492" />
+<item itemtype="Connector" uid="Connector-1750" startpinid="Tunnel-708-pin" endpinid="DecToBcd-551-in12" pointList="-644,-368,-640,-368" />
 
-<item itemtype="Connector" uid="Connector-1324" startpinid="Resistor-153-rPin" endpinid="Ground-579-Gnd" pointList="-176,-480,-176,-472" />
+<item itemtype="Connector" uid="Connector-1346" startpinid="Resistor-592-rPin" endpinid="Ground-588-Gnd" pointList="-468,-148,-468,-140" />
 
-<item itemtype="Connector" uid="Connector-1740" startpinid="Bus-580-ePin3" endpinid="7-Seg BCD-581-in2" pointList="-428,-512,-428,-516" />
+<item itemtype="Connector" uid="Connector-1687" startpinid="Tunnel-677-pin" endpinid="opAmp-395-inputNinv" pointList="-988,-476,-984,-476" />
 
-<item itemtype="Connector" uid="Connector-1756" startpinid="Tunnel-701-pin" endpinid="DecToBcd-551-in6" pointList="-604,-412,-600,-412" />
+<item itemtype="Connector" uid="Connector-1592" startpinid="Tunnel-688-pin" endpinid="Mosfet-488-Sour" pointList="-712,-224,-716,-224" />
 
-<item itemtype="Connector" uid="Connector-1757" startpinid="DecToBcd-551-in5" endpinid="Tunnel-694-pin" pointList="-600,-420,-604,-420" />
+<item itemtype="Connector" uid="Connector-1665" startpinid="Node-520-2" endpinid="Resistor-358-lPin" pointList="-672,-536,-660,-536,-660,-568,-644,-568" />
+
+<item itemtype="Connector" uid="Connector-1586" startpinid="Tunnel-683-pin" endpinid="Mosfet-462-Sour" pointList="-884,-120,-888,-120" />
+
+<item itemtype="Connector" uid="Connector-1479" startpinid="Node-518-1" endpinid="Tunnel-603-pin" pointList="-616,-536,-616,-524" />
+
+<item itemtype="Connector" uid="Connector-1715" startpinid="Tunnel-667-pin" endpinid="opAmp-470-inputNinv" pointList="-816,-380,-812,-380" />
 
 <item itemtype="Connector" uid="Connector-1070" startpinid="Resistor-340-rPin" endpinid="Node-525-0" pointList="-756,-536,-756,-536" />
 
+<item itemtype="Connector" uid="Connector-1758" startpinid="Tunnel-697-pin" endpinid="DecToBcd-551-in4" pointList="-644,-432,-640,-432" />
+
+<item itemtype="Connector" uid="Connector-494" startpinid="Bus-236-ePin1" endpinid="DAC-235-in0" pointList="-644,-152,-640,-152" />
+
+<item itemtype="Connector" uid="Connector-1712" startpinid="opAmp-481-inputInv" endpinid="Tunnel-620-pin" pointList="-812,-460,-816,-460" />
+
+<item itemtype="Connector" uid="Connector-948" startpinid="Mosfet-464-Gate" endpinid="Tunnel-452-pin" pointList="-904,-196,-916,-196" />
+
+<item itemtype="Connector" uid="Connector-1583" startpinid="Tunnel-686-pin" endpinid="Mosfet-475-Sour" pointList="-712,-176,-716,-176" />
+
+<item itemtype="Connector" uid="Connector-1102" startpinid="Resistor-397-rPin" endpinid="Node-534-0" pointList="-908,-536,-908,-536" />
+
+<item itemtype="Connector" uid="Connector-1761" startpinid="DecToBcd-551-in1" endpinid="Tunnel-704-pin" pointList="-640,-456,-644,-456" />
+
+<item itemtype="Connector" uid="Connector-1341" startpinid="Bus-594-ePin3" endpinid="Led-582-lPin" pointList="-500,-228,-500,-224,-492,-224" />
+
+<item itemtype="Connector" uid="Connector-1585" startpinid="Tunnel-687-pin" endpinid="Mosfet-480-Sour" pointList="-712,-420,-716,-420" />
+
+<item itemtype="Connector" uid="Connector-1726" startpinid="Tunnel-616-pin" endpinid="opAmp-498-inputInv" pointList="-816,-116,-812,-116" />
+
+<item itemtype="Connector" uid="Connector-1328" startpinid="Bus-576-ePin4" endpinid="Led-157-lPin" pointList="-492,-444,-468,-444,-468,-440" />
+
+<item itemtype="Connector" uid="Connector-1105" startpinid="Resistor-396-rPin" endpinid="Node-535-0" pointList="-940,-536,-940,-536" />
+
+<item itemtype="Connector" uid="Connector-1768" startpinid="Node-713-2" endpinid="Tunnel-597-pin" pointList="-964,-536,-972,-536,-972,-524" />
+
+<item itemtype="Connector" uid="Connector-1188" startpinid="Bus-555-busPinI" endpinid="Tunnel-557-pin" pointList="-580,-424,-576,-424" />
+
+<item itemtype="Connector" uid="Connector-1287" startpinid="Node-571-2" endpinid="Oscope-148-Pin1" pointList="-416,-176,-416,-192" />
+
+<item itemtype="Connector" uid="Connector-1725" startpinid="opAmp-498-inputNinv" endpinid="Tunnel-661-pin" pointList="-812,-132,-816,-132" />
+
+<item itemtype="Connector" uid="Connector-1734" startpinid="opAmp-498-output" endpinid="Mosfet-489-Dren" pointList="-764,-124,-748,-124" />
+
+<item itemtype="Connector" uid="Connector-1751" startpinid="DecToBcd-551-in11" endpinid="Tunnel-700-pin" pointList="-640,-376,-644,-376" />
+
+<item itemtype="Connector" uid="Connector-1691" startpinid="opAmp-447-inputNinv" endpinid="Tunnel-675-pin" pointList="-984,-380,-988,-380" />
+
+<item itemtype="Connector" uid="Connector-1304" startpinid="Bus-247-ePin1" endpinid="Oscope-252-Pin0" pointList="-420,-344,-420,-380,-416,-380" />
+
+<item itemtype="Connector" uid="Connector-1074" startpinid="Resistor-328-rPin" endpinid="Node-526-0" pointList="-784,-536,-784,-536" />
+
+<item itemtype="Connector" uid="Connector-1588" startpinid="Tunnel-684-pin" endpinid="Mosfet-464-Sour" pointList="-884,-172,-888,-172" />
+
+<item itemtype="Connector" uid="Connector-1312" startpinid="Bus-241-ePin1" endpinid="Oscope-253-Pin0" pointList="-420,-512,-420,-548,-416,-548" />
+
+<item itemtype="Connector" uid="Connector-1468" startpinid="Tunnel-602-pin" endpinid="Node-517-1" pointList="-588,-524,-588,-536" />
+
+<item itemtype="Connector" uid="Connector-1349" startpinid="Bus-594-ePin0" endpinid="Tunnel-595-pin" pointList="-492,-236,-492,-248" />
+
+<item itemtype="Connector" uid="Connector-1329" startpinid="Bus-576-ePin3" endpinid="Led-158-lPin" pointList="-500,-444,-500,-440,-492,-440" />
+
+<item itemtype="Connector" uid="Connector-1689" startpinid="opAmp-441-inputNinv" endpinid="Tunnel-676-pin" pointList="-984,-428,-988,-428" />
+
+<item itemtype="Connector" uid="Connector-1737" startpinid="Bus-575-ePin2" endpinid="7-Seg BCD-140-in1" pointList="-472,-472,-472,-476" />
+
+<item itemtype="Connector" uid="Connector-1740" startpinid="Bus-580-ePin3" endpinid="7-Seg BCD-581-in2" pointList="-480,-256,-480,-260" />
+
+<item itemtype="Connector" uid="Connector-1702" startpinid="Tunnel-624-pin" endpinid="opAmp-454-inputInv" pointList="-988,-112,-984,-112" />
+
+<item itemtype="Connector" uid="Connector-1477" startpinid="Node-524-1" endpinid="Tunnel-607-pin" pointList="-728,-536,-728,-524" />
+
+<item itemtype="Connector" uid="Connector-1745" startpinid="Resistor-347-rPin" endpinid="Node-710-0" pointList="-532,-536,-532,-532" />
+
+<item itemtype="Connector" uid="Connector-1471" startpinid="Node-521-1" endpinid="Tunnel-606-pin" pointList="-700,-536,-700,-524" />
+
+<item itemtype="Connector" uid="Connector-1344" startpinid="Led-587-rPin" endpinid="Resistor-584-lPin" pointList="-516,-192,-516,-180" />
+
+<item itemtype="Connector" uid="Connector-1283" startpinid="Oscope-148-Pin3" endpinid="Tunnel-561-pin" pointList="-416,-128,-420,-128" />
+
+<item itemtype="Connector" uid="Connector-1255" startpinid="ADC-146-out1" endpinid="Bus-560-ePin2" pointList="-592,-240,-588,-240" />
+
+<item itemtype="Connector" uid="Connector-1288" startpinid="Oscope-148-Pin0" endpinid="Tunnel-567-pin" pointList="-416,-224,-424,-224" />
+
+<item itemtype="Connector" uid="Connector-1757" startpinid="DecToBcd-551-in5" endpinid="Tunnel-694-pin" pointList="-640,-424,-644,-424" />
+
+<item itemtype="Connector" uid="Connector-1718" startpinid="opAmp-472-inputInv" endpinid="Tunnel-625-pin" pointList="-812,-316,-816,-316" />
+
+<item itemtype="Connector" uid="Connector-1753" startpinid="DecToBcd-551-in9" endpinid="Tunnel-699-pin" pointList="-640,-392,-644,-392" />
+
+<item itemtype="Connector" uid="Connector-1722" startpinid="opAmp-486-inputInv" endpinid="Tunnel-628-pin" pointList="-812,-216,-816,-216" />
+
+<item itemtype="Connector" uid="Connector-1182" startpinid="DecToBcd-551-out1" endpinid="Bus-555-ePin2" pointList="-592,-416,-588,-416" />
+
+<item itemtype="Connector" uid="Connector-1749" startpinid="DecToBcd-551-in13" endpinid="Tunnel-709-pin" pointList="-640,-360,-644,-360" />
+
+<item itemtype="Connector" uid="Connector-1305" startpinid="Bus-247-ePin4" endpinid="Oscope-252-Pin3" pointList="-420,-320,-420,-284,-416,-284" />
+
+<item itemtype="Connector" uid="Connector-1623" startpinid="Node-528-2" endpinid="Resistor-328-lPin" pointList="-812,-536,-804,-536,-804,-568,-784,-568" />
+
+<item itemtype="Connector" uid="Connector-1040" startpinid="Resistor-342-rPin" endpinid="Node-517-0" pointList="-588,-536,-588,-536" />
+
+<item itemtype="Connector" uid="Connector-1696" startpinid="Tunnel-614-pin" endpinid="opAmp-459-inputInv" pointList="-988,-268,-984,-268" />
+
+<item itemtype="Connector" uid="Connector-1338" startpinid="Led-582-rPin" endpinid="Resistor-591-lPin" pointList="-492,-192,-492,-180" />
+
+<item itemtype="Connector" uid="Connector-1735" startpinid="Bus-575-ePin4" endpinid="7-Seg BCD-140-in3" pointList="-488,-472,-488,-476" />
+
+<item itemtype="Connector" uid="Connector-1350" startpinid="Tunnel-596-pin" endpinid="Bus-576-ePin0" pointList="-492,-464,-492,-452" />
+
+<item itemtype="Connector" uid="Connector-1308" startpinid="Tunnel-246-pin" endpinid="Bus-247-busPinI" pointList="-412,-412,-428,-412,-428,-344" />
+
+<item itemtype="Connector" uid="Connector-1748" startpinid="Tunnel-702-pin" endpinid="DecToBcd-551-in14" pointList="-644,-352,-640,-352" />
+
+<item itemtype="Connector" uid="Connector-1672" startpinid="Node-519-2" endpinid="Resistor-393-lPin" pointList="-644,-536,-632,-536,-632,-568,-616,-568" />
+
+<item itemtype="Connector" uid="Connector-1090" startpinid="Node-530-2" endpinid="Resistor-346-lPin" pointList="-876,-536,-868,-536,-868,-568,-844,-568" />
+
+<item itemtype="Connector" uid="Connector-1759" startpinid="DecToBcd-551-in3" endpinid="Tunnel-706-pin" pointList="-640,-440,-644,-440" />
+
+<item itemtype="Connector" uid="Connector-1723" startpinid="opAmp-473-inputNinv" endpinid="Tunnel-663-pin" pointList="-812,-184,-816,-184" />
+
+<item itemtype="Connector" uid="Connector-1337" startpinid="Resistor-592-lPin" endpinid="Led-589-rPin" pointList="-468,-180,-468,-192" />
+
+<item itemtype="Connector" uid="Connector-1465" startpinid="Node-519-1" endpinid="Tunnel-604-pin" pointList="-644,-536,-644,-524" />
+
+<item itemtype="Connector" uid="Connector-1708" startpinid="Mosfet-460-Dren" endpinid="opAmp-457-output" pointList="-920,-224,-936,-224" />
+
+<item itemtype="Connector" uid="Connector-1325" startpinid="Resistor-156-rPin" endpinid="Ground-578-Gnd" pointList="-492,-364,-492,-356" />
+
+<item itemtype="Connector" uid="Connector-1248" startpinid="Tunnel-558-pin" endpinid="ADC-146-in0" pointList="-644,-248,-640,-248" />
+
+<item itemtype="Connector" uid="Connector-1700" startpinid="Tunnel-619-pin" endpinid="opAmp-461-inputInv" pointList="-988,-164,-984,-164" />
+
+<item itemtype="Connector" uid="Connector-943" startpinid="Mosfet-448-Gate" endpinid="Tunnel-444-pin" pointList="-904,-348,-916,-348" />
+
+<item itemtype="Connector" uid="Connector-1699" startpinid="opAmp-461-inputNinv" endpinid="Tunnel-671-pin" pointList="-984,-180,-988,-180" />
+
+<item itemtype="Connector" uid="Connector-939" startpinid="Mosfet-442-Gate" endpinid="Tunnel-440-pin" pointList="-904,-444,-916,-444" />
+
+<item itemtype="Connector" uid="Connector-1326" startpinid="Resistor-161-rPin" endpinid="Ground-577-Gnd" pointList="-516,-364,-516,-356" />
+
+<item itemtype="Connector" uid="Connector-1311" startpinid="Bus-241-ePin4" endpinid="Oscope-253-Pin3" pointList="-420,-488,-420,-452,-416,-452" />
+
 <item itemtype="Connector" uid="Connector-1489" startpinid="Node-520-1" endpinid="Tunnel-605-pin" pointList="-672,-536,-672,-524" />
 
-<item itemtype="Connector" uid="Connector-1309" startpinid="Bus-241-ePin2" endpinid="Oscope-253-Pin1" pointList="-548,-192,-544,-192,-544,-204" />
+<item itemtype="Connector" uid="Connector-1713" startpinid="Tunnel-668-pin" endpinid="opAmp-491-inputNinv" pointList="-816,-428,-812,-428" />
 
-<item itemtype="Connector" uid="Connector-1348" startpinid="Bus-580-ePin0" endpinid="Tunnel-563-pin" pointList="-436,-504,-436,-492" />
+<item itemtype="Connector" uid="Connector-1048" startpinid="Resistor-358-rPin" endpinid="Node-519-0" pointList="-644,-536,-644,-536" />
 
-<item itemtype="Connector" uid="Connector-499" startpinid="Tunnel-239-pin" endpinid="Bus-236-ePin0" pointList="-368,-488,-364,-488" />
+<item itemtype="Connector" uid="Connector-1313" startpinid="Bus-241-busPinI" endpinid="Tunnel-240-pin" pointList="-428,-512,-428,-580,-412,-580" />
 
-<item itemtype="Connector" uid="Connector-1330" startpinid="Bus-576-ePin2" endpinid="Led-159-lPin" pointList="-216,-560,-216,-556,-224,-556" />
+<item itemtype="Connector" uid="Connector-1651" startpinid="Node-524-2" endpinid="Resistor-372-lPin" pointList="-728,-536,-716,-536,-716,-568,-700,-568" />
+
+<item itemtype="Connector" uid="Connector-1719" startpinid="Tunnel-665-pin" endpinid="opAmp-485-inputNinv" pointList="-816,-284,-812,-284" />
+
+<item itemtype="Connector" uid="Connector-1259" startpinid="Tunnel-566-pin" endpinid="DAC-234-out0" pointList="-588,-200,-592,-200" />
+
+<item itemtype="Connector" uid="Connector-1044" startpinid="Resistor-393-rPin" endpinid="Node-518-0" pointList="-616,-536,-616,-536" />
+
+<item itemtype="Connector" uid="Connector-1727" startpinid="Mosfet-484-Dren" endpinid="opAmp-481-output" pointList="-748,-468,-764,-468" />
+
+<item itemtype="Connector" uid="Connector-1483" startpinid="Node-530-1" endpinid="Tunnel-612-pin" pointList="-876,-536,-876,-524" />
+
+<item itemtype="Connector" uid="Connector-490" startpinid="Bus-237-ePin1" endpinid="DAC-234-in0" pointList="-644,-200,-640,-200" />
+
+<item itemtype="Connector" uid="Connector-1307" startpinid="Bus-247-ePin2" endpinid="Oscope-252-Pin1" pointList="-420,-336,-416,-336,-416,-348" />
+
+<item itemtype="Connector" uid="Connector-1579" startpinid="Tunnel-689-pin" endpinid="Mosfet-489-Sour" pointList="-712,-124,-716,-124" />
+
+<item itemtype="Connector" uid="Connector-1587" startpinid="Tunnel-691-pin" endpinid="Mosfet-497-Sour" pointList="-712,-372,-716,-372" />
+
+<item itemtype="Connector" uid="Connector-1285" startpinid="Tunnel-562-pin" endpinid="Node-571-1" pointList="-420,-176,-416,-176" />
+
+<item itemtype="Connector" uid="Connector-497" startpinid="Bus-236-ePin4" endpinid="DAC-235-in3" pointList="-644,-128,-640,-128" />
+
+<item itemtype="Connector" uid="Connector-1309" startpinid="Bus-241-ePin2" endpinid="Oscope-253-Pin1" pointList="-420,-504,-416,-504,-416,-516" />
+
+<item itemtype="Connector" uid="Connector-1085" startpinid="Resistor-346-rPin" endpinid="Node-529-0" pointList="-844,-536,-844,-536" />
+
+<item itemtype="Connector" uid="Connector-1742" startpinid="Bus-580-ePin1" endpinid="7-Seg BCD-581-in0" pointList="-464,-256,-464,-260" />
+
+<item itemtype="Connector" uid="Connector-1342" startpinid="Bus-594-ePin4" endpinid="Led-589-lPin" pointList="-492,-228,-468,-228,-468,-224" />
+
+<item itemtype="Connector" uid="Connector-1762" startpinid="Tunnel-696-pin" endpinid="DecToBcd-551-in0" pointList="-644,-464,-640,-464" />
+
+<item itemtype="Connector" uid="Connector-500" startpinid="Tunnel-238-pin" endpinid="Bus-237-ePin0" pointList="-656,-176,-652,-176" />
+
+<item itemtype="Connector" uid="Connector-1347" startpinid="Resistor-584-rPin" endpinid="Ground-586-Gnd" pointList="-516,-148,-516,-140" />
+
+<item itemtype="Connector" uid="Connector-1183" startpinid="Bus-555-ePin3" endpinid="DecToBcd-551-out2" pointList="-588,-408,-592,-408" />
+
+<item itemtype="Connector" uid="Connector-1729" startpinid="Mosfet-497-Dren" endpinid="opAmp-470-output" pointList="-748,-372,-764,-372" />
+
+<item itemtype="Connector" uid="Connector-491" startpinid="Bus-237-ePin2" endpinid="DAC-234-in1" pointList="-644,-192,-640,-192" />
+
+<item itemtype="Connector" uid="Connector-1760" startpinid="Tunnel-703-pin" endpinid="DecToBcd-551-in2" pointList="-644,-448,-640,-448" />
+
+<item itemtype="Connector" uid="Connector-1469" startpinid="Node-525-1" endpinid="Tunnel-608-pin" pointList="-756,-536,-756,-524" />
+
+<item itemtype="Connector" uid="Connector-313" startpinid="Led-159-rPin" endpinid="Resistor-161-lPin" pointList="-516,-408,-516,-396" />
+
+<item itemtype="Connector" uid="Connector-1494" startpinid="Tunnel-611-pin" endpinid="Node-529-1" pointList="-844,-524,-844,-536" />
+
+<item itemtype="Connector" uid="Connector-1251" startpinid="Bus-560-busPinI" endpinid="Tunnel-559-pin" pointList="-580,-248,-576,-248" />
+
+<item itemtype="Connector" uid="Connector-1658" startpinid="Node-521-2" endpinid="Resistor-379-lPin" pointList="-700,-536,-688,-536,-688,-568,-672,-568" />
+
+<item itemtype="Connector" uid="Connector-1330" startpinid="Bus-576-ePin2" endpinid="Led-159-lPin" pointList="-508,-444,-508,-440,-516,-440" />
+
+<item itemtype="Connector" uid="Connector-960" startpinid="Mosfet-495-Gate" endpinid="Tunnel-474-pin" pointList="-732,-300,-744,-300" />
+
+<item itemtype="Connector" uid="Connector-1706" startpinid="Mosfet-448-Dren" endpinid="opAmp-446-output" pointList="-920,-324,-936,-324" />
+
+<item itemtype="Connector" uid="Connector-1476" startpinid="Tunnel-599-pin" endpinid="Node-534-1" pointList="-908,-524,-908,-536" />
+
+<item itemtype="Connector" uid="Connector-1686" startpinid="Node-517-2" endpinid="Resistor-369-lPin" pointList="-588,-536,-576,-536,-576,-568,-560,-568" />
+
+<item itemtype="Connector" uid="Connector-1732" startpinid="opAmp-486-output" endpinid="Mosfet-488-Dren" pointList="-764,-224,-748,-224" />
+
+<item itemtype="Connector" uid="Connector-1703" startpinid="Mosfet-341-Dren" endpinid="opAmp-395-output" pointList="-920,-468,-936,-468" />
+
+<item itemtype="Connector" uid="Connector-1081" startpinid="Resistor-428-rPin" endpinid="Node-528-0" pointList="-812,-536,-812,-536" />
+
+<item itemtype="Connector" uid="Connector-1331" startpinid="Bus-576-ePin1" endpinid="Led-160-lPin" pointList="-516,-444,-540,-444,-540,-440" />
+
+<item itemtype="Connector" uid="Connector-1707" startpinid="Mosfet-455-Dren" endpinid="opAmp-459-output" pointList="-920,-276,-936,-276" />
+
+<item itemtype="Connector" uid="Connector-1746" startpinid="Node-710-2" endpinid="Tunnel-600-pin" pointList="-532,-532,-532,-524" />
+
+<item itemtype="Connector" uid="Connector-492" startpinid="Bus-237-ePin3" endpinid="DAC-234-in2" pointList="-644,-184,-640,-184" />
+
+<item itemtype="Connector" uid="Connector-1296" startpinid="Tunnel-436-pin" endpinid="Fixed Voltage-142-outnod" pointList="-636,-324,-628,-324,-628,-308" />
+
+<item itemtype="Connector" uid="Connector-495" startpinid="Bus-236-ePin2" endpinid="DAC-235-in1" pointList="-644,-144,-640,-144" />
+
+<item itemtype="Connector" uid="Connector-951" startpinid="Mosfet-462-Gate" endpinid="Tunnel-465-pin" pointList="-904,-144,-916,-144" />
+
+<item itemtype="Connector" uid="Connector-1581" startpinid="Tunnel-685-pin" endpinid="Mosfet-455-Sour" pointList="-884,-276,-888,-276" />
+
+<item itemtype="Connector" uid="Connector-1580" startpinid="Tunnel-678-pin" endpinid="Mosfet-341-Sour" pointList="-884,-468,-888,-468" />
+
+<item itemtype="Connector" uid="Connector-1482" startpinid="Tunnel-601-pin" endpinid="Node-514-1" pointList="-560,-524,-560,-536" />
+
+<item itemtype="Connector" uid="Connector-1103" startpinid="Node-534-2" endpinid="Resistor-355-lPin" pointList="-908,-536,-900,-536,-900,-568,-876,-568" />
+
+<item itemtype="Connector" uid="Connector-1730" startpinid="opAmp-472-output" endpinid="Mosfet-469-Dren" pointList="-764,-324,-748,-324" />
+
+<item itemtype="Connector" uid="Connector-1343" startpinid="Resistor-593-rPin" endpinid="Ground-590-Gnd" pointList="-540,-148,-540,-140" />
+
+<item itemtype="Connector" uid="Connector-969" startpinid="Mosfet-475-Gate" endpinid="Tunnel-490-pin" pointList="-732,-200,-744,-200" />
+
+<item itemtype="Connector" uid="Connector-310" startpinid="Resistor-153-lPin" endpinid="Led-157-rPin" pointList="-468,-396,-468,-408" />
+
+<item itemtype="Connector" uid="Connector-1695" startpinid="opAmp-459-inputNinv" endpinid="Tunnel-673-pin" pointList="-984,-284,-988,-284" />
+
+<item itemtype="Connector" uid="Connector-1752" startpinid="Tunnel-695-pin" endpinid="DecToBcd-551-in10" pointList="-644,-384,-640,-384" />
+
+<item itemtype="Connector" uid="Connector-1724" startpinid="Tunnel-617-pin" endpinid="opAmp-473-inputInv" pointList="-816,-168,-812,-168" />
+
+<item itemtype="Connector" uid="Connector-1257" startpinid="ADC-146-out3" endpinid="Bus-560-ePin4" pointList="-592,-224,-588,-224" />
+
+<item itemtype="Connector" uid="Connector-1637" startpinid="Node-526-2" endpinid="Resistor-340-lPin" pointList="-784,-536,-772,-536,-772,-568,-756,-568" />
+
+<item itemtype="Connector" uid="Connector-1260" startpinid="Tunnel-565-pin" endpinid="DAC-235-out0" pointList="-588,-152,-592,-152" />
+
+<item itemtype="Connector" uid="Connector-1738" startpinid="Bus-575-ePin1" endpinid="7-Seg BCD-140-in0" pointList="-464,-472,-464,-476" />
+
+<item itemtype="Connector" uid="Connector-1486" startpinid="Tunnel-598-pin" endpinid="Node-535-1" pointList="-940,-524,-940,-536" />
+
+<item itemtype="Connector" uid="Connector-1584" startpinid="Tunnel-682-pin" endpinid="Mosfet-460-Sour" pointList="-884,-224,-888,-224" />
+
+<item itemtype="Connector" uid="Connector-1336" startpinid="Resistor-591-rPin" endpinid="Ground-583-Gnd" pointList="-492,-148,-492,-140" />
+
+<item itemtype="Connector" uid="Connector-1769" startpinid="Tunnel-568-pin" endpinid="WaveGen-143-outnod" pointList="-572,-316,-572,-300" />
+
+<item itemtype="Connector" uid="Connector-957" startpinid="Mosfet-460-Gate" endpinid="Tunnel-453-pin" pointList="-904,-248,-916,-248" />
+
+<item itemtype="Connector" uid="Connector-1710" startpinid="Mosfet-462-Dren" endpinid="opAmp-454-output" pointList="-920,-120,-936,-120" />
+
+<item itemtype="Connector" uid="Connector-1679" startpinid="Node-518-2" endpinid="Resistor-342-lPin" pointList="-616,-536,-604,-536,-604,-568,-588,-568" />
+
+<item itemtype="Connector" uid="Connector-944" startpinid="Mosfet-449-Gate" endpinid="Tunnel-445-pin" pointList="-904,-396,-916,-396" />
+
+<item itemtype="Connector" uid="Connector-1590" startpinid="Tunnel-681-pin" endpinid="Mosfet-448-Sour" pointList="-884,-324,-888,-324" />
+
+<item itemtype="Connector" uid="Connector-1089" startpinid="Resistor-355-rPin" endpinid="Node-530-0" pointList="-876,-536,-876,-536" />
+
+<item itemtype="Connector" uid="Connector-1733" startpinid="Mosfet-475-Dren" endpinid="opAmp-473-output" pointList="-748,-176,-764,-176" />
+
+<item itemtype="Connector" uid="Connector-1697" startpinid="opAmp-457-inputNinv" endpinid="Tunnel-672-pin" pointList="-984,-232,-988,-232" />
+
+<item itemtype="Connector" uid="Connector-1693" startpinid="opAmp-446-inputNinv" endpinid="Tunnel-674-pin" pointList="-984,-332,-988,-332" />
+
+<item itemtype="Connector" uid="Connector-1739" startpinid="Bus-580-ePin4" endpinid="7-Seg BCD-581-in3" pointList="-488,-256,-488,-260" />
+
+<item itemtype="Connector" uid="Connector-1310" startpinid="Bus-241-ePin3" endpinid="Oscope-253-Pin2" pointList="-420,-496,-416,-496,-416,-484" />
+
+<item itemtype="Connector" uid="Connector-1709" startpinid="Mosfet-464-Dren" endpinid="opAmp-461-output" pointList="-920,-172,-936,-172" />
+
+<item itemtype="Connector" uid="Connector-1052" startpinid="Resistor-379-rPin" endpinid="Node-520-0" pointList="-672,-536,-672,-536" />
+
+<item itemtype="Connector" uid="Connector-1698" startpinid="Tunnel-622-pin" endpinid="opAmp-457-inputInv" pointList="-988,-216,-984,-216" />
+
+<item itemtype="Connector" uid="Connector-1256" startpinid="ADC-146-out2" endpinid="Bus-560-ePin3" pointList="-592,-232,-588,-232" />
+
+<item itemtype="Connector" uid="Connector-1688" startpinid="opAmp-395-inputInv" endpinid="Tunnel-618-pin" pointList="-984,-460,-988,-460" />
+
+<item itemtype="Connector" uid="Connector-980" startpinid="Mosfet-489-Gate" endpinid="Tunnel-493-pin" pointList="-732,-148,-744,-148" />
+
+<item itemtype="Connector" uid="Connector-963" startpinid="Mosfet-480-Gate" endpinid="Tunnel-487-pin" pointList="-732,-444,-744,-444" />
+
+<item itemtype="Connector" uid="Connector-301" startpinid="Led-158-rPin" endpinid="Resistor-156-lPin" pointList="-492,-408,-492,-396" />
+
+<item itemtype="Connector" uid="Connector-1755" startpinid="DecToBcd-551-in7" endpinid="Tunnel-705-pin" pointList="-640,-408,-644,-408" />
+
+<item itemtype="Connector" uid="Connector-1701" startpinid="opAmp-454-inputNinv" endpinid="Tunnel-670-pin" pointList="-984,-128,-988,-128" />
+
+<item itemtype="Connector" uid="Connector-1694" startpinid="Tunnel-627-pin" endpinid="opAmp-446-inputInv" pointList="-988,-316,-984,-316" />
+
+<item itemtype="Connector" uid="Connector-1495" startpinid="Node-528-1" endpinid="Tunnel-610-pin" pointList="-812,-536,-812,-524" />
+
+<item itemtype="Connector" uid="Connector-1589" startpinid="Tunnel-690-pin" endpinid="Mosfet-469-Sour" pointList="-712,-324,-716,-324" />
+
+<item itemtype="Connector" uid="Connector-303" startpinid="Led-160-rPin" endpinid="Resistor-150-lPin" pointList="-540,-408,-540,-396" />
+
+<item itemtype="Connector" uid="Connector-1339" startpinid="Bus-594-ePin1" endpinid="Led-585-lPin" pointList="-516,-228,-540,-228,-540,-224" />
+
+<item itemtype="Connector" uid="Connector-1736" startpinid="7-Seg BCD-140-in2" endpinid="Bus-575-ePin3" pointList="-480,-476,-480,-472" />
+
+<item itemtype="Connector" uid="Connector-1348" startpinid="Bus-580-ePin0" endpinid="Tunnel-563-pin" pointList="-488,-248,-488,-236" />
+
+<item itemtype="Connector" uid="Connector-1728" startpinid="opAmp-491-output" endpinid="Mosfet-480-Dren" pointList="-764,-420,-748,-420" />
+
+<item itemtype="Connector" uid="Connector-1591" startpinid="Tunnel-680-pin" endpinid="Mosfet-449-Sour" pointList="-884,-372,-888,-372" />
+
+<item itemtype="Connector" uid="Connector-1033" startpinid="Resistor-369-rPin" endpinid="Node-514-0" pointList="-560,-536,-560,-536" />
+
+<item itemtype="Connector" uid="Connector-935" startpinid="Mosfet-341-Gate" endpinid="Tunnel-433-pin" pointList="-904,-492,-916,-492" />
+
+<item itemtype="Connector" uid="Connector-1181" startpinid="Bus-555-ePin1" endpinid="DecToBcd-551-out0" pointList="-588,-424,-592,-424" />
+
+<item itemtype="Connector" uid="Connector-1770" startpinid="DecToBcd-551-in15" endpinid="Tunnel-714-pin" pointList="-640,-344,-644,-344" />
+
+<item itemtype="Connector" uid="Connector-493" startpinid="Bus-237-ePin4" endpinid="DAC-234-in3" pointList="-644,-176,-640,-176" />
+
+<item itemtype="Connector" uid="Connector-1754" startpinid="Tunnel-698-pin" endpinid="DecToBcd-551-in8" pointList="-644,-400,-640,-400" />
+
+<item itemtype="Connector" uid="Connector-950" startpinid="Mosfet-455-Gate" endpinid="Tunnel-456-pin" pointList="-904,-300,-916,-300" />
+
+<item itemtype="Connector" uid="Connector-1692" startpinid="Tunnel-613-pin" endpinid="opAmp-447-inputInv" pointList="-988,-364,-984,-364" />
+
+<item itemtype="Connector" uid="Connector-975" startpinid="Mosfet-484-Gate" endpinid="Tunnel-477-pin" pointList="-732,-492,-744,-492" />
+
+<item itemtype="Connector" uid="Connector-1717" startpinid="Tunnel-666-pin" endpinid="opAmp-472-inputNinv" pointList="-816,-332,-812,-332" />
+
+<item itemtype="Connector" uid="Connector-1756" startpinid="Tunnel-701-pin" endpinid="DecToBcd-551-in6" pointList="-644,-416,-640,-416" />
+
+<item itemtype="Connector" uid="Connector-1306" startpinid="Bus-247-ePin3" endpinid="Oscope-252-Pin2" pointList="-420,-328,-416,-328,-416,-316" />
+
+<item itemtype="Connector" uid="Connector-1106" startpinid="Node-535-2" endpinid="Resistor-397-lPin" pointList="-940,-536,-932,-536,-932,-568,-908,-568" />
+
+<item itemtype="Connector" uid="Connector-1704" startpinid="Mosfet-442-Dren" endpinid="opAmp-441-output" pointList="-920,-420,-936,-420" />
+
+<item itemtype="Connector" uid="Connector-1644" startpinid="Node-525-2" endpinid="Resistor-412-lPin" pointList="-756,-536,-744,-536,-744,-568,-728,-568" />
+
+<item itemtype="Connector" uid="Connector-966" startpinid="Mosfet-469-Gate" endpinid="Tunnel-471-pin" pointList="-732,-348,-744,-348" />
+
+<item itemtype="Connector" uid="Connector-1324" startpinid="Resistor-153-rPin" endpinid="Ground-579-Gnd" pointList="-468,-364,-468,-356" />
+
+<item itemtype="Connector" uid="Connector-1351" startpinid="Tunnel-564-pin" endpinid="Bus-575-ePin0" pointList="-488,-452,-488,-464" />
+
+<item itemtype="Connector" uid="Connector-1714" startpinid="opAmp-491-inputInv" endpinid="Tunnel-615-pin" pointList="-812,-412,-816,-412" />
+
+<item itemtype="Connector" uid="Connector-981" startpinid="Mosfet-488-Gate" endpinid="Tunnel-482-pin" pointList="-732,-248,-744,-248" />
 
 </circuit>
